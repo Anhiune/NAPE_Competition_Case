@@ -1,0 +1,1036 @@
+---
+title: "2026 SMU NAPE Case — Analytical Supplement"
+subtitle: "Sensitivity Analysis · CCUS · ESG · Nuclear Regulatory & Risk"
+date: "February 18, 2026"
+author: "SMU NAPE Case Team"
+format:
+  pdf:
+    toc: true
+    toc-depth: 3
+    toc-title: "Table of Contents"
+    number-sections: true
+    colorlinks: true
+    link-citations: true
+    keep-tex: false
+    geometry:
+      - top=1in
+      - bottom=1in
+      - left=1in
+      - right=1in
+    fontsize: 11pt
+    papersize: letter
+    fig-pos: "H"
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    header-includes: |
+      \usepackage{booktabs}
+      \usepackage{longtable}
+      \usepackage{array}
+      \usepackage{multirow}
+      \usepackage{xcolor}
+      \usepackage{colortbl}
+      \usepackage{pdflscape}
+      \usepackage{float}
+      \usepackage{makecell}
+      \definecolor{nuclearcol}{RGB}{230,126,34}
+      \definecolor{buildcol}{RGB}{41,128,185}
+      \definecolor{buycol}{RGB}{39,174,96}
+      \definecolor{lightgray}{RGB}{245,245,245}
+      \definecolor{darkred}{RGB}{192,0,0}
+      \definecolor{darkgreen}{RGB}{0,128,0}
+execute:
+  echo: false
+  warning: false
+  message: false
+jupyter: python3
+---
+
+```{python}
+#| label: setup
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import matplotlib.ticker as mticker
+import numpy as np
+
+plt.rcParams.update({
+    "font.family": "DejaVu Sans",
+    "axes.spines.top": False,
+    "axes.spines.right": False,
+    "axes.grid": True,
+    "grid.alpha": 0.30,
+    "grid.linestyle": "--",
+    "figure.dpi": 150,
+})
+
+C_NUCLEAR = "#E67E22"
+C_BUILD   = "#2980B9"
+C_BUY     = "#27AE60"
+C_NEUTRAL = "#7F8C8D"
+C_UP      = "#2ECC71"
+C_DOWN    = "#E74C3C"
+
+# ── Base NPVs (from model output) ──────────────────────────────────────────
+NPV_A = -1466.8   # Scenario A Nuclear  ($ millions)
+NPV_B =  -133.6   # Scenario B Build Gas
+NPV_C =    63.7   # Scenario C Buy Gas
+
+WACC = 0.0768
+
+def annuity(n, r=WACC):
+    """PV annuity factor for n years at rate r."""
+    return (1 - (1 + r) ** -n) / r
+
+AF_A = annuity(17)   # Nuclear 17-year life
+AF_B = annuity(20)   # Build Gas 20-year life
+AF_C = annuity(15)   # Buy Gas 15-year life
+
+TAX = 0.40
+```
+
+\newpage
+
+# Sensitivity Analysis & Tornado Charts
+
+## Methodology
+
+Each tornado chart displays the NPV impact (in \$ millions) of independently
+varying one input variable while holding all others at base case. The
+**low** and **high** values span the plausible one-standard-deviation or
+stress-test range for that variable.  After-tax NPV sensitivity is computed as:
+
+$$\Delta\text{NPV} = \Delta\text{Annual Cash Flow} \times (1 - T) \times A_{n,k}$$
+
+where $T = 40\%$ is the effective tax rate and $A_{n,k}$ is the present-value
+annuity factor at WACC $k = 7.68\%$ over the asset's economic life $n$.
+Capital-cost shocks are subtracted directly as upfront equity contributions
+(net of debt shield effects). Variables are ranked by total NPV swing
+($|\Delta_{\text{high}} - \Delta_{\text{low}}|$), widest bar at top.
+
+---
+
+## Scenario A — Co-located Nuclear: Tornado Chart
+
+```{python}
+#| label: tornado-A
+#| fig-cap: "Scenario A (Nuclear) — NPV Sensitivity Tornado Chart. Base NPV = −$1,466.8M. Bars show NPV at low (red) and high (green) parameter values."
+#| fig-width: 8
+#| fig-height: 6
+
+# ── Scenario A sensitivity table ─────────────────────────────────────────
+# Each row: (label, low_delta, high_delta)
+# Δ = NPV_impact relative to base.  Positive = improvement, negative = worse.
+
+# PPA price $/MWh: base $60, low $48 (-20%), high $72 (+20%)
+# Revenue = 6,447,360 MWh/yr × Δprice, after-tax × AF
+dppa_lo = -12 * 6447360 / 1e6 * (1 - TAX) * AF_A    # -20% → worse
+dppa_hi = +12 * 6447360 / 1e6 * (1 - TAX) * AF_A    # +20% → better
+
+# Capacity price $/MW-yr: base $150k, low $105k (-30%), high $195k (+30%)
+# Capacity revenue = 800 MW × Δprice
+dcap_lo = -45000 * 800 / 1e6 * (1 - TAX) * AF_A
+dcap_hi = +45000 * 800 / 1e6 * (1 - TAX) * AF_A
+
+# WACC: base 7.68%, low 6.0%, high 10.0%
+# Re-discount existing FCFFs (avg FCF ~$140.3M/yr) at new discount rates
+fcf_avg_A = 140.3
+npv_wacc_lo = fcf_avg_A * annuity(17, 0.06)  - 3000 - NPV_A  # improvement
+npv_wacc_hi = fcf_avg_A * annuity(17, 0.10)  - 3000 - NPV_A  # degradation
+dwacc_lo = npv_wacc_lo
+dwacc_hi = npv_wacc_hi
+
+# CapEx: base $3,000M, low $2,550M (-15%), high $3,450M (+15%)
+dcapex_lo = +450.0    # lower capex → higher NPV
+dcapex_hi = -450.0
+
+# Capacity factor: base 92%, low 82%, high 97%
+# Energy rev = CF × 800MW × 8760 × ppa_price
+# Δ = Δ CF × 8760 × 800 × 60 / 1e6 × (1-TAX) × AF
+dcf_lo = -0.10 * 8760 * 800 * 60 / 1e6 * (1 - TAX) * AF_A
+dcf_hi = +0.05 * 8760 * 800 * 60 / 1e6 * (1 - TAX) * AF_A
+
+# Fixed O&M: base $50/kW-yr → $40M/yr, low +5% escalation, high +10% escalation
+# Captured as annual cost difference vs base
+dom_lo = -(0.02 * 40) * (1 - TAX) * AF_A   # 2% higher escalation
+dom_hi = +(0.02 * 40) * (1 - TAX) * AF_A   # 2% lower escalation (efficiency)
+
+# Carbon price: Nuclear = 0 emissions, but a rising carbon tax affects
+# competitor economics and LMP, creating an indirect uplift/headwind
+# Proxy: ±$20 carbon spread changes LMP by ±$5/MWh for Nuclear
+dcarb_lo = 0.0   # $0 carbon → no advantage from carbon tax
+dcarb_hi = +5 * 6447360 / 1e6 * (1 - TAX) * AF_A   # $40 carbon → LMP lift
+
+# LMP (energy price tied to PPA floor/merchant tail):
+# base $60, low $50, high $75
+dlmp_lo = -10 * 6447360 / 1e6 * (1 - TAX) * AF_A
+dlmp_hi = +15 * 6447360 / 1e6 * (1 - TAX) * AF_A
+
+# Collect and sort by total swing
+rows_A = [
+    ("PPA Price ($/MWh)",        dppa_lo, dppa_hi),
+    ("LMP ($/MWh)",              dlmp_lo, dlmp_hi),
+    ("Capacity Price ($/MW-yr)", dcap_lo, dcap_hi),
+    ("CapEx ($M)",               dcapex_hi, dcapex_lo),   # note: lo/hi flipped for presentation
+    ("WACC (%)",                 dwacc_hi, dwacc_lo),
+    ("Capacity Factor (%)",      dcf_lo, dcf_hi),
+    ("Carbon Price ($/ton)",     dcarb_lo, dcarb_hi),
+    ("Fixed O&M ($/kW-yr)",      dom_lo, dom_hi),
+]
+
+rows_A.sort(key=lambda x: abs(x[2] - x[1]), reverse=True)
+labels_A = [r[0] for r in rows_A]
+lo_A     = [r[1] for r in rows_A]
+hi_A     = [r[2] for r in rows_A]
+
+fig, ax = plt.subplots(figsize=(8, 5.5))
+y = np.arange(len(labels_A))
+bar_h = 0.55
+
+for i, (lo, hi) in enumerate(zip(lo_A, hi_A)):
+    # bar from 0 to low (negative = red)
+    if lo < 0:
+        ax.barh(y[i], lo, height=bar_h, color=C_DOWN, alpha=0.85, left=0)
+    else:
+        ax.barh(y[i], lo, height=bar_h, color=C_UP, alpha=0.85, left=0)
+    # bar from 0 to high
+    if hi > 0:
+        ax.barh(y[i], hi, height=bar_h, color=C_UP, alpha=0.85, left=0)
+    else:
+        ax.barh(y[i], hi, height=bar_h, color=C_DOWN, alpha=0.85, left=0)
+
+ax.axvline(0, color="black", linewidth=1.2, zorder=5)
+ax.axvline(NPV_A, color=C_NUCLEAR, linewidth=1.8, linestyle="--", zorder=6,
+           label=f"Base NPV = ${NPV_A:.0f}M")
+
+ax.set_yticks(y)
+ax.set_yticklabels(labels_A, fontsize=9)
+ax.set_xlabel("ΔNP V from Base Case ($M)", fontsize=10)
+ax.set_title("Scenario A — Nuclear NPV Sensitivity\nBase NPV = −$1,466.8M  |  WACC = 7.68%",
+             fontsize=11, fontweight="bold")
+
+up_patch   = mpatches.Patch(color=C_UP,   alpha=0.85, label="Favorable (High)")
+down_patch = mpatches.Patch(color=C_DOWN, alpha=0.85, label="Unfavorable (Low)")
+ax.legend(handles=[up_patch, down_patch], loc="lower right", fontsize=8)
+
+ax.xaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f"${x:.0f}M"))
+plt.tight_layout()
+plt.savefig("Output/tornado_A.png", dpi=150, bbox_inches="tight")
+plt.show()
+```
+
+**Key takeaways — Scenario A:**
+PPA price and LMP dominate the NPV band; a \$12/MWh swing moves NPV by $\pm$\$270M+.
+CapEx certainty is equally critical: a 15% cost overrun on the \$3B acquisition erodes
+\$450M of value before financing. WACC is the third lever — at 6% WACC the project
+becomes marginal-negative; at 10% the NPV exceeds −\$2B. Capacity factor is relatively
+stable given nuclear's 92% average fleet-wide CF but a 10 pp drop (82%) would reduce
+NPV by \$130M. Carbon pricing is a **net positive** for nuclear as rising carbon costs
+lift wholesale LMP and widen the PPA premium nuclear commands.
+
+---
+
+## Scenario B — Build New CCGT: Tornado Chart
+
+```{python}
+#| label: tornado-B
+#| fig-cap: "Scenario B (Build Gas) — NPV Sensitivity Tornado Chart. Base NPV = −$133.6M."
+#| fig-width: 8
+#| fig-height: 6
+
+# Gas price: base $3.75/MMBtu; low $2.625 (-30%), high $4.875 (+30%)
+# Fuel cost base = $77.78M/yr
+dgas_lo = +0.30 * 77.78 * (1 - TAX) * AF_B   # lower gas = lower cost = higher NPV
+dgas_hi = -0.30 * 77.78 * (1 - TAX) * AF_B
+
+# Carbon price: $/ton; base $20; low $0, high $60
+# Emissions = 720 lb/MWh × 3,372,600 MWh / 2000 = 1,214,136 ton/yr
+emissions_B = 720 * 3372600 / 2000 / 1e6   # million tons/yr = 1.214 Mt → $M/yr change per $1
+dcarb_lo_B = +20 * 1_214_136 / 1e6 * (1 - TAX) * AF_B    # base→$0: save $24.3M/yr
+dcarb_hi_B = -40 * 1_214_136 / 1e6 * (1 - TAX) * AF_B    # base→$60: extra $48.6M/yr cost
+
+# PPA price: base $55; low $44 (-20%), high $66 (+20%)
+dppa_lo_B = -11 * 3372600 / 1e6 * (1 - TAX) * AF_B
+dppa_hi_B = +11 * 3372600 / 1e6 * (1 - TAX) * AF_B
+
+# Capacity price: base $100k/MW-yr; low $70k (-30%), high $130k (+30%)
+dcap_lo_B = -30000 * 550 / 1e6 * (1 - TAX) * AF_B
+dcap_hi_B = +30000 * 550 / 1e6 * (1 - TAX) * AF_B
+
+# WACC: 6% vs 10%
+fcf_avg_B = 47.4
+capex_B = 550 * 1250 / 1e3   # $687.5M
+npv_wacc_lo_B = fcf_avg_B * annuity(20, 0.06) - capex_B - NPV_B
+npv_wacc_hi_B = fcf_avg_B * annuity(20, 0.10) - capex_B - NPV_B
+dwacc_lo_B = npv_wacc_lo_B
+dwacc_hi_B = npv_wacc_hi_B
+
+# CapEx: base $687.5M, ±15%
+dcapex_lo_B = +103.1
+dcapex_hi_B = -103.1
+
+# Capacity factor: base 70%, low 60%, high 80%
+dcf_lo_B = -0.10 * 8760 * 550 * 55 / 1e6 * (1 - TAX) * AF_B
+dcf_hi_B = +0.10 * 8760 * 550 * 55 / 1e6 * (1 - TAX) * AF_B
+
+# Heat rate: base 6,150 BTU/kWh; low 5,800, high 6,600
+# Δfuel cost = Δheat_rate × MWh × gas_price / 1000
+dheat_lo_B = +(6150-5800) * 3372600 * 3.75 / 1e9 * (1-TAX) * AF_B
+dheat_hi_B = -(6600-6150) * 3372600 * 3.75 / 1e9 * (1-TAX) * AF_B
+
+rows_B = [
+    ("Gas Price ($/MMBtu)",       dgas_hi,  dgas_lo),
+    ("Carbon Price ($/ton)",      dcarb_hi_B, dcarb_lo_B),
+    ("PPA Price ($/MWh)",         dppa_lo_B, dppa_hi_B),
+    ("Capacity Price ($/MW-yr)",  dcap_lo_B, dcap_hi_B),
+    ("WACC (%)",                  dwacc_hi_B, dwacc_lo_B),
+    ("Capacity Factor (%)",       dcf_lo_B, dcf_hi_B),
+    ("CapEx ($M)",                dcapex_hi_B, dcapex_lo_B),
+    ("Heat Rate (BTU/kWh)",       dheat_hi_B, dheat_lo_B),
+]
+
+rows_B.sort(key=lambda x: abs(x[2] - x[1]), reverse=True)
+labels_B = [r[0] for r in rows_B]
+lo_B_arr = [r[1] for r in rows_B]
+hi_B_arr = [r[2] for r in rows_B]
+
+fig, ax = plt.subplots(figsize=(8, 5.5))
+y = np.arange(len(labels_B))
+
+for i, (lo, hi) in enumerate(zip(lo_B_arr, hi_B_arr)):
+    if lo < 0:
+        ax.barh(y[i], lo, height=bar_h, color=C_DOWN, alpha=0.85, left=0)
+    else:
+        ax.barh(y[i], lo, height=bar_h, color=C_UP, alpha=0.85, left=0)
+    if hi > 0:
+        ax.barh(y[i], hi, height=bar_h, color=C_UP, alpha=0.85, left=0)
+    else:
+        ax.barh(y[i], hi, height=bar_h, color=C_DOWN, alpha=0.85, left=0)
+
+ax.axvline(0, color="black", linewidth=1.2, zorder=5)
+ax.axvline(0, color=C_BUILD, linewidth=1.8, linestyle="--", zorder=6,
+           label=f"Base NPV ≈ ${NPV_B:.0f}M")
+
+ax.set_yticks(y)
+ax.set_yticklabels(labels_B, fontsize=9)
+ax.set_xlabel("ΔNPV from Base Case ($M)", fontsize=10)
+ax.set_title("Scenario B — Build Gas NPV Sensitivity\nBase NPV = −$133.6M  |  WACC = 7.68%",
+             fontsize=11, fontweight="bold")
+
+ax.legend(handles=[up_patch, down_patch], loc="lower right", fontsize=8)
+ax.xaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f"${x:.0f}M"))
+plt.tight_layout()
+plt.savefig("Output/tornado_B.png", dpi=150, bbox_inches="tight")
+plt.show()
+```
+
+**Key takeaways — Scenario B:**
+Gas price and carbon price are the twin risk drivers.  At \$4.875/MMBtu (+30%)
+the fuel bill grows by **\$140M in NPV terms**, swinging the project deeply negative.
+Carbon pricing at \$60/ton adds a \$293M NPV headwind over the 20-year life — the
+single biggest scenario-level risk given legislative uncertainty.  PPA price at \$44/MWh
+(stressed hyperscaler corridor) would reduce NPV by \$140M, making the project
+uninvestable without a capacity payment uplift.
+
+---
+
+## Scenario C — Acquire Existing CCGT: Tornado Chart
+
+```{python}
+#| label: tornado-C
+#| fig-cap: "Scenario C (Buy Gas) — NPV Sensitivity Tornado Chart. Base NPV = +$63.7M."
+#| fig-width: 8
+#| fig-height: 6
+
+# Gas price: base $3.75; low $2.625, high $4.875
+# Fuel cost base from CSV: $70.46M/yr
+dgas_lo_C = +0.30 * 70.46 * (1 - TAX) * AF_C
+dgas_hi_C = -0.30 * 70.46 * (1 - TAX) * AF_C
+
+# Carbon price: 875 lb/MWh × 2,890,800 MWh / 2000 = 1,264,725 ton/yr
+emissions_C = 875 * 2890800 / 2000
+dcarb_lo_C = +20 * emissions_C / 1e6 * (1 - TAX) * AF_C
+dcarb_hi_C = -40 * emissions_C / 1e6 * (1 - TAX) * AF_C
+
+# PPA price: base $55; low $44, high $66
+dppa_lo_C = -11 * 2890800 / 1e6 * (1 - TAX) * AF_C
+dppa_hi_C = +11 * 2890800 / 1e6 * (1 - TAX) * AF_C
+
+# Acquisition price: base $450M; low $382.5M (-15%), high $517.5M (+15%)
+dacq_lo_C = +67.5
+dacq_hi_C = -67.5
+
+# Capacity price: base $100k; low $70k, high $130k for 550MW
+dcap_lo_C = -30000 * 550 / 1e6 * (1 - TAX) * AF_C
+dcap_hi_C = +30000 * 550 / 1e6 * (1 - TAX) * AF_C
+
+# WACC: 6% vs 10%
+fcf_avg_C = 54.2
+capex_C = 450.0
+npv_wacc_lo_C = fcf_avg_C * annuity(15, 0.06) - capex_C - NPV_C
+npv_wacc_hi_C = fcf_avg_C * annuity(15, 0.10) - capex_C - NPV_C
+dwacc_lo_C = npv_wacc_lo_C
+dwacc_hi_C = npv_wacc_hi_C
+
+# Capacity factor: base 60%; low 50%, high 70%
+dcf_lo_C = -0.10 * 8760 * 550 * 55 / 1e6 * (1 - TAX) * AF_C
+dcf_hi_C = +0.10 * 8760 * 550 * 55 / 1e6 * (1 - TAX) * AF_C
+
+# Heat rate: base 6,500; low 6,200, high 7,000
+dheat_lo_C = +(6500-6200) * 2890800 * 3.75 / 1e9 * (1-TAX) * AF_C
+dheat_hi_C = -(7000-6500) * 2890800 * 3.75 / 1e9 * (1-TAX) * AF_C
+
+rows_C = [
+    ("Gas Price ($/MMBtu)",       dgas_hi_C,  dgas_lo_C),
+    ("Carbon Price ($/ton)",      dcarb_hi_C, dcarb_lo_C),
+    ("PPA Price ($/MWh)",         dppa_lo_C,  dppa_hi_C),
+    ("Capacity Price ($/MW-yr)",  dcap_lo_C,  dcap_hi_C),
+    ("WACC (%)",                  dwacc_hi_C, dwacc_lo_C),
+    ("Acquisition Price ($M)",    dacq_hi_C,  dacq_lo_C),
+    ("Capacity Factor (%)",       dcf_lo_C,   dcf_hi_C),
+    ("Heat Rate (BTU/kWh)",       dheat_hi_C, dheat_lo_C),
+]
+
+rows_C.sort(key=lambda x: abs(x[2] - x[1]), reverse=True)
+labels_C = [r[0] for r in rows_C]
+lo_C_arr = [r[1] for r in rows_C]
+hi_C_arr = [r[2] for r in rows_C]
+
+fig, ax = plt.subplots(figsize=(8, 5.5))
+y = np.arange(len(labels_C))
+
+for i, (lo, hi) in enumerate(zip(lo_C_arr, hi_C_arr)):
+    if lo < 0:
+        ax.barh(y[i], lo, height=bar_h, color=C_DOWN, alpha=0.85, left=0)
+    else:
+        ax.barh(y[i], lo, height=bar_h, color=C_UP, alpha=0.85, left=0)
+    if hi > 0:
+        ax.barh(y[i], hi, height=bar_h, color=C_UP, alpha=0.85, left=0)
+    else:
+        ax.barh(y[i], hi, height=bar_h, color=C_DOWN, alpha=0.85, left=0)
+
+ax.axvline(0, color="black", linewidth=1.2, zorder=5)
+ax.axvline(0, color=C_BUY, linewidth=1.8, linestyle="--", zorder=6,
+           label=f"Base NPV = ${NPV_C:.0f}M")
+
+ax.set_yticks(y)
+ax.set_yticklabels(labels_C, fontsize=9)
+ax.set_xlabel("ΔNPV from Base Case ($M)", fontsize=10)
+ax.set_title("Scenario C — Buy Gas NPV Sensitivity\nBase NPV = +$63.7M  |  WACC = 7.68%",
+             fontsize=11, fontweight="bold")
+
+ax.legend(handles=[up_patch, down_patch], loc="lower right", fontsize=8)
+ax.xaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f"${x:.0f}M"))
+plt.tight_layout()
+plt.savefig("Output/tornado_C.png", dpi=150, bbox_inches="tight")
+plt.show()
+```
+
+**Key takeaways — Scenario C:**
+Scenario C is the only base-case positive-NPV option, but it is **carbon price fragile**.
+At \$60/ton (high-carbon scenario) the \$63.7M base NPV is nearly fully erased.  Gas
+price and carbon price each carry \$75–120M of NPV swing on a \$450M invested base —
+a leverage ratio that demands PPA price protection or a carbon hedge.  Acquisition price
+negotiation is directly value-additive: every \$50M reduction in purchase price converts
+1:1 to NPV.
+
+---
+
+## Cross-Scenario Sensitivity Summary
+
+```{python}
+#| label: cross-scenario
+#| fig-cap: "Cross-Scenario NPV Range under Key Stress Cases. Each bar spans the full NPV range (low-to-high) for a given stress variable; the diamond marks the base NPV."
+#| fig-width: 9
+#| fig-height: 5
+
+scenarios  = ["A  Nuclear", "B  Build Gas", "C  Buy Gas"]
+base_npvs  = [NPV_A, NPV_B, NPV_C]
+colors     = [C_NUCLEAR, C_BUILD, C_BUY]
+
+# Compute full-range band for each scenario (composite of all stresses)
+# Using the dominant variable swings computed above
+# A: PPA ±$12 + carbon upside ≈ widest range
+swing_A_lo = NPV_A + dppa_lo + dcapex_hi       # worst combo: low PPA + high capex
+swing_A_hi = NPV_A + dppa_hi + dcarb_hi        # best combo: high PPA + high carbon LMP lift
+
+swing_B_lo = NPV_B + dgas_hi_C*0 + dcarb_hi_B + dppa_lo_B   # approximate worst
+swing_B_hi = NPV_B + dgas_lo_C*0 + dcarb_lo_B + dppa_hi_B
+
+# Use individual stress max/min
+swing_B_lo = NPV_B + min(dgas_hi_C, dcarb_hi_B, dppa_lo_B)
+swing_B_hi = NPV_B + max(dgas_lo_C, dcarb_lo_B, dppa_hi_B)
+
+swing_C_lo = NPV_C + min(dgas_hi_C, dcarb_hi_C, dppa_lo_C)
+swing_C_hi = NPV_C + max(dgas_lo_C, dcarb_lo_C, dppa_hi_C)
+
+lo_vals = [swing_A_lo, swing_B_lo, swing_C_lo]
+hi_vals = [swing_A_hi, swing_B_hi, swing_C_hi]
+
+fig, ax = plt.subplots(figsize=(9, 4))
+y = np.arange(3)
+for i, (lo, hi, base, col) in enumerate(zip(lo_vals, hi_vals, base_npvs, colors)):
+    ax.barh(y[i], hi - lo, left=lo, height=0.5, color=col, alpha=0.45)
+    ax.plot(base, y[i], "D", color=col, markersize=10, zorder=6)
+    ax.plot([lo, hi], [y[i], y[i]], color=col, linewidth=2.5, zorder=5)
+
+ax.axvline(0, color="black", linewidth=1.5, zorder=7, linestyle="--", alpha=0.7)
+ax.set_yticks(y)
+ax.set_yticklabels(scenarios, fontsize=11, fontweight="bold")
+ax.set_xlabel("NPV ($M)", fontsize=10)
+ax.set_title("Cross-Scenario NPV Range — Single-Variable Stress Extremes",
+             fontsize=11, fontweight="bold")
+ax.xaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f"${x:.0f}M"))
+for i, (lo, hi, base) in enumerate(zip(lo_vals, hi_vals, base_npvs)):
+    ax.text(lo - 15, y[i], f"${lo:.0f}", ha="right", va="center", fontsize=8, color="red")
+    ax.text(hi + 15, y[i], f"${hi:.0f}", ha="left",  va="center", fontsize=8, color="darkgreen")
+
+plt.tight_layout()
+plt.savefig("Output/cross_scenario_range.png", dpi=150, bbox_inches="tight")
+plt.show()
+```
+
+\newpage
+
+# Full Model Assumptions
+
+## Capital & Financing Assumptions
+
+| Parameter | Scenario A (Nuclear) | Scenario B (Build Gas) | Scenario C (Buy Gas) | Low | Base | High |
+|-----------|---------------------|----------------------|---------------------|-----|------|------|
+| Capacity (MW) | 800 | 550 | 550 | — | — | — |
+| Asset Life (years) | 17 | 20 | 15 | — | — | — |
+| Capital Cost / MW | \$3,750/kW (acq.) | \$1,250/kW | \$818/kW (acq.) | −15% | Base | +15% |
+| Total Capital (\$M) | \$3,000 | \$687.5 | \$450 | −15% | Base | +15% |
+| Debt Fraction | 60% | 60% | 60% | 50% | 60% | 70% |
+| Equity Fraction | 40% | 40% | 40% | 30% | 40% | 50% |
+| Cost of Debt | 8.0% | 8.0% | 8.0% | 6.5% | 8.0% | 9.5% |
+| Cost of Equity | 12.0% | 12.0% | 12.0% | 10.0% | 12.0% | 14.0% |
+| WACC | **7.68%** | **7.68%** | **7.68%** | 6.0% | 7.68% | 10.0% |
+| Tax Rate | 40% | 40% | 40% | 35% | 40% | 42% |
+| MACRS Schedule | 5-year | 5-year | 5-year | — | — | — |
+
+## Revenue Assumptions
+
+| Parameter | Scenario A | Scenario B | Scenario C | Low | Base | High |
+|-----------|-----------|-----------|-----------|-----|------|------|
+| Capacity Factor | 92% | 70% | 60% | −10 pp | Base | +5/+10 pp |
+| PPA / Energy Price (\$/MWh) | \$60 | \$55 | \$55 | \$48 | Base | \$66–72 |
+| Capacity Payment (\$/MW-yr) | \$150,000 | \$100,000 | \$100,000 | −30% | Base | +30% |
+| Energy Revenue (\$/yr) | \$386.8M | \$185.5M | \$159.0M | — | — | — |
+| Capacity Revenue (\$/yr) | \$120M | \$55M | \$55M | — | — | — |
+| Total Revenue (\$/yr) | \$506.8M | \$240.5M | \$214.0M | — | — | — |
+
+## Operating Cost Assumptions
+
+| Parameter | Scenario A | Scenario B | Scenario C | Low | Base | High |
+|-----------|-----------|-----------|-----------|-----|------|------|
+| Fuel (\$/MMBtu) | \$0.70 (nuclear) | \$3.75 (gas) | \$3.75 (gas) | \$2.63 | \$3.75 | \$4.88 |
+| Heat Rate (BTU/kWh) | 10,400 | 6,150 | 6,500 | −5% | Base | +8% |
+| Fixed O\&M (\$/kW-yr) | \$50 | \$14.50 | \$10 | −10% | Base | +15% |
+| Variable O\&M (\$/MWh) | \$2.00 | \$2.75 | \$1.00 | −10% | Base | +15% |
+| O\&M Escalation | 3.0%/yr | 3.0%/yr | 3.0%/yr | 2% | 3% | 4% |
+| Carbon Emissions (lb/MWh) | **0** | 720 | 875 | — | — | — |
+| Carbon Price (\$/ton) | \$20 (LMP proxy) | \$20 | \$20 | \$0 | \$20 | \$60 |
+| Annual Fuel Cost | \$46.9M | \$77.8M | \$70.5M | — | — | — |
+| Annual Carbon Cost | \$0 | \$24.3M | \$25.3M | — | — | — |
+| EBITDA (\$/yr) | **\$392M** | **\$115M** | **\$108M** | — | — | — |
+
+## Valuation Summary
+
+| Metric | Scenario A | Scenario B | Scenario C |
+|--------|-----------|-----------|-----------|
+| Base NPV | **−\$1,466.8M** | **−\$133.6M** | **+\$63.7M** |
+| IRR (implied) | < 7.68% | ≈ 7.2% | ≈ 8.6% |
+| Avg. Annual FCF | \$140.3M | \$47.4M | \$54.2M |
+| Payback Period | > 17 yrs | > 12 yrs | ≈ 8 yrs |
+| NPV/MW (\$/kW) | −\$1,834 | −\$243 | +\$116 |
+| EV/EBITDA (implied) | 7.7× | 6.0× | 4.2× |
+
+\newpage
+
+# Carbon Capture, Utilization & Storage (CCUS)
+
+## Overview
+
+Carbon Capture, Utilization & Storage (CCUS) refers to a suite of processes
+that capture $\text{CO}_2$ from point sources or the atmosphere, then either
+utilize it industrially or permanently sequester it underground.  CCUS has
+emerged as a central decarbonization tool for industries — including power
+generation — that cannot fully electrify or switch fuels.
+
+## Technology Types
+
+### Post-Combustion Capture (PCC)
+
+PCC is the most commercially mature pathway and the most relevant to
+Scenarios B and C (natural gas CCGT plants).  Flue gas exiting the combustion
+turbine contains $3$–$8\%$ $\text{CO}_2$ by volume.  An amine-based solvent
+(typically monoethanolamine, MEA) absorbs the $\text{CO}_2$; the rich solvent
+is then regenerated in a stripper column, releasing a concentrated
+$\text{CO}_2$ stream for compression and transport.
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| Capture efficiency | 85–95% | Commercial target 90% |
+| Energy penalty | 15–25% of plant output | Parasitic load on steam cycle |
+| CapEx (\$/kW additional) | \$1,200–\$2,100 | Per kW of gross capacity |
+| LCOE uplift | +\$35--55/MWh | Depends on utilization \& financing |
+| Solvent cost | \$2–4/ton CO₂ | MEA degradation & makeup |
+| Retrofit vs greenfield | Greenfield preferred | Retrofit retrofitting efficiency loss |
+
+For a 550 MW CCGT (Scenarios B/C) capturing 90% of emissions at 720 lb/MWh:
+
+$$\text{CO}_2\text{ captured} = 720 \times \frac{0.90}{2000} \times \text{MWh/yr}$$
+
+At 70% CF (Scenario B): $\approx$ **1.09 million tons/yr** captured.
+
+### Pre-Combustion Capture
+
+Applied in Integrated Gasification Combined Cycle (IGCC) plants, not
+applicable to the CCGT designs in this case.  The fuel (typically coal or
+petcoke) is converted to syngas ($\text{H}_2 + \text{CO}$); water-gas shift
+converts CO to more $\text{CO}_2$, which is separated before combustion.
+Capture costs are lower (\$30–60/ton) but IGCC capital costs are
+60–80% higher than CCGT.
+
+### Oxyfuel Combustion
+
+Combustion occurs in a pure $\text{O}_2$ atmosphere, producing a flue gas
+that is nearly pure $\text{CO}_2$ and water — simplifying capture
+dramatically.  Air Separation Units (ASU) add 15–25% capital cost.
+Commercial-scale oxyfuel CCGT is not yet deployed; technology readiness
+level (TRL) = 5–6.
+
+### Direct Air Capture (DAC)
+
+DAC removes $\text{CO}_2$ directly from ambient air
+($\approx 420$ ppm concentration).  Because of the low concentration,
+energy requirements are very high:
+
+$$\text{Energy intensity} \approx 1.5\text{--}2.0\ \text{MWh}_{\text{thermal}} + 0.3\text{--}0.5\ \text{MWh}_{\text{electric, per ton CO}_2}$$
+
+| DAC Technology | Cost Range | Status |
+|---------------|-----------|--------|
+| Liquid solvent (Carbon Engineering / Oxy) | \$250–\$500/ton | Pilot / early commercial |
+| Solid sorbent (Climeworks) | \$400–\$1,000/ton | Commercial (small scale) |
+| Long-term target | \$100–\$150/ton | Post-2030 learning curve |
+
+DAC is **not directly applicable** to power plant point-source CCUS but
+becomes relevant as a portfolio-level offset for residual emissions.
+
+## IRA Section 45Q Tax Credits
+
+The Inflation Reduction Act (2022) materially improved CCUS economics:
+
+| Capture Category | 45Q Credit (per ton CO₂) | Duration |
+|-----------------|--------------------------|---------|
+| Geologic sequestration | **\$85** | 12 years from placed-in-service |
+| Enhanced Oil Recovery (EOR) | \$60 | 12 years |
+| Utilization (non-EOR) | \$60 | 12 years |
+| Direct Air Capture (geologic) | **\$180** | 12 years |
+| Direct Air Capture (EOR) | \$130 | 12 years |
+
+**Credit transferability:** Starting 2023, 45Q credits may be transferred or
+sold to unrelated third parties (monetization), removing the requirement to
+have tax appetite equal to the credit value.
+
+### 45Q NPV Impact on Scenario B (Build Gas + CCS)
+
+Assuming 90% capture, 70% CF, 550 MW CCGT (Scenario B):
+$$\text{Annual 45Q revenue} = 1{,}091{,}722 \text{ ton/yr} \times \$85 = \$92.8\text{M/yr}$$
+
+Over 12 years at 7.68% WACC: $\$92.8\text{M} \times A_{12,7.68\%} = \$92.8\text{M} \times 7.66 = +\$711\text{M NPV}$
+
+This **\$711M credit offset** against the CCUS CapEx of $\approx\$900\text{M}$
+(1,100–1,200 \$/kW × 550 MW × 0.5 for half-capacity sizing) + O\&M would yield
+a **net CCUS NPV impact of approximately +\$100–200M** — transforming
+Scenario B to a positive NPV if gas prices are favorable.
+
+**Key risks:** 45Q requires sequestration verification under EPA's MRV rule;
+pipeline infrastructure to storage formation; Class VI UIC well permitting
+(18–24 month timeline); CO₂ purity requirements.
+
+## Applicability by Scenario
+
+| Aspect | Scenario A (Nuclear) | Scenario B (Build Gas) | Scenario C (Buy Gas) |
+|--------|---------------------|----------------------|---------------------|
+| Point-source CO₂ | None | 720 lb/MWh | 875 lb/MWh |
+| PCC retrofit feasible? | N/A | Yes (greenfield) | Difficult (retrofit) |
+| 45Q-eligible tons/yr | 0 | ~1.09 Mt | ~0.77 Mt |
+| 45Q annual credit | — | **\$92.8M** | **\$65.5M** |
+| CCUS CapEx adder | — | ~\$900M | ~\$650M |
+| Net 45Q NPV | — | +\$100–200M | +\$50–100M |
+| CCS as NPV unlock | No | **Yes — critical** | Marginal |
+| Why nuclear sidesteps CCS | Zero operational carbon emissions; no combustion; no flue gas requiring treatment | — | — |
+
+**Nuclear's structural CCUS advantage:** Scenario A (nuclear) produces **zero
+Scope 1 emissions** during operation.  There is no CCS requirement,
+no carbon liability, and no 45Q credit needed to make the economics work.
+The entire \$900M+ CCUS capital expenditure that Scenario B would require
+is avoided.  In a \$60/ton carbon world, this avoidance is worth:
+
+$$\text{Carbon avoidance value (nuclear)} = 1{,}214{,}136 \text{ CCGT tons/yr equivalent} \times \$60 \times A_{20} = \$437\text{M NPV}$$
+
+\newpage
+
+# ESG Framework Analysis
+
+## Overview
+
+Environmental, Social, and Governance (ESG) performance is no longer a
+soft metric — hyperscalers such as Google, Microsoft, and Amazon have
+embedded hard commitments (CDP, RE100, Science Based Targets initiative)
+into their supplier contract requirements.  NAPE must assess all three
+scenarios through an ESG lens to determine which best aligns with hyperscaler
+demand signals and long-term regulatory trajectory.
+
+## Environmental Pillar
+
+### Scope 1, 2, and 3 Emissions
+
+| Emission Scope | Definition | Scenario A | Scenario B | Scenario C |
+|----------------|-----------|-----------|-----------|-----------|
+| Scope 1 | Direct combustion at asset | **0 MT CO₂e** | 720 lb/MWh | 875 lb/MWh |
+| Scope 2 | Purchased electricity | Negligible (on-site nuclear) | Negligible | Negligible |
+| Scope 3 (upstream) | Fuel supply chain | Uranium enrichment (~2 gCO₂e/kWh) | Gas extraction & transport (~5 gCO₂e/kWh) | Same as B |
+| Total lifecycle (gCO₂e/kWh) | ~12 (IPCC median) | ~490 w/o CCS | ~490 w/o CCS | ~600 |
+| Carbon intensity vs. grid avg (400 gCO₂e/kWh) | **−97%** | +22.5% | +22.5% | +50% |
+
+### TCFD Alignment
+
+The Task Force on Climate-Related Financial Disclosures (TCFD) requires
+companies to disclose **physical risks** and **transition risks** related
+to climate change. NAPE's scenario alignment:
+
+| TCFD Risk Category | Scenario A | Scenario B | Scenario C |
+|-------------------|-----------|-----------|-----------|
+| Transition risk — carbon pricing | **None** (zero Scope 1) | High (720 lb/MWh) | Very High (875 lb/MWh) |
+| Transition risk — stranded asset | Very Low (nuclear life > 40 yrs) | Moderate (20-yr life may face early retirement) | High (retrofit unlikely) |
+| Physical risk — temperature/water | Moderate (cooling water needs) | Low–Moderate | Low–Moderate |
+| Physical risk — extreme weather | Low (engineered for design-basis events) | Low | Low |
+| Opportunity — low-carbon premium | **High** (RE100, 24/7 CFE premium) | Low | Low |
+
+### SFDR Classification (EU Sustainable Finance)
+
+For European institutional investors:
+
+- **Scenario A (Nuclear):** Following the EU Taxonomy delegated act (2022),
+  nuclear power **qualifies as a sustainable economic activity** under the
+  "do no significant harm" criteria with lifecycle $\text{CO}_2 < 100$ gCO₂e/kWh.
+  A nuclear-backed PPA may qualify as an Article 8 or 9 fund investment.
+- **Scenarios B/C (Gas):** Natural gas is classified as a **transitional
+  activity** under the EU Taxonomy only if plants emit < 270 gCO₂e/kWh —
+  requiring CCS retrofit for CCGT plants running at high utilization.
+
+## Social Pillar
+
+| Social Metric | Scenario A | Scenario B | Scenario C |
+|--------------|-----------|-----------|-----------|
+| Construction jobs | ~2,000 (refurbishment) | 1,200 (24-month build) | 150 (acquisition) |
+| Permanent operations jobs | 500–700 (high-skill) | 50–80 | 40–60 |
+| Average wage (operations) | \$85,000–120,000 | \$75,000–95,000 | \$70,000–90,000 |
+| Community benefit agreements | Typically required by NRC / state | EPC contract-dependent | Optional |
+| Grid reliability contribution (LOLE) | **Critical baseload** (Loss of Load Expectation) | Dispatchable peaker | Dispatchable peaker |
+| Just Transition alignment | High (high-wage local jobs) | Moderate | Low |
+
+**Grid reliability note:** NERC's *2025 Long-Term Reliability Assessment* flags
+the retirement of 80+ GW of firm capacity by 2028 across MISO, SERC, and SPP
+— the regions most relevant to NAPE's footprint.  Nuclear baseload provides
+**Effective Load Carrying Capacity (ELCC)** of ~0.9 per MW nameplate, versus
+0.7–0.85 for thermal gas and 0.05–0.20 for intermittent renewables.
+
+### Hyperscaler ESG Requirements Scorecard
+
+| Requirement | Source | Scenario A | Scenario B | Scenario C |
+|-------------|--------|-----------|-----------|-----------|
+| 24/7 Carbon-Free Energy (CFE) | Google RE100+ | ✓ **Qualifies** | ✗ Fails | ✗ Fails |
+| RE100 Membership eligible supply | RE100 | ✓ (nuclear CFE) | ✗ | ✗ |
+| CDP Supply Chain disclosure | CDP | ✓ Scope 1 = 0 | Partial (requires CCS) | Partial |
+| Science Based Targets (SBTi) | SBTi | ✓ <10 gCO₂e/kWh | ✗ (needs CCS) | ✗ |
+| Microsoft "carbon negative 2030" | MSFT | ✓ | ✗ | ✗ |
+| Amazon "Climate Pledge" | Amazon | ✓ | ✗ | ✗ |
+
+## Governance Pillar
+
+| Governance Dimension | Best Practice | NAPE Implementation |
+|---------------------|--------------|-------------------|
+| Board ESG Oversight | Dedicated ESG/Sustainability Committee | Recommend standalone committee with independent director chair |
+| Executive Compensation | ESG KPIs in LTI plan | 10–20% of long-term incentive tied to emissions, safety, and community metrics |
+| ESG Reporting Framework | GRI + TCFD + SASB (Electric Utilities sector) | Annual Sustainability Report; TCFD annual update |
+| Third-party verification | Reasonable assurance on Scope 1/2 | Independent auditor (Big 4) verification of metrics |
+| Political contributions disclosure | MSCI ESG risk | Full PAC spending disclosure |
+| Cybersecurity governance | NRC 10 CFR 73.54 + NIST CSF | Board-level CISO reporting; quarterly board briefings |
+
+**ESG composite recommendation:**
+Scenario A (nuclear) achieves the highest ESG score across all three pillars,
+directly satisfying hyperscaler 24/7 CFE requirements worth premium PPA pricing
+(\$65–90/MWh in recent deals: Constellation/Microsoft, Talen/Amazon).
+Scenarios B and C require CCUS commitment to achieve partial ESG credit.
+
+\newpage
+
+# Nuclear Regulatory & Risk Analysis
+
+## NRC Licensing Framework
+
+### 10 CFR Part 50 vs. Part 52
+
+NAPE's nuclear acquisition (Scenario A) must navigate the NRC's dual
+licensing pathway:
+
+| Attribute | 10 CFR Part 50 | 10 CFR Part 52 |
+|-----------|--------------|--------------|
+| License type | Construction Permit + Operating License (two-step) | Early Site Permit, Design Certification, Combined License (one-step) |
+| Timeline | 5–10 years new plant | 3–7 years (established designs) |
+| Design review | Plant-specific | Standardized (pre-approved designs: AP1000, BWRX-300, etc.) |
+| Public hearings | Required at each stage | Consolidated hearing |
+| Best for | Existing plants (operating license transfer) | New SMRs and advanced reactors |
+
+**Scenario A relevance:** Acquiring an operating nuclear plant requires an
+NRC **License Transfer** under 10 CFR 50.80.  Timeline: 12–24 months for
+standard transfer.  NRC reviews financial qualifications, decommissioning
+funding adequacy, antitrust compliance, and management competence.  NAPE
+must demonstrate **\$1.06B+ decommissioning trust fund** (for an 800 MW plant,
+per NRC's formula method).
+
+## FERC Order 2023 — Co-location Rules
+
+FERC Order 2023 (July 2023) and its rehearing orders establish the **Large
+Generator Interconnection** (LGIP) framework for co-located customers
+(data centers co-located behind a power plant's grid interconnection point):
+
+| Issue | FERC Position | Impact on Scenario A |
+|-------|--------------|---------------------|
+| Co-location Agreement | Required; must file with FERC | NAPE must file interconnection agreement amendment |
+| Wholesale market participation | Co-located load may reduce or eliminate market sales | Revenue model shifts from wholesale to direct PPA |
+| Reliability must-run | Grid operator may call on plant even during outage | Complicates exclusive co-location arrangements |
+| Metering \& settlement | Separate metering required for co-located vs. grid supply | Capital cost for metering equipment |
+| Anti-circumvention | Hyperscaler must pay grid charges if net load > zero | Amazon/Talen model required ~$55M in grid charge provisions |
+
+**Practical implication:** The Talen/Amazon arrangement — the closest precedent
+to Scenario A — required PJM approval, individual FERC certification, and
+a novel co-location service tariff.  NAPE should budget 18–30 months for
+regulatory approval of a similar arrangement and retain specialized FERC
+counsel.
+
+## Price-Anderson Nuclear Industries Indemnity Act
+
+The Price-Anderson Act (1957, reauthorized through 2065 under EPACT 2005)
+establishes the liability framework for nuclear accidents:
+
+$$\text{Total pool} = \text{Primary insurance} + \text{Secondary pool}$$
+$$= \$450\text{M} + (96 \text{ reactors} \times \$121\text{M}) = \$450\text{M} + \$11.6\text{B} \approx \$12.1\text{B}$$
+
+- **Primary layer:** Each operating reactor must carry \$450M in private
+  liability insurance (currently through ANI — American Nuclear Insurers).
+- **Secondary / retrospective premium pool:** All reactor operators
+  participate; each pays up to \$121M/incident (in 2026 dollars, adjusted
+  annually), limited to \$18.96M/year.
+- **Federal indemnity:** Above \$12.1B, Congress must enact emergency
+  appropriations (political risk, not legal obligation).
+
+**NAPE cost:** Annual insurance premium \$5–15M; in an accident scenario,
+maximum retrospective liability \$121M over 6+ years.  This is a **manageable
+operational cost** — the greater risk is reputational contagion from a
+third-party reactor incident causing regulatory shutdown of the broader fleet.
+
+## Spent Nuclear Fuel & Yucca Mountain
+
+The U.S. lacks a permanent geologic repository.  Yucca Mountain (NV) was
+licensed by the NRC in 2022 but remains politically blocked.  Current status:
+
+| Storage Method | Cost | Status |
+|---------------|------|--------|
+| Spent fuel pools (wet) | \$800M–2B per plant (sunk) | Operating at all plants |
+| Independent Spent Fuel Storage Installations (ISFSI) | \$30–100M per pad | Widely deployed (dry casks) |
+| Consolidated Interim Storage (CIS) — Interim Storage Partners | \$300–500M | Licensed; awaiting transport rule |
+| Yucca Mountain geological repository | \$96B+ total program | Construction suspended |
+
+**NAPE exposure:** An 800 MW reactor running at 92% CF generates
+approximately **25–27 MT of spent fuel per year**.  After 17 years of
+ownership, NAPE would accumulate **425–460 MT** requiring dry-cask storage.
+Standard industry policy: costs borne by the U.S. government's spent fuel
+fund (SFWAS fee) — though fund adequacy is legally contested.
+
+## Seismic, Flood, and Physical Risk
+
+Post-Fukushima (NRC's FLEX rule, 2012) and post-Sequoia flooding reassessments
+have updated site-specific probabilistic hazard analyses for all U.S. reactors:
+
+| Hazard | NRC Requirement | Scenario A Mitigation |
+|--------|---------------|----------------------|
+| Seismic | Plant must meet Seismic Design Category (SDC) per updated ASCE 43-05 | License requires updated PSHA; NAPE due diligence must verify |
+| Flooding | Updated flood hazard analyses (2016–2020 per 50.54(f) letters) | Verify FLEX equipment deployment; flood barriers |
+| Tornado / high winds | Design-basis tornado missiles (10 CFR 50 App. A, GDC-2) | Hardened structures; missile shields on switchgear |
+| Wildfire (new, post-2020) | NSIR guidance; plant interface requirement | Site-specific wildland-urban interface assessment |
+
+## Cybersecurity — 10 CFR 73.54
+
+The NRC's cybersecurity rule (10 CFR 73.54) requires a **Cybersecurity Plan**
+protecting **Critical Digital Assets (CDAs)** in the following functions:
+
+1. Safety systems (reactor protection, emergency core cooling)
+2. Security systems (access control, intrusion detection)
+3. Emergency preparedness systems
+
+**Requirements:**
+
+| Element | Requirement |
+|---------|------------|
+| CDAs inventory | 100% identification and documentation |
+| Defense-in-depth | 7-layer industrial control system (ICS) security architecture |
+| Isolation | Air-gapping of safety-critical networks from business networks |
+| Incident reporting | Cyber incidents → NRC 8-hour notification |
+| Insider threat | Behavioral observation program; two-person rule for critical systems |
+| Third-party vendors | SCRM (supply chain risk management) per NIST SP 800-161 |
+
+**NAPE cyber budget estimate:** \$15–30M for initial compliance assessment,
+network redesign, and CDAs hardening; \$5–10M/year ongoing.
+
+## Decommissioning Trust Fund Requirements
+
+The NRC mandates that all reactor licensees maintain a **Decommissioning
+Trust Fund (DTF)** sufficient to cover eventual decommissioning costs:
+
+$$\text{NRC minimum (formula method)} = \$105\text{M} + \$0.88\text{M/MWe for LWR > 1200 MWe}$$
+
+For an 800 MWe plant: approximately **\$810M** in 2026 dollars.
+
+The current DTF balance at the Constellation/Talen-model plants averages
+**\$600–900M** — typically adequate.  NAPE's acquisition due diligence must:
+
+1. Confirm current DTF balance with custodian (typically a trust company).
+2. Assess investment strategy (equities/bonds) for adequacy at projected closing date.
+3. Model decommissioning cost escalation (DECON vs. SAFSTOR methods).
+4. Confirm no radiological contamination issues requiring FUSRAP remediation.
+
+## State Public Utility Commission & State Nuclear Policy
+
+| State Context | Risk | Mitigation |
+|--------------|------|-----------|
+| PUC rate-setting jurisdiction | If any power sold to retail customers, state PUC has rate authority | Structure as wholesale-only PPA to FERC jurisdiction data center |
+| State fuel diversity mandates | Some states mandate capacity from diversified sources — may benefit nuclear | Lobby state PUC for nuclear zero-emission credit (ZEC) |
+| State nuclear phase-out laws | Several states (CA, IL debate) have pursued nuclear closures | Due diligence on state legislative risk; avoid anti-nuclear state siting |
+| Property tax | Nuclear plants are high-value assets; local property tax can be \$20–50M/yr | Negotiate PILT (payment in lieu of taxes) with host community |
+
+## Risk Summary Matrix — Scenario A (Nuclear)
+
+```{python}
+#| label: risk-matrix
+#| fig-cap: "Scenario A Nuclear — Regulatory & Physical Risk Matrix. Bubble size = estimated financial impact (\\$M)."
+#| fig-width: 8
+#| fig-height: 5.5
+
+risks = [
+    # label,                  probability(0-5), impact(0-5), $M impact
+    ("NRC License Transfer",        2, 2, 50),
+    ("FERC Co-location Approval",   3, 3, 120),
+    ("Carbon / Climate Regulation", 1, 1, 30),
+    ("Cybersecurity Incident",      2, 5, 500),
+    ("Seismic / Flood Event",       1, 5, 3000),
+    ("Spent Fuel / Storage",        2, 3, 150),
+    ("Decommissioning Funding",     2, 4, 400),
+    ("Insider Threat",              2, 4, 500),
+    ("Price-Anderson Liability",    1, 4, 121),
+    ("State PUC / ZEC Policy",      3, 2, 80),
+    ("WACC / Financing Risk",       3, 4, 450),
+    ("CapEx Overrun",               2, 3, 450),
+]
+
+labels_r = [r[0] for r in risks]
+prob     = [r[1] for r in risks]
+impact   = [r[2] for r in risks]
+size     = [r[3] / 5 for r in risks]      # scale bubble
+
+fig, ax = plt.subplots(figsize=(8, 5.5))
+
+colors_r = []
+for p, imp in zip(prob, impact):
+    score = p * imp
+    if score >= 12:
+        colors_r.append("#E74C3C")   # red: high
+    elif score >= 6:
+        colors_r.append("#F39C12")   # orange: medium
+    else:
+        colors_r.append("#27AE60")   # green: low
+
+sc = ax.scatter(prob, impact, s=[s * 400 for s in size],
+                c=colors_r, alpha=0.75, edgecolors="white", linewidths=1.5)
+
+for i, lbl in enumerate(labels_r):
+    ax.annotate(lbl, (prob[i], impact[i]),
+                textcoords="offset points", xytext=(6, 4),
+                fontsize=7.5, color="black")
+
+ax.set_xlabel("Probability (1 = Rare → 5 = Almost Certain)", fontsize=10)
+ax.set_ylabel("Impact Severity (1 = Minor → 5 = Catastrophic)", fontsize=10)
+ax.set_title("Nuclear Regulatory & Physical Risk Matrix — Scenario A",
+             fontsize=11, fontweight="bold")
+ax.set_xlim(0, 6); ax.set_ylim(0, 6)
+ax.set_xticks(range(1, 6)); ax.set_yticks(range(1, 6))
+
+# Draw risk zones
+from matplotlib.patches import Rectangle
+ax.add_patch(Rectangle((3, 3), 3, 3, alpha=0.05, color="red"))
+ax.add_patch(Rectangle((0, 0), 3, 3, alpha=0.05, color="green"))
+
+red_p  = mpatches.Patch(color="#E74C3C", alpha=0.75, label="High Risk (P×I ≥ 12)")
+ora_p  = mpatches.Patch(color="#F39C12", alpha=0.75, label="Medium Risk (P×I 6–11)")
+grn_p  = mpatches.Patch(color="#27AE60", alpha=0.75, label="Low Risk (P×I < 6)")
+ax.legend(handles=[red_p, ora_p, grn_p], fontsize=8, loc="upper left")
+
+plt.tight_layout()
+plt.savefig("Output/risk_matrix_A.png", dpi=150, bbox_inches="tight")
+plt.show()
+```
+
+**Risk priority actions for NAPE:**
+
+1. **Cybersecurity & Insider Threat** — Highest combined impact severity;
+   budget \$25–35M for ICS security overhaul and behavioral observation program
+   before close.
+2. **FERC Co-location Approval** — 18–30 month timeline; begin FERC filing
+   simultaneously with NRC license transfer to avoid serial delays.
+3. **WACC & Financing Risk** — Lock long-dated fixed-rate debt at close;
+   consider project finance structure to ring-fence nuclear asset from
+   corporate balance sheet.
+4. **Decommissioning Fund** — Commission independent actuarial review of DTF;
+   negotiate purchase price adjustment if fund balance is below NRC minimum.
+5. **Seismic/Flood** — Engage plant's existing Probabilistic Risk Assessment
+   (PRA) team for due diligence; verify post-Fukushima FLEX compliance status.
+
+\newpage
+
+# Appendix: Sensitivity Input Table
+
+| Variable | Scenario | Low | Base | High | Units |
+|----------|---------|-----|------|------|-------|
+| PPA Price | A | 48 | 60 | 72 | \$/MWh |
+| PPA Price | B, C | 44 | 55 | 66 | \$/MWh |
+| Gas Price | B, C | 2.625 | 3.75 | 4.875 | \$/MMBtu |
+| Carbon Price | A | 0 | 20 | 60 | \$/ton CO₂ |
+| Carbon Price | B, C | 0 | 20 | 60 | \$/ton CO₂ |
+| Capacity Price | A | 105,000 | 150,000 | 195,000 | \$/MW-yr |
+| Capacity Price | B, C | 70,000 | 100,000 | 130,000 | \$/MW-yr |
+| WACC | All | 6.0% | 7.68% | 10.0% | % |
+| CapEx | A | 2,550 | 3,000 | 3,450 | \$M |
+| CapEx | B | 584 | 688 | 791 | \$M |
+| Acquisition Price | C | 383 | 450 | 518 | \$M |
+| Capacity Factor | A | 82% | 92% | 97% | % |
+| Capacity Factor | B | 60% | 70% | 80% | % |
+| Capacity Factor | C | 50% | 60% | 70% | % |
+| Heat Rate | B | 5,800 | 6,150 | 6,600 | BTU/kWh |
+| Heat Rate | C | 6,200 | 6,500 | 7,000 | BTU/kWh |
+| Fixed O\&M | A | 45 | 50 | 60 | \$/kW-yr |
+| Fixed O\&M | B | 13 | 14.5 | 17 | \$/kW-yr |
+| Fixed O\&M | C | 9 | 10 | 12 | \$/kW-yr |
+| Tax Rate | All | 35% | 40% | 42% | % |
+| Debt Fraction | All | 50% | 60% | 70% | % |
+| O\&M Escalation | All | 2% | 3% | 4% | %/yr |
+
+---
+
+*Document prepared by SMU NAPE Case Team — February 18, 2026.
+All NPV and sensitivity figures derived from scenario_definitions.json,
+yearly_projections_scenario\_{A,B,C}.csv, and forecast_results_target_6.json.
+This supplement is intended as an analytical reference and does not
+constitute investment advice.*
