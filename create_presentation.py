@@ -201,20 +201,17 @@ add_textbox(slide1, Inches(1.0), Inches(4.4), Inches(4), Inches(0.4),
             "TEAM MEMBERS", font_size=12, color=LIGHT_GREEN, bold=True)
 
 team_members = [
-    ("Member 1", "Role"),
-    ("Member 2", "Role"),
-    ("Member 3", "Role"),
-    ("Member 4", "Role"),
+    ("Anh Bui", ""),
+    ("Cuong Nguyen", ""),
+    ("Minh Nguyen", ""),
 ]
 for i, (name, role) in enumerate(team_members):
-    col = i % 2
-    row = i // 2
-    x = Inches(1.0 + col * 4.5)
-    y = Inches(4.9 + row * 0.55)
+    x = Inches(1.0 + i * 3.5)
+    y = Inches(4.9)
     # Name pill
-    pill = add_shape(slide1, x, y, Inches(3.8), Inches(0.45), MED_GREEN)
-    pill.text_frame.paragraphs[0].text = f"{name}  —  {role}"
-    pill.text_frame.paragraphs[0].font.size = Pt(12)
+    pill = add_shape(slide1, x, y, Inches(3.0), Inches(0.45), MED_GREEN)
+    pill.text_frame.paragraphs[0].text = name
+    pill.text_frame.paragraphs[0].font.size = Pt(13)
     pill.text_frame.paragraphs[0].font.color.rgb = WHITE
     pill.text_frame.paragraphs[0].font.name = "Calibri"
     pill.text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
