@@ -1,0 +1,1147 @@
+    INFO: 2026-02-18 13:11:09,012:               log.py:   20: Logging to C:\Users\hoang\NAPE\mdpdf.log
+   DEBUG: 2026-02-18 13:11:09,013:               cli.py:  103: c:\Users\hoang\NAPE\Analysis\CASE_TWIST_SPEAKER_SCRIPT.md
+    INFO: 2026-02-18 13:11:09,025:         converter.py:   14: c:\Users\hoang\NAPE\Analysis\CASE_TWIST_SPEAKER_SCRIPT.md
+   DEBUG: 2026-02-18 13:11:09,088:      pdf_renderer.py:  470: printSegment: CASE TWIST — DETAILED SPEAKER SCRIPT
+   DEBUG: 2026-02-18 13:11:09,120:      pdf_renderer.py:  470: printSegment: Strategic Response to Dissident Investor Threat
+   DEBUG: 2026-02-18 13:11:09,128:      pdf_renderer.py:  470: printSegment: SMU/NAPE Energy Innovation Case Competition — Final Round
+   DEBUG: 2026-02-18 13:11:09,130:      pdf_renderer.py:  470: printSegment: Team: Anh Bui, Minh Nguyen, Cuong Nguyen
+   DEBUG: 2026-02-18 13:11:09,134:      pdf_renderer.py:  470: printSegment: How to use this script:
+   DEBUG: 2026-02-18 13:11:09,137:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,142:      pdf_renderer.py:  470: printSegment: Read out loud before presenting until it feels natural
+   DEBUG: 2026-02-18 13:11:09,146:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,148:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2026-02-18 13:11:09,149:      pdf_renderer.py:  470: printSegment: Brackets
+   DEBUG: 2026-02-18 13:11:09,150:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2026-02-18 13:11:09,152:      pdf_renderer.py:  470: printSegment:  = stage directions — do NOT read aloud
+   DEBUG: 2026-02-18 13:11:09,174:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,175:      pdf_renderer.py:  470: printSegment: Bold
+   DEBUG: 2026-02-18 13:11:09,177:      pdf_renderer.py:  470: printSegment:  = key points to emphasize
+   DEBUG: 2026-02-18 13:11:09,178:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,180:      pdf_renderer.py:  470: printSegment: Aim for ~15 minutes total: roughly 1-1.5 minutes per slide
+   DEBUG: 2026-02-18 13:11:09,182:      pdf_renderer.py:  470: printSegment: SLIDE 1 — TITLE SLIDE
+   DEBUG: 2026-02-18 13:11:09,183:      pdf_renderer.py:  470: printSegment: Speaker: Anh Bui
+   DEBUG: 2026-02-18 13:11:09,184:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:09,186:      pdf_renderer.py:  470: printSegment: Time: ~30 seconds
+   DEBUG: 2026-02-18 13:11:09,188:      pdf_renderer.py:  470: printSegment: What to say:
+   DEBUG: 2026-02-18 13:11:09,191:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,195:      pdf_renderer.py:  470: printSegment: Good morning everyone. Thank you for having us.
+   DEBUG: 2026-02-18 13:11:09,197:      pdf_renderer.py:  470: printSegment: My name is Anh Bui, and I
+   DEBUG: 2026-02-18 13:11:09,199:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,200:      pdf_renderer.py:  470: printSegment: m joined today by Minh Nguyen and Cuong Nguyen.
+   DEBUG: 2026-02-18 13:11:09,202:      pdf_renderer.py:  470: printSegment: In the next 15 minutes, we
+   DEBUG: 2026-02-18 13:11:09,203:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,212:      pdf_renderer.py:  470: printSegment: ll walk you through our strategic response to the Case Twist — a dissident
+   DEBUG: 2026-02-18 13:11:09,235:      pdf_renderer.py:  470: printSegment: investor threatening to take control of our company. We
+   DEBUG: 2026-02-18 13:11:09,237:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,241:      pdf_renderer.py:  470: printSegment: ve analyzed the three strategic options
+   DEBUG: 2026-02-18 13:11:09,243:      pdf_renderer.py:  470: printSegment: given in the case, and we
+   DEBUG: 2026-02-18 13:11:09,244:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,250:      pdf_renderer.py:  470: printSegment: ll show you exactly why Option 3 — a Joint Venture with Amazon Web
+   DEBUG: 2026-02-18 13:11:09,252:      pdf_renderer.py:  470: printSegment: Services — is the clear winner.
+   DEBUG: 2026-02-18 13:11:09,264:      pdf_renderer.py:  470: printSegment: We used Talen Energy, a real company, as our model. Talen executed this exact strategy and their
+   DEBUG: 2026-02-18 13:11:09,267:      pdf_renderer.py:  470: printSegment: stock went from $60 to $389 — a 6.5x increase. We
+   DEBUG: 2026-02-18 13:11:09,268:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,270:      pdf_renderer.py:  470: printSegment: ll show you how to do the same.
+   DEBUG: 2026-02-18 13:11:09,271:      pdf_renderer.py:  470: printSegment: Let
+   DEBUG: 2026-02-18 13:11:09,272:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,274:      pdf_renderer.py:  470: printSegment: s begin.
+   DEBUG: 2026-02-18 13:11:09,275:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,277:      pdf_renderer.py:  470: printSegment: Transition:
+   DEBUG: 2026-02-18 13:11:09,278:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:09,279:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,282:      pdf_renderer.py:  470: printSegment: First, let me explain the situation we
+   DEBUG: 2026-02-18 13:11:09,283:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,284:      pdf_renderer.py:  470: printSegment: re facing.
+   DEBUG: 2026-02-18 13:11:09,285:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,288:      pdf_renderer.py:  470: printSegment: SLIDE 2 — THE TWIST: DISSIDENT INVESTOR THREAT
+   DEBUG: 2026-02-18 13:11:09,290:      pdf_renderer.py:  470: printSegment: Speaker: Anh Bui
+   DEBUG: 2026-02-18 13:11:09,291:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:09,292:      pdf_renderer.py:  470: printSegment: Time: ~90 seconds
+   DEBUG: 2026-02-18 13:11:09,295:      pdf_renderer.py:  470: printSegment: Background you should understand (don
+   DEBUG: 2026-02-18 13:11:09,296:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,298:      pdf_renderer.py:  470: printSegment: t read this):
+   DEBUG: 2026-02-18 13:11:09,299:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,301:      pdf_renderer.py:  470: printSegment: A 
+   DEBUG: 2026-02-18 13:11:09,302:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,303:      pdf_renderer.py:  470: printSegment: dissident investor
+   DEBUG: 2026-02-18 13:11:09,304:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,306:      pdf_renderer.py:  470: printSegment:  is also called an 
+   DEBUG: 2026-02-18 13:11:09,307:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,308:      pdf_renderer.py:  470: printSegment: activist shareholder.
+   DEBUG: 2026-02-18 13:11:09,309:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,320:      pdf_renderer.py:  470: printSegment:  This is someone who buys a lot of
+   DEBUG: 2026-02-18 13:11:09,324:      pdf_renderer.py:  470: printSegment: stock in a company — not to support management, but to FORCE management to make changes.
+   DEBUG: 2026-02-18 13:11:09,325:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,327:      pdf_renderer.py:  470: printSegment: Right now, the dissident owns 9% of the company. That
+   DEBUG: 2026-02-18 13:11:09,329:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,331:      pdf_renderer.py:  470: printSegment: s about 4.05 million shares worth $1.8
+   DEBUG: 2026-02-18 13:11:09,332:      pdf_renderer.py:  470: printSegment: billion.
+   DEBUG: 2026-02-18 13:11:09,334:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,336:      pdf_renderer.py:  470: printSegment: At 10% ownership (4.5 million shares), the dissident can legally call a 
+   DEBUG: 2026-02-18 13:11:09,337:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,339:      pdf_renderer.py:  470: printSegment: special shareholder meeting
+   DEBUG: 2026-02-18 13:11:09,340:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,343:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2026-02-18 13:11:09,344:      pdf_renderer.py:  470: printSegment: to try to fire the CEO and replace the board.
+   DEBUG: 2026-02-18 13:11:09,345:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,351:      pdf_renderer.py:  470: printSegment: The dissident thinks management is too slow. They want FASTER value creation — bigger deals,
+   DEBUG: 2026-02-18 13:11:09,353:      pdf_renderer.py:  470: printSegment: higher stock price.
+   DEBUG: 2026-02-18 13:11:09,356:      pdf_renderer.py:  470: printSegment: What to say:
+   DEBUG: 2026-02-18 13:11:09,359:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,360:      pdf_renderer.py:  470: printSegment: Here
+   DEBUG: 2026-02-18 13:11:09,361:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,362:      pdf_renderer.py:  470: printSegment: s the situation we
+   DEBUG: 2026-02-18 13:11:09,364:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,365:      pdf_renderer.py:  470: printSegment: re facing.
+   DEBUG: 2026-02-18 13:11:09,371:      pdf_renderer.py:  470: printSegment: A dissident investor — think of them as an aggressive shareholder who wants to force change — has
+   DEBUG: 2026-02-18 13:11:09,373:      pdf_renderer.py:  470: printSegment: quietly bought up 
+   DEBUG: 2026-02-18 13:11:09,375:      pdf_renderer.py:  470: printSegment: 9% of our company
+   DEBUG: 2026-02-18 13:11:09,379:      pdf_renderer.py:  470: printSegment: . That
+   DEBUG: 2026-02-18 13:11:09,380:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,381:      pdf_renderer.py:  470: printSegment: s about 
+   DEBUG: 2026-02-18 13:11:09,383:      pdf_renderer.py:  470: printSegment: 4 million shares
+   DEBUG: 2026-02-18 13:11:09,384:      pdf_renderer.py:  470: printSegment: , worth 
+   DEBUG: 2026-02-18 13:11:09,385:      pdf_renderer.py:  470: printSegment: $1.8 billion
+   DEBUG: 2026-02-18 13:11:09,386:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:09,387:      pdf_renderer.py:  470: printSegment: Here
+   DEBUG: 2026-02-18 13:11:09,388:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,389:      pdf_renderer.py:  470: printSegment: s why that
+   DEBUG: 2026-02-18 13:11:09,390:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,391:      pdf_renderer.py:  470: printSegment: s dangerous: once they hit 
+   DEBUG: 2026-02-18 13:11:09,392:      pdf_renderer.py:  470: printSegment: 10%
+   DEBUG: 2026-02-18 13:11:09,397:      pdf_renderer.py:  470: printSegment: , they can call a special shareholder meeting. At that
+   DEBUG: 2026-02-18 13:11:09,399:      pdf_renderer.py:  470: printSegment: meeting, they can propose to 
+   DEBUG: 2026-02-18 13:11:09,400:      pdf_renderer.py:  470: printSegment: fire our CEO and replace the entire board of directors
+   DEBUG: 2026-02-18 13:11:09,405:      pdf_renderer.py:  470: printSegment: . They only
+   DEBUG: 2026-02-18 13:11:09,407:      pdf_renderer.py:  470: printSegment: need to buy about 450,000 more shares to reach that trigger.
+   DEBUG: 2026-02-18 13:11:09,408:      pdf_renderer.py:  470: printSegment: What does the dissident want? They think we
+   DEBUG: 2026-02-18 13:11:09,409:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,411:      pdf_renderer.py:  470: printSegment: re not moving fast enough. They want:
+   DEBUG: 2026-02-18 13:11:09,412:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,414:      pdf_renderer.py:  470: printSegment: Higher stock valuation — from 30x EV/EBITDA to 35 or 40x
+   DEBUG: 2026-02-18 13:11:09,415:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,417:      pdf_renderer.py:  470: printSegment: Faster free cash flow growth — beat our 30% per year target
+   DEBUG: 2026-02-18 13:11:09,418:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,420:      pdf_renderer.py:  470: printSegment: A bold strategic move that connects us to the AI and data center boom
+   DEBUG: 2026-02-18 13:11:09,423:      pdf_renderer.py:  470: printSegment: In simple terms: they want us to do something big, do it fast, and make the stock go up. If we don
+   DEBUG: 2026-02-18 13:11:09,424:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,425:      pdf_renderer.py:  470: printSegment: t,
+   DEBUG: 2026-02-18 13:11:09,426:      pdf_renderer.py:  470: printSegment: they
+   DEBUG: 2026-02-18 13:11:09,427:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,429:      pdf_renderer.py:  470: printSegment: ll try to take over and do it themselves.
+   DEBUG: 2026-02-18 13:11:09,430:      pdf_renderer.py:  470: printSegment: The case gives us three options to respond.
+   DEBUG: 2026-02-18 13:11:09,432:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,434:      pdf_renderer.py:  470: printSegment: Transition:
+   DEBUG: 2026-02-18 13:11:09,435:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:09,436:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,438:      pdf_renderer.py:  470: printSegment: Let me briefly explain the three options before we analyze each one.
+   DEBUG: 2026-02-18 13:11:09,440:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,442:      pdf_renderer.py:  470: printSegment: SLIDE 3 — THE THREE STRATEGIC OPTIONS
+   DEBUG: 2026-02-18 13:11:09,444:      pdf_renderer.py:  470: printSegment: Speaker: Anh Bui
+   DEBUG: 2026-02-18 13:11:09,445:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:09,447:      pdf_renderer.py:  470: printSegment: Time: ~60 seconds
+   DEBUG: 2026-02-18 13:11:09,449:      pdf_renderer.py:  470: printSegment: What to say:
+   DEBUG: 2026-02-18 13:11:09,451:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,452:      pdf_renderer.py:  470: printSegment: The case twist gives us three paths:
+   DEBUG: 2026-02-18 13:11:09,454:      pdf_renderer.py:  470: printSegment: Option 1 — Integrate Downstream
+   DEBUG: 2026-02-18 13:11:09,476:      pdf_renderer.py:  470: printSegment: : 
+   DEBUG: 2026-02-18 13:11:09,517:      pdf_renderer.py:  470: printSegment: Buy a data center company. We become both the maker of
+   DEBUG: 2026-02-18 13:11:09,539:      pdf_renderer.py:  470: printSegment: electricity AND the user of electricity. The idea is that data center companies trade at higher stock
+   DEBUG: 2026-02-18 13:11:09,542:      pdf_renderer.py:  470: printSegment: valuations — maybe 40 to 60 times earnings — so acquiring one might pull our multiple up.
+   DEBUG: 2026-02-18 13:11:09,544:      pdf_renderer.py:  470: printSegment: Option 2 — Sell Upstream
+   DEBUG: 2026-02-18 13:11:09,545:      pdf_renderer.py:  470: printSegment: : 
+   DEBUG: 2026-02-18 13:11:09,573:      pdf_renderer.py:  470: printSegment: Get acquired by a big oil company like Shell or ExxonMobil. Our
+   DEBUG: 2026-02-18 13:11:09,583:      pdf_renderer.py:  470: printSegment: shareholders get an immediate cash premium — maybe 20 to 30% above the current stock price. But the
+   DEBUG: 2026-02-18 13:11:09,585:      pdf_renderer.py:  470: printSegment: company stops existing as an independent business.
+   DEBUG: 2026-02-18 13:11:09,587:      pdf_renderer.py:  470: printSegment: Option 3 — Joint Venture / Partnership
+   DEBUG: 2026-02-18 13:11:09,589:      pdf_renderer.py:  470: printSegment: : 
+   DEBUG: 2026-02-18 13:11:09,630:      pdf_renderer.py:  470: printSegment: Partner with a hyperscaler like Amazon Web Services. We
+   DEBUG: 2026-02-18 13:11:09,651:      pdf_renderer.py:  470: printSegment: sign a long-term contract to supply them electricity from our nuclear plant, and we help them build
+   DEBUG: 2026-02-18 13:11:09,654:      pdf_renderer.py:  470: printSegment: a data center campus. We stay independent, but we get stable revenue and a higher stock valuation.
+   DEBUG: 2026-02-18 13:11:09,657:      pdf_renderer.py:  470: printSegment: Now let me show you how we analyzed each option — and why one of them is clearly better than the
+   DEBUG: 2026-02-18 13:11:09,659:      pdf_renderer.py:  470: printSegment: others.
+   DEBUG: 2026-02-18 13:11:09,661:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,663:      pdf_renderer.py:  470: printSegment: Transition:
+   DEBUG: 2026-02-18 13:11:09,665:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:09,667:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,669:      pdf_renderer.py:  470: printSegment: Before we dive in, let me show you the real-world example that proves our recommendation works.
+   DEBUG: 2026-02-18 13:11:09,671:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,674:      pdf_renderer.py:  470: printSegment: SLIDE 4 — REAL-WORLD PRECEDENT: TALEN ENERGY
+   DEBUG: 2026-02-18 13:11:09,676:      pdf_renderer.py:  470: printSegment: Speaker: Minh Nguyen
+   DEBUG: 2026-02-18 13:11:09,678:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:09,680:      pdf_renderer.py:  470: printSegment: Time: ~90 seconds
+   DEBUG: 2026-02-18 13:11:09,684:      pdf_renderer.py:  470: printSegment: Background you should understand:
+   DEBUG: 2026-02-18 13:11:09,686:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,688:      pdf_renderer.py:  470: printSegment: Talen Energy is a real company traded on NASDAQ under ticker TLN.
+   DEBUG: 2026-02-18 13:11:09,689:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,701:      pdf_renderer.py:  470: printSegment: Talen is almost IDENTICAL to our case company: same type (IPP), same market (PJM), same fuel
+   DEBUG: 2026-02-18 13:11:09,704:      pdf_renderer.py:  470: printSegment: mix (nuclear + gas + coal), same size (~13,000 MW).
+   DEBUG: 2026-02-18 13:11:09,705:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,721:      pdf_renderer.py:  470: printSegment: In March 2024, Talen sold a data center campus to Amazon Web Services for $650 million AND
+   DEBUG: 2026-02-18 13:11:09,725:      pdf_renderer.py:  470: printSegment: signed a long-term power purchase agreement to supply electricity from their nuclear plant.
+   DEBUG: 2026-02-18 13:11:09,726:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,727:      pdf_renderer.py:  470: printSegment: After that deal, Talen
+   DEBUG: 2026-02-18 13:11:09,728:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,730:      pdf_renderer.py:  470: printSegment: s stock went from about $60 per share to $389 per share — a 6.5x increase.
+   DEBUG: 2026-02-18 13:11:09,732:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,737:      pdf_renderer.py:  470: printSegment: One of the judges today, Darren Olagues, is the Chief Development Officer at Talen Energy. He
+   DEBUG: 2026-02-18 13:11:09,739:      pdf_renderer.py:  470: printSegment: worked on this exact deal.
+   DEBUG: 2026-02-18 13:11:09,741:      pdf_renderer.py:  470: printSegment: What to say:
+   DEBUG: 2026-02-18 13:11:09,742:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,746:      pdf_renderer.py:  470: printSegment: Thank you, Anh. Before I analyze each option, I want to show you the real-world proof that our
+   DEBUG: 2026-02-18 13:11:09,749:      pdf_renderer.py:  470: printSegment: recommendation works.
+   DEBUG: 2026-02-18 13:11:09,751:      pdf_renderer.py:  470: printSegment: This is 
+   DEBUG: 2026-02-18 13:11:09,752:      pdf_renderer.py:  470: printSegment: Talen Energy
+   DEBUG: 2026-02-18 13:11:09,770:      pdf_renderer.py:  470: printSegment: . They are a mid-sized IPP, based in PJM, with about 13,000 megawatts of
+   DEBUG: 2026-02-18 13:11:09,772:      pdf_renderer.py:  470: printSegment: capacity — including a 2,500 megawatt nuclear plant called Susquehanna. Sound familiar? That
+   DEBUG: 2026-02-18 13:11:09,774:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,776:      pdf_renderer.py:  470: printSegment: s
+   DEBUG: 2026-02-18 13:11:09,777:      pdf_renderer.py:  470: printSegment: almost exactly our case company.
+   DEBUG: 2026-02-18 13:11:09,778:      pdf_renderer.py:  470: printSegment: Here
+   DEBUG: 2026-02-18 13:11:09,779:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,782:      pdf_renderer.py:  470: printSegment: s what Talen did: In March 2024, they sold a data center campus to 
+   DEBUG: 2026-02-18 13:11:09,783:      pdf_renderer.py:  470: printSegment: Amazon Web Services
+   DEBUG: 2026-02-18 13:11:09,785:      pdf_renderer.py:  470: printSegment:  for
+   DEBUG: 2026-02-18 13:11:09,785:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2026-02-18 13:11:09,786:      pdf_renderer.py:  470: printSegment: $650 million
+   DEBUG: 2026-02-18 13:11:09,788:      pdf_renderer.py:  470: printSegment: . At the same time, they signed a 
+   DEBUG: 2026-02-18 13:11:09,789:      pdf_renderer.py:  470: printSegment: 20-year power purchase agreement
+   DEBUG: 2026-02-18 13:11:09,801:      pdf_renderer.py:  470: printSegment:  to supply nuclear
+   DEBUG: 2026-02-18 13:11:09,805:      pdf_renderer.py:  470: printSegment: electricity to that data center — at about $85 to $100 per megawatt-hour, compared to the $51
+   DEBUG: 2026-02-18 13:11:09,807:      pdf_renderer.py:  470: printSegment: wholesale price.
+   DEBUG: 2026-02-18 13:11:09,809:      pdf_renderer.py:  470: printSegment: What happened to their stock? It went from 
+   DEBUG: 2026-02-18 13:11:09,810:      pdf_renderer.py:  470: printSegment: $60 per share to $389 per share
+   DEBUG: 2026-02-18 13:11:09,812:      pdf_renderer.py:  470: printSegment:  — a 
+   DEBUG: 2026-02-18 13:11:09,813:      pdf_renderer.py:  470: printSegment: 6.5 times increase
+   DEBUG: 2026-02-18 13:11:09,819:      pdf_renderer.py:  470: printSegment:  in
+   DEBUG: 2026-02-18 13:11:09,821:      pdf_renderer.py:  470: printSegment: less than two years. Their market cap went from $3 billion to $17.6 billion.
+   DEBUG: 2026-02-18 13:11:09,823:      pdf_renderer.py:  470: printSegment: This is not a theory. This is what actually happened. And our company — with 
+   DEBUG: 2026-02-18 13:11:09,825:      pdf_renderer.py:  470: printSegment: 2,200 MW of nuclear in
+   DEBUG: 2026-02-18 13:11:09,827:      pdf_renderer.py:  470: printSegment: PJM
+   DEBUG: 2026-02-18 13:11:09,828:      pdf_renderer.py:  470: printSegment:  — can do the exact same thing.
+   DEBUG: 2026-02-18 13:11:09,829:      pdf_renderer.py:  470: printSegment: But here
+   DEBUG: 2026-02-18 13:11:09,832:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,833:      pdf_renderer.py:  470: printSegment: s the key insight: 
+   DEBUG: 2026-02-18 13:11:09,835:      pdf_renderer.py:  470: printSegment: Talen didn
+   DEBUG: 2026-02-18 13:11:09,837:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,838:      pdf_renderer.py:  470: printSegment: t stop at one deal
+   DEBUG: 2026-02-18 13:11:09,848:      pdf_renderer.py:  470: printSegment: . After the initial sale, they kept acquiring
+   DEBUG: 2026-02-18 13:11:09,851:      pdf_renderer.py:  470: printSegment: more data centers to expand their AWS partnership. That proves this isn
+   DEBUG: 2026-02-18 13:11:09,852:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,854:      pdf_renderer.py:  470: printSegment: t a one-time event — it
+   DEBUG: 2026-02-18 13:11:09,856:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,857:      pdf_renderer.py:  470: printSegment: s a 
+   DEBUG: 2026-02-18 13:11:09,859:      pdf_renderer.py:  470: printSegment: compounding growth platform
+   DEBUG: 2026-02-18 13:11:09,860:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:09,862:      pdf_renderer.py:  470: printSegment: Now let me walk you through each of the three options.
+   DEBUG: 2026-02-18 13:11:09,863:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,866:      pdf_renderer.py:  470: printSegment: Transition:
+   DEBUG: 2026-02-18 13:11:09,867:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:09,869:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,870:      pdf_renderer.py:  470: printSegment: Let
+   DEBUG: 2026-02-18 13:11:09,871:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,874:      pdf_renderer.py:  470: printSegment: s start with Option 1 — acquiring a data center company.
+   DEBUG: 2026-02-18 13:11:09,875:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,878:      pdf_renderer.py:  470: printSegment: SLIDE 5 — OPTION 1: ACQUIRE A DATA CENTER COMPANY
+   DEBUG: 2026-02-18 13:11:09,880:      pdf_renderer.py:  470: printSegment: Speaker: Minh Nguyen
+   DEBUG: 2026-02-18 13:11:09,882:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:09,884:      pdf_renderer.py:  470: printSegment: Time: ~90 seconds
+   DEBUG: 2026-02-18 13:11:09,886:      pdf_renderer.py:  470: printSegment: Background you should understand:
+   DEBUG: 2026-02-18 13:11:09,888:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,891:      pdf_renderer.py:  470: printSegment: Option 1 means we BUY a company that operates data centers. We become a 
+   DEBUG: 2026-02-18 13:11:09,892:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,894:      pdf_renderer.py:  470: printSegment: vertically integrated
+   DEBUG: 2026-02-18 13:11:09,895:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,899:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2026-02-18 13:11:09,900:      pdf_renderer.py:  470: printSegment: company — we make the electricity AND we consume it.
+   DEBUG: 2026-02-18 13:11:09,901:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,915:      pdf_renderer.py:  470: printSegment: The problem: data center companies are EXTREMELY expensive right now. QTS sold for $10
+   DEBUG: 2026-02-18 13:11:09,918:      pdf_renderer.py:  470: printSegment: billion. Cyrus One sold for $15 billion. CoreWeave is valued at $35 billion+.
+   DEBUG: 2026-02-18 13:11:09,920:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,930:      pdf_renderer.py:  470: printSegment: A $20 billion market cap company cannot easily buy a $10+ billion data center company. You need
+   DEBUG: 2026-02-18 13:11:09,933:      pdf_renderer.py:  470: printSegment: to borrow heavily and issue lots of new stock.
+   DEBUG: 2026-02-18 13:11:09,934:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,937:      pdf_renderer.py:  470: printSegment: That borrowing and stock issuance destroys shareholder value in the short term. 
+   DEBUG: 2026-02-18 13:11:09,938:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,940:      pdf_renderer.py:  470: printSegment: Dilution
+   DEBUG: 2026-02-18 13:11:09,941:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,945:      pdf_renderer.py:  470: printSegment:  means
+   DEBUG: 2026-02-18 13:11:09,947:      pdf_renderer.py:  470: printSegment: existing shareholders own a smaller percentage of the company.
+   DEBUG: 2026-02-18 13:11:09,949:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:09,952:      pdf_renderer.py:  470: printSegment: No IPP has ever successfully acquired a data center company. Talen BUILT one — that
+   DEBUG: 2026-02-18 13:11:09,953:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,955:      pdf_renderer.py:  470: printSegment: s different.
+   DEBUG: 2026-02-18 13:11:09,956:      pdf_renderer.py:  470: printSegment: What to say:
+   DEBUG: 2026-02-18 13:11:09,958:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:09,960:      pdf_renderer.py:  470: printSegment: Option 1 is to acquire a data center company.
+   DEBUG: 2026-02-18 13:11:09,978:      pdf_renderer.py:  470: printSegment: The theory sounds good: data center companies trade at very high valuations — 20 to 25 times
+   DEBUG: 2026-02-18 13:11:09,981:      pdf_renderer.py:  470: printSegment: EBITDA. If we buy one, maybe our combined company trades at a higher multiple too.
+   DEBUG: 2026-02-18 13:11:09,983:      pdf_renderer.py:  470: printSegment: But here
+   DEBUG: 2026-02-18 13:11:09,984:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:09,986:      pdf_renderer.py:  470: printSegment: s the problem: 
+   DEBUG: 2026-02-18 13:11:09,988:      pdf_renderer.py:  470: printSegment: data center companies are incredibly expensive
+   DEBUG: 2026-02-18 13:11:10,003:      pdf_renderer.py:  470: printSegment: . In 2021, Blackstone
+   DEBUG: 2026-02-18 13:11:10,009:      pdf_renderer.py:  470: printSegment: bought QTS for $10 billion. KKR bought Cyrus One for $15 billion. CoreWeave is now valued at
+   DEBUG: 2026-02-18 13:11:10,011:      pdf_renderer.py:  470: printSegment: $35 billion or more.
+   DEBUG: 2026-02-18 13:11:10,019:      pdf_renderer.py:  470: printSegment: We are a $20 billion company. To buy a meaningful data center platform — say a $5 billion acquisition
+   DEBUG: 2026-02-18 13:11:10,020:      pdf_renderer.py:  470: printSegment: — we would need to:
+   DEBUG: 2026-02-18 13:11:10,021:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,023:      pdf_renderer.py:  470: printSegment: Borrow $2–3 billion more in debt, which would drop our credit rating from BB to B+
+   DEBUG: 2026-02-18 13:11:10,024:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,026:      pdf_renderer.py:  470: printSegment: Issue $1.5 billion in new stock, which 
+   DEBUG: 2026-02-18 13:11:10,027:      pdf_renderer.py:  470: printSegment: dilutes
+   DEBUG: 2026-02-18 13:11:10,029:      pdf_renderer.py:  470: printSegment:  existing shareholders by 20 to 30%
+   DEBUG: 2026-02-18 13:11:10,029:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,037:      pdf_renderer.py:  470: printSegment: Integrate two completely different businesses — power plants and data centers — with
+   DEBUG: 2026-02-18 13:11:10,039:      pdf_renderer.py:  470: printSegment: different skills, customers, and cultures
+   DEBUG: 2026-02-18 13:11:10,042:      pdf_renderer.py:  470: printSegment: The financial result? After all the debt and dilution, our market cap would be 
+   DEBUG: 2026-02-18 13:11:10,044:      pdf_renderer.py:  470: printSegment: roughly flat
+   DEBUG: 2026-02-18 13:11:10,046:      pdf_renderer.py:  470: printSegment:  — around
+   DEBUG: 2026-02-18 13:11:10,047:      pdf_renderer.py:  470: printSegment: $20 billion. Our 
+   DEBUG: 2026-02-18 13:11:10,049:      pdf_renderer.py:  470: printSegment: FCF per share would actually go DOWN
+   DEBUG: 2026-02-18 13:11:10,052:      pdf_renderer.py:  470: printSegment:  in Year 1 and Year 2 because of
+   DEBUG: 2026-02-18 13:11:10,053:      pdf_renderer.py:  470: printSegment: integration costs.
+   DEBUG: 2026-02-18 13:11:10,054:      pdf_renderer.py:  470: printSegment: And here
+   DEBUG: 2026-02-18 13:11:10,055:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,057:      pdf_renderer.py:  470: printSegment: s the biggest problem: 
+   DEBUG: 2026-02-18 13:11:10,059:      pdf_renderer.py:  470: printSegment: no IPP has ever successfully acquired a data center company
+   DEBUG: 2026-02-18 13:11:10,060:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:10,061:      pdf_renderer.py:  470: printSegment: Talen didn
+   DEBUG: 2026-02-18 13:11:10,062:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,063:      pdf_renderer.py:  470: printSegment: t buy one — they BUILT one. That
+   DEBUG: 2026-02-18 13:11:10,065:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,067:      pdf_renderer.py:  470: printSegment: s a completely different execution model.
+   DEBUG: 2026-02-18 13:11:10,068:      pdf_renderer.py:  470: printSegment: The verdict: 
+   DEBUG: 2026-02-18 13:11:10,070:      pdf_renderer.py:  470: printSegment: Option 1 is high risk with uncertain reward
+   DEBUG: 2026-02-18 13:11:10,071:      pdf_renderer.py:  470: printSegment: . It doesn
+   DEBUG: 2026-02-18 13:11:10,072:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,074:      pdf_renderer.py:  470: printSegment: t clearly create shareholder
+   DEBUG: 2026-02-18 13:11:10,076:      pdf_renderer.py:  470: printSegment: value.
+   DEBUG: 2026-02-18 13:11:10,077:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,079:      pdf_renderer.py:  470: printSegment: Transition:
+   DEBUG: 2026-02-18 13:11:10,080:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:10,082:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,084:      pdf_renderer.py:  470: printSegment: Now let
+   DEBUG: 2026-02-18 13:11:10,085:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,086:      pdf_renderer.py:  470: printSegment: s look at Option 2 — selling the entire company.
+   DEBUG: 2026-02-18 13:11:10,088:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,091:      pdf_renderer.py:  470: printSegment: SLIDE 6 — OPTION 2: SELL TO SHELL OR EXXONMOBIL
+   DEBUG: 2026-02-18 13:11:10,093:      pdf_renderer.py:  470: printSegment: Speaker: Minh Nguyen
+   DEBUG: 2026-02-18 13:11:10,094:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:10,095:      pdf_renderer.py:  470: printSegment: Time: ~90 seconds
+   DEBUG: 2026-02-18 13:11:10,098:      pdf_renderer.py:  470: printSegment: Background you should understand:
+   DEBUG: 2026-02-18 13:11:10,100:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,105:      pdf_renderer.py:  470: printSegment: Option 2 means a big oil company — Shell or ExxonMobil — buys our entire company. We stop existing as
+   DEBUG: 2026-02-18 13:11:10,107:      pdf_renderer.py:  470: printSegment: an independent business.
+   DEBUG: 2026-02-18 13:11:10,108:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,110:      pdf_renderer.py:  470: printSegment: In a sale, shareholders typically get a 
+   DEBUG: 2026-02-18 13:11:10,111:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,112:      pdf_renderer.py:  470: printSegment: premium
+   DEBUG: 2026-02-18 13:11:10,114:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,120:      pdf_renderer.py:  470: printSegment:  above the current stock price. For power company
+   DEBUG: 2026-02-18 13:11:10,122:      pdf_renderer.py:  470: printSegment: acquisitions, that premium is usually 20-30%.
+   DEBUG: 2026-02-18 13:11:10,123:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,126:      pdf_renderer.py:  470: printSegment: At a 25% premium, shareholders would get about $555 per share instead of $444 — that
+   DEBUG: 2026-02-18 13:11:10,127:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,130:      pdf_renderer.py:  470: printSegment: s $111 per
+   DEBUG: 2026-02-18 13:11:10,132:      pdf_renderer.py:  470: printSegment: share more, or about $5 billion total.
+   DEBUG: 2026-02-18 13:11:10,133:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,136:      pdf_renderer.py:  470: printSegment: BUT: shareholders then have to pay capital gains taxes on that gain. And they miss out on any future
+   DEBUG: 2026-02-18 13:11:10,138:      pdf_renderer.py:  470: printSegment: upside.
+   DEBUG: 2026-02-18 13:11:10,139:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,160:      pdf_renderer.py:  470: printSegment: Look at Talen — their stock went from $60 to $389. If Talen had sold at a 25% premium in 2023,
+   DEBUG: 2026-02-18 13:11:10,163:      pdf_renderer.py:  470: printSegment: shareholders would have gotten maybe $75 per share. Instead, they held and got $389. That
+   DEBUG: 2026-02-18 13:11:10,166:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,170:      pdf_renderer.py:  470: printSegment: s 5x
+   DEBUG: 2026-02-18 13:11:10,173:      pdf_renderer.py:  470: printSegment: MORE value by NOT selling.
+   DEBUG: 2026-02-18 13:11:10,176:      pdf_renderer.py:  470: printSegment: What to say:
+   DEBUG: 2026-02-18 13:11:10,178:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,181:      pdf_renderer.py:  470: printSegment: Option 2 is to sell the entire company to Shell or ExxonMobil.
+   DEBUG: 2026-02-18 13:11:10,183:      pdf_renderer.py:  470: printSegment: This delivers immediate value. At a 
+   DEBUG: 2026-02-18 13:11:10,185:      pdf_renderer.py:  470: printSegment: 20% premium
+   DEBUG: 2026-02-18 13:11:10,187:      pdf_renderer.py:  470: printSegment: , shareholders get 
+   DEBUG: 2026-02-18 13:11:10,188:      pdf_renderer.py:  470: printSegment: $533 per share
+   DEBUG: 2026-02-18 13:11:10,190:      pdf_renderer.py:  470: printSegment:  instead of $444
+   DEBUG: 2026-02-18 13:11:10,192:      pdf_renderer.py:  470: printSegment: — that
+   DEBUG: 2026-02-18 13:11:10,193:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,194:      pdf_renderer.py:  470: printSegment: s 
+   DEBUG: 2026-02-18 13:11:10,196:      pdf_renderer.py:  470: printSegment: $89 per share more
+   DEBUG: 2026-02-18 13:11:10,198:      pdf_renderer.py:  470: printSegment: . At a 
+   DEBUG: 2026-02-18 13:11:10,199:      pdf_renderer.py:  470: printSegment: 30% premium
+   DEBUG: 2026-02-18 13:11:10,201:      pdf_renderer.py:  470: printSegment: , they get 
+   DEBUG: 2026-02-18 13:11:10,202:      pdf_renderer.py:  470: printSegment: $578 per share
+   DEBUG: 2026-02-18 13:11:10,204:      pdf_renderer.py:  470: printSegment:  — that
+   DEBUG: 2026-02-18 13:11:10,205:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,207:      pdf_renderer.py:  470: printSegment: s 
+   DEBUG: 2026-02-18 13:11:10,209:      pdf_renderer.py:  470: printSegment: $134 more
+   DEBUG: 2026-02-18 13:11:10,210:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:10,219:      pdf_renderer.py:  470: printSegment: This sounds attractive. The dissident would definitely be satisfied — they get to cash out with a profit.
+   DEBUG: 2026-02-18 13:11:10,221:      pdf_renderer.py:  470: printSegment: And it eliminates all future risk.
+   DEBUG: 2026-02-18 13:11:10,223:      pdf_renderer.py:  470: printSegment: But here
+   DEBUG: 2026-02-18 13:11:10,225:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,227:      pdf_renderer.py:  470: printSegment: s what shareholders would give up:
+   DEBUG: 2026-02-18 13:11:10,228:      pdf_renderer.py:  470: printSegment: First, 
+   DEBUG: 2026-02-18 13:11:10,230:      pdf_renderer.py:  470: printSegment: capital gains taxes
+   DEBUG: 2026-02-18 13:11:10,241:      pdf_renderer.py:  470: printSegment: . At a 20% tax rate, shareholders lose $18 to $27 per share immediately.
+   DEBUG: 2026-02-18 13:11:10,243:      pdf_renderer.py:  470: printSegment: Net gain after tax is only $71 to $107 per share.
+   DEBUG: 2026-02-18 13:11:10,245:      pdf_renderer.py:  470: printSegment: Second — and this is the big one — 
+   DEBUG: 2026-02-18 13:11:10,248:      pdf_renderer.py:  470: printSegment: you forfeit all future upside
+   DEBUG: 2026-02-18 13:11:10,249:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:10,252:      pdf_renderer.py:  470: printSegment: Look at Talen Energy again. In 2023, Talen
+   DEBUG: 2026-02-18 13:11:10,253:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,265:      pdf_renderer.py:  470: printSegment: s stock was around $60. If they had sold at a 25%
+   DEBUG: 2026-02-18 13:11:10,268:      pdf_renderer.py:  470: printSegment: premium, shareholders would have received maybe $75 per share. But because they didn
+   DEBUG: 2026-02-18 13:11:10,270:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,277:      pdf_renderer.py:  470: printSegment: t sell —
+   DEBUG: 2026-02-18 13:11:10,279:      pdf_renderer.py:  470: printSegment: because they executed the AWS partnership strategy — their stock is now 
+   DEBUG: 2026-02-18 13:11:10,282:      pdf_renderer.py:  470: printSegment: $389
+   DEBUG: 2026-02-18 13:11:10,283:      pdf_renderer.py:  470: printSegment: . That
+   DEBUG: 2026-02-18 13:11:10,285:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,286:      pdf_renderer.py:  470: printSegment: s 
+   DEBUG: 2026-02-18 13:11:10,288:      pdf_renderer.py:  470: printSegment: 5 times more
+   DEBUG: 2026-02-18 13:11:10,291:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2026-02-18 13:11:10,292:      pdf_renderer.py:  470: printSegment: than the premium would have been.
+   DEBUG: 2026-02-18 13:11:10,294:      pdf_renderer.py:  470: printSegment: Option 2 gives you a 
+   DEBUG: 2026-02-18 13:11:10,296:      pdf_renderer.py:  470: printSegment: small, certain gain today
+   DEBUG: 2026-02-18 13:11:10,299:      pdf_renderer.py:  470: printSegment:  in exchange for 
+   DEBUG: 2026-02-18 13:11:10,301:      pdf_renderer.py:  470: printSegment: massive, probable gains tomorrow
+   DEBUG: 2026-02-18 13:11:10,302:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:10,304:      pdf_renderer.py:  470: printSegment: The verdict: 
+   DEBUG: 2026-02-18 13:11:10,307:      pdf_renderer.py:  470: printSegment: Option 2 is moderate reward, but strategic loss
+   DEBUG: 2026-02-18 13:11:10,312:      pdf_renderer.py:  470: printSegment: . You get paid a premium to stop
+   DEBUG: 2026-02-18 13:11:10,314:      pdf_renderer.py:  470: printSegment: participating in the AI/data center opportunity.
+   DEBUG: 2026-02-18 13:11:10,315:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,317:      pdf_renderer.py:  470: printSegment: Transition:
+   DEBUG: 2026-02-18 13:11:10,318:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:10,321:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,323:      pdf_renderer.py:  470: printSegment: Now let me show you Option 3 — the Talen model. This is our recommendation.
+   DEBUG: 2026-02-18 13:11:10,325:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,327:      pdf_renderer.py:  470: printSegment: SLIDE 7 — OPTION 3: JV WITH AMAZON WEB SERVICES
+   DEBUG: 2026-02-18 13:11:10,329:      pdf_renderer.py:  470: printSegment: Speaker: Cuong Nguyen
+   DEBUG: 2026-02-18 13:11:10,330:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:10,332:      pdf_renderer.py:  470: printSegment: Time: ~2 minutes
+   DEBUG: 2026-02-18 13:11:10,334:      pdf_renderer.py:  470: printSegment: Background you should understand:
+   DEBUG: 2026-02-18 13:11:10,335:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,337:      pdf_renderer.py:  470: printSegment: Option 3 is EXACTLY what Talen Energy did. We partner with AWS — the world
+   DEBUG: 2026-02-18 13:11:10,338:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,345:      pdf_renderer.py:  470: printSegment: s largest cloud
+   DEBUG: 2026-02-18 13:11:10,348:      pdf_renderer.py:  470: printSegment: provider and the only hyperscaler that has already signed nuclear power deals.
+   DEBUG: 2026-02-18 13:11:10,350:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,351:      pdf_renderer.py:  470: printSegment: The deal has two parts:
+   DEBUG: 2026-02-18 13:11:10,353:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2026-02-18 13:11:10,354:      pdf_renderer.py:  470: printSegment: Nuclear PPA (Power Purchase Agreement)
+   DEBUG: 2026-02-18 13:11:10,366:      pdf_renderer.py:  470: printSegment: : We sell 1,500-2,000 MW of nuclear
+   DEBUG: 2026-02-18 13:11:10,369:      pdf_renderer.py:  470: printSegment: output to AWS at $90-100 per MWh — almost DOUBLE the current wholesale price of
+   DEBUG: 2026-02-18 13:11:10,370:      pdf_renderer.py:  470: printSegment: $51/MWh.
+   DEBUG: 2026-02-18 13:11:10,371:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2026-02-18 13:11:10,373:      pdf_renderer.py:  470: printSegment: Data Center Campus
+   DEBUG: 2026-02-18 13:11:10,400:      pdf_renderer.py:  470: printSegment: : We help AWS build a 100-200 MW data center on land next
+   DEBUG: 2026-02-18 13:11:10,411:      pdf_renderer.py:  470: printSegment: to our nuclear plant. We invest $200-400 million; AWS funds most of the
+   DEBUG: 2026-02-18 13:11:10,413:      pdf_renderer.py:  470: printSegment: construction. We sell or JV the completed campus for $750-900 million.
+   DEBUG: 2026-02-18 13:11:10,415:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,430:      pdf_renderer.py:  470: printSegment: The financial impact: the nuclear PPA alone adds $513 million per year in incremental revenue.
+   DEBUG: 2026-02-18 13:11:10,433:      pdf_renderer.py:  470: printSegment: That translates to about $6.67 per share in extra free cash flow.
+   DEBUG: 2026-02-18 13:11:10,435:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,437:      pdf_renderer.py:  470: printSegment: Current FCF/share is $10.20. After the PPA, it would be $16.87 in Year 1 — a 65% increase
+   DEBUG: 2026-02-18 13:11:10,438:      pdf_renderer.py:  470: printSegment: !
+   DEBUG: 2026-02-18 13:11:10,440:      pdf_renderer.py:  470: printSegment: What to say:
+   DEBUG: 2026-02-18 13:11:10,441:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,444:      pdf_renderer.py:  470: printSegment: Thank you, Minh. Now let me present Option 3 — our recommendation.
+   DEBUG: 2026-02-18 13:11:10,445:      pdf_renderer.py:  470: printSegment: This is the 
+   DEBUG: 2026-02-18 13:11:10,447:      pdf_renderer.py:  470: printSegment: Talen Energy playbook
+   DEBUG: 2026-02-18 13:11:10,449:      pdf_renderer.py:  470: printSegment: , adapted for our company. We partner with 
+   DEBUG: 2026-02-18 13:11:10,451:      pdf_renderer.py:  470: printSegment: Amazon Web
+   DEBUG: 2026-02-18 13:11:10,452:      pdf_renderer.py:  470: printSegment: Services
+   DEBUG: 2026-02-18 13:11:10,454:      pdf_renderer.py:  470: printSegment:  — the largest cloud provider in the world and the 
+   DEBUG: 2026-02-18 13:11:10,455:      pdf_renderer.py:  470: printSegment: only hyperscaler
+   DEBUG: 2026-02-18 13:11:10,458:      pdf_renderer.py:  470: printSegment:  that has already signed a
+   DEBUG: 2026-02-18 13:11:10,460:      pdf_renderer.py:  470: printSegment: nuclear power purchase agreement.
+   DEBUG: 2026-02-18 13:11:10,462:      pdf_renderer.py:  470: printSegment: The deal has two parts:
+   DEBUG: 2026-02-18 13:11:10,464:      pdf_renderer.py:  470: printSegment: Part 1 — Nuclear Power Purchase Agreement
+   DEBUG: 2026-02-18 13:11:10,465:      pdf_renderer.py:  470: printSegment: :
+   DEBUG: 2026-02-18 13:11:10,467:      pdf_renderer.py:  470: printSegment: We negotiate a 
+   DEBUG: 2026-02-18 13:11:10,468:      pdf_renderer.py:  470: printSegment: 20-year contract
+   DEBUG: 2026-02-18 13:11:10,470:      pdf_renderer.py:  470: printSegment:  to sell nuclear electricity to AWS at 
+   DEBUG: 2026-02-18 13:11:10,471:      pdf_renderer.py:  470: printSegment: $90 to $100 per
+   DEBUG: 2026-02-18 13:11:10,473:      pdf_renderer.py:  470: printSegment: megawatt-hour
+   DEBUG: 2026-02-18 13:11:10,476:      pdf_renderer.py:  470: printSegment: . Remember, we currently sell power into the PJM market at an average of 
+   DEBUG: 2026-02-18 13:11:10,477:      pdf_renderer.py:  470: printSegment: $51 per
+   DEBUG: 2026-02-18 13:11:10,478:      pdf_renderer.py:  470: printSegment: MWh
+   DEBUG: 2026-02-18 13:11:10,480:      pdf_renderer.py:  470: printSegment: . This PPA nearly 
+   DEBUG: 2026-02-18 13:11:10,482:      pdf_renderer.py:  470: printSegment: doubles our price
+   DEBUG: 2026-02-18 13:11:10,483:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:10,486:      pdf_renderer.py:  470: printSegment: The math: 1,500 megawatts times 8,760 hours times 92% capacity factor times $95 per MWh equals
+   DEBUG: 2026-02-18 13:11:10,487:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2026-02-18 13:11:10,489:      pdf_renderer.py:  470: printSegment: $1.15 billion per year
+   DEBUG: 2026-02-18 13:11:10,493:      pdf_renderer.py:  470: printSegment:  in nuclear revenue. Compare that to our current nuclear revenue at
+   DEBUG: 2026-02-18 13:11:10,495:      pdf_renderer.py:  470: printSegment: wholesale prices: about 
+   DEBUG: 2026-02-18 13:11:10,497:      pdf_renderer.py:  470: printSegment: $637 million per year
+   DEBUG: 2026-02-18 13:11:10,499:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:10,500:      pdf_renderer.py:  470: printSegment: That
+   DEBUG: 2026-02-18 13:11:10,501:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,503:      pdf_renderer.py:  470: printSegment: s 
+   DEBUG: 2026-02-18 13:11:10,505:      pdf_renderer.py:  470: printSegment: $513 million per year in incremental revenue
+   DEBUG: 2026-02-18 13:11:10,507:      pdf_renderer.py:  470: printSegment:  — just from re-pricing our nuclear output.
+   DEBUG: 2026-02-18 13:11:10,511:      pdf_renderer.py:  470: printSegment: Part 2 — Data Center Campus Development
+   DEBUG: 2026-02-18 13:11:10,512:      pdf_renderer.py:  470: printSegment: :
+   DEBUG: 2026-02-18 13:11:10,514:      pdf_renderer.py:  470: printSegment: We help AWS build a 
+   DEBUG: 2026-02-18 13:11:10,516:      pdf_renderer.py:  470: printSegment: 100 to 200 megawatt
+   DEBUG: 2026-02-18 13:11:10,520:      pdf_renderer.py:  470: printSegment:  data center campus on land adjacent to our nuclear
+   DEBUG: 2026-02-18 13:11:10,522:      pdf_renderer.py:  470: printSegment: plant. We invest 
+   DEBUG: 2026-02-18 13:11:10,525:      pdf_renderer.py:  470: printSegment: $200 to $400 million
+   DEBUG: 2026-02-18 13:11:10,527:      pdf_renderer.py:  470: printSegment: ; AWS funds most of the construction. When it
+   DEBUG: 2026-02-18 13:11:10,528:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,533:      pdf_renderer.py:  470: printSegment: s complete, we
+   DEBUG: 2026-02-18 13:11:10,535:      pdf_renderer.py:  470: printSegment: sell or JV the campus for 
+   DEBUG: 2026-02-18 13:11:10,537:      pdf_renderer.py:  470: printSegment: $750 to $900 million
+   DEBUG: 2026-02-18 13:11:10,541:      pdf_renderer.py:  470: printSegment:  — the same thing Talen did with their $650 million
+   DEBUG: 2026-02-18 13:11:10,542:      pdf_renderer.py:  470: printSegment: Cumulus sale.
+   DEBUG: 2026-02-18 13:11:10,544:      pdf_renderer.py:  470: printSegment: What
+   DEBUG: 2026-02-18 13:11:10,545:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,547:      pdf_renderer.py:  470: printSegment: s the financial impact?
+   DEBUG: 2026-02-18 13:11:10,550:      pdf_renderer.py:  470: printSegment: The nuclear PPA alone adds 
+   DEBUG: 2026-02-18 13:11:10,552:      pdf_renderer.py:  470: printSegment: $513 million in revenue
+   DEBUG: 2026-02-18 13:11:10,553:      pdf_renderer.py:  470: printSegment: , which translates to about 
+   DEBUG: 2026-02-18 13:11:10,555:      pdf_renderer.py:  470: printSegment: $6.67 per share
+   DEBUG: 2026-02-18 13:11:10,568:      pdf_renderer.py:  470: printSegment:  in
+   DEBUG: 2026-02-18 13:11:10,577:      pdf_renderer.py:  470: printSegment: additional free cash flow after taxes. Our current FCF per share is $10.20. After the PPA, it would
+   DEBUG: 2026-02-18 13:11:10,580:      pdf_renderer.py:  470: printSegment: be 
+   DEBUG: 2026-02-18 13:11:10,582:      pdf_renderer.py:  470: printSegment: $16.87 in Year 1
+   DEBUG: 2026-02-18 13:11:10,584:      pdf_renderer.py:  470: printSegment:  — that
+   DEBUG: 2026-02-18 13:11:10,585:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,587:      pdf_renderer.py:  470: printSegment: s a 
+   DEBUG: 2026-02-18 13:11:10,588:      pdf_renderer.py:  470: printSegment: 65% increase
+   DEBUG: 2026-02-18 13:11:10,592:      pdf_renderer.py:  470: printSegment: , FAR exceeding the 30% growth target the dissident
+   DEBUG: 2026-02-18 13:11:10,593:      pdf_renderer.py:  470: printSegment: demanded.
+   DEBUG: 2026-02-18 13:11:10,595:      pdf_renderer.py:  470: printSegment: And the best part? 
+   DEBUG: 2026-02-18 13:11:10,597:      pdf_renderer.py:  470: printSegment: No dilution
+   DEBUG: 2026-02-18 13:11:10,598:      pdf_renderer.py:  470: printSegment: . We
+   DEBUG: 2026-02-18 13:11:10,600:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,602:      pdf_renderer.py:  470: printSegment: re not issuing new stock. We
+   DEBUG: 2026-02-18 13:11:10,603:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,613:      pdf_renderer.py:  470: printSegment: re funding this with our $260
+   DEBUG: 2026-02-18 13:11:10,617:      pdf_renderer.py:  470: printSegment: million cash on hand plus project-level debt. Existing shareholders keep 100% of their ownership.
+   DEBUG: 2026-02-18 13:11:10,619:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,621:      pdf_renderer.py:  470: printSegment: Transition:
+   DEBUG: 2026-02-18 13:11:10,623:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:10,625:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,627:      pdf_renderer.py:  470: printSegment: Now let me show you the complete financial picture over 5 years.
+   DEBUG: 2026-02-18 13:11:10,628:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,630:      pdf_renderer.py:  470: printSegment: SLIDE 8 — OPTION 3 FINANCIAL IMPACT
+   DEBUG: 2026-02-18 13:11:10,632:      pdf_renderer.py:  470: printSegment: Speaker: Cuong Nguyen
+   DEBUG: 2026-02-18 13:11:10,633:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:10,635:      pdf_renderer.py:  470: printSegment: Time: ~90 seconds
+   DEBUG: 2026-02-18 13:11:10,637:      pdf_renderer.py:  470: printSegment: Background you should understand:
+   DEBUG: 2026-02-18 13:11:10,638:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,658:      pdf_renderer.py:  470: printSegment: Year 1: The PPA is signed. Nuclear revenue jumps from $637M to $1,150M. FCF/share goes from
+   DEBUG: 2026-02-18 13:11:10,661:      pdf_renderer.py:  470: printSegment: $10.20 to $16.87. Market cap re-rates from $20B to $30-35B as investors recognize the contracted
+   DEBUG: 2026-02-18 13:11:10,662:      pdf_renderer.py:  470: printSegment: revenue.
+   DEBUG: 2026-02-18 13:11:10,664:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,667:      pdf_renderer.py:  470: printSegment: Year 2: The data center campus sells for $750-900M. The company gets cash, the multiple keeps
+   DEBUG: 2026-02-18 13:11:10,668:      pdf_renderer.py:  470: printSegment: expanding.
+   DEBUG: 2026-02-18 13:11:10,669:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,674:      pdf_renderer.py:  470: printSegment: Year 5: EBITDA has grown substantially. At a 35x multiple, market cap reaches $45-55B. Share
+   DEBUG: 2026-02-18 13:11:10,676:      pdf_renderer.py:  470: printSegment: price reaches $1,000-1,200.
+   DEBUG: 2026-02-18 13:11:10,677:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,681:      pdf_renderer.py:  470: printSegment: Credit rating improves from BB to BB+ or BBB- because revenue is now contracted rather than
+   DEBUG: 2026-02-18 13:11:10,683:      pdf_renderer.py:  470: printSegment: volatile.
+   DEBUG: 2026-02-18 13:11:10,684:      pdf_renderer.py:  470: printSegment: What to say:
+   DEBUG: 2026-02-18 13:11:10,685:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,687:      pdf_renderer.py:  470: printSegment: Let me walk you through the full financial impact of Option 3 — year by year.
+   DEBUG: 2026-02-18 13:11:10,689:      pdf_renderer.py:  470: printSegment: Year 1 — PPA Signed:
+   DEBUG: 2026-02-18 13:11:10,691:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,693:      pdf_renderer.py:  470: printSegment: Nuclear revenue jumps from 
+   DEBUG: 2026-02-18 13:11:10,694:      pdf_renderer.py:  470: printSegment: $637 million to $1.15 billion
+   DEBUG: 2026-02-18 13:11:10,696:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,699:      pdf_renderer.py:  470: printSegment: FCF per share increases from 
+   DEBUG: 2026-02-18 13:11:10,700:      pdf_renderer.py:  470: printSegment: $10.20 to $16.87
+   DEBUG: 2026-02-18 13:11:10,702:      pdf_renderer.py:  470: printSegment:  — that
+   DEBUG: 2026-02-18 13:11:10,703:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,704:      pdf_renderer.py:  470: printSegment: s 
+   DEBUG: 2026-02-18 13:11:10,705:      pdf_renderer.py:  470: printSegment: 65% growth
+   DEBUG: 2026-02-18 13:11:10,707:      pdf_renderer.py:  470: printSegment:  in Year 1 alone
+   DEBUG: 2026-02-18 13:11:10,708:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,712:      pdf_renderer.py:  470: printSegment: The market recognizes the contracted revenue and re-rates our stock. Market cap
+   DEBUG: 2026-02-18 13:11:10,714:      pdf_renderer.py:  470: printSegment: goes from 
+   DEBUG: 2026-02-18 13:11:10,716:      pdf_renderer.py:  470: printSegment: $20 billion to $30-35 billion
+   DEBUG: 2026-02-18 13:11:10,717:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,718:      pdf_renderer.py:  470: printSegment: Share price: 
+   DEBUG: 2026-02-18 13:11:10,720:      pdf_renderer.py:  470: printSegment: $667 to $778
+   DEBUG: 2026-02-18 13:11:10,721:      pdf_renderer.py:  470: printSegment: Year 2 — Campus Sale:
+   DEBUG: 2026-02-18 13:11:10,722:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,724:      pdf_renderer.py:  470: printSegment: Data center campus sells to AWS for 
+   DEBUG: 2026-02-18 13:11:10,726:      pdf_renderer.py:  470: printSegment: $750-900 million
+   DEBUG: 2026-02-18 13:11:10,727:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,729:      pdf_renderer.py:  470: printSegment: Multiple keeps expanding as we demonstrate execution
+   DEBUG: 2026-02-18 13:11:10,731:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,733:      pdf_renderer.py:  470: printSegment: Market cap reaches around 
+   DEBUG: 2026-02-18 13:11:10,734:      pdf_renderer.py:  470: printSegment: $38 billion
+   DEBUG: 2026-02-18 13:11:10,736:      pdf_renderer.py:  470: printSegment: Year 5 — Full Platform Operational:
+   DEBUG: 2026-02-18 13:11:10,737:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,739:      pdf_renderer.py:  470: printSegment: Expansion phases are complete. We
+   DEBUG: 2026-02-18 13:11:10,741:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,743:      pdf_renderer.py:  470: printSegment: ve added 300-500 MW of additional co-located
+   DEBUG: 2026-02-18 13:11:10,745:      pdf_renderer.py:  470: printSegment: capacity
+   DEBUG: 2026-02-18 13:11:10,746:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,747:      pdf_renderer.py:  470: printSegment: We
+   DEBUG: 2026-02-18 13:11:10,749:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,752:      pdf_renderer.py:  470: printSegment: ve acquired additional data centers near our other power plants — just like Talen
+   DEBUG: 2026-02-18 13:11:10,753:      pdf_renderer.py:  470: printSegment: did
+   DEBUG: 2026-02-18 13:11:10,754:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,756:      pdf_renderer.py:  470: printSegment: At a 
+   DEBUG: 2026-02-18 13:11:10,758:      pdf_renderer.py:  470: printSegment: 35x multiple
+   DEBUG: 2026-02-18 13:11:10,760:      pdf_renderer.py:  470: printSegment: , market cap reaches 
+   DEBUG: 2026-02-18 13:11:10,762:      pdf_renderer.py:  470: printSegment: $45 to $55 billion
+   DEBUG: 2026-02-18 13:11:10,763:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,765:      pdf_renderer.py:  470: printSegment: Share price: 
+   DEBUG: 2026-02-18 13:11:10,766:      pdf_renderer.py:  470: printSegment: $1,000 to $1,200
+   DEBUG: 2026-02-18 13:11:10,774:      pdf_renderer.py:  470: printSegment: Compare that to Option 2, where shareholders would have received $533 to $578 per share in a
+   DEBUG: 2026-02-18 13:11:10,776:      pdf_renderer.py:  470: printSegment: one-time sale. Option 3 delivers 
+   DEBUG: 2026-02-18 13:11:10,778:      pdf_renderer.py:  470: printSegment: twice the value
+   DEBUG: 2026-02-18 13:11:10,780:      pdf_renderer.py:  470: printSegment:  over 5 years — and shareholders 
+   DEBUG: 2026-02-18 13:11:10,782:      pdf_renderer.py:  470: printSegment: keep participating
+   DEBUG: 2026-02-18 13:11:10,784:      pdf_renderer.py:  470: printSegment:  in
+   DEBUG: 2026-02-18 13:11:10,786:      pdf_renderer.py:  470: printSegment: future growth.
+   DEBUG: 2026-02-18 13:11:10,796:      pdf_renderer.py:  470: printSegment: Credit rating also improves. Contracted nuclear revenue is much more stable than volatile merchant
+   DEBUG: 2026-02-18 13:11:10,798:      pdf_renderer.py:  470: printSegment: power. We expect an upgrade from 
+   DEBUG: 2026-02-18 13:11:10,800:      pdf_renderer.py:  470: printSegment: BB to BB+ or BBB-
+   DEBUG: 2026-02-18 13:11:10,802:      pdf_renderer.py:  470: printSegment:  within 2-3 years.
+   DEBUG: 2026-02-18 13:11:10,803:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,806:      pdf_renderer.py:  470: printSegment: Transition:
+   DEBUG: 2026-02-18 13:11:10,808:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:10,810:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,814:      pdf_renderer.py:  470: printSegment: Now let me show you the data center acquisition strategy that makes this a compounding platform.
+   DEBUG: 2026-02-18 13:11:10,816:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,820:      pdf_renderer.py:  470: printSegment: SLIDE 9 — PHASE 4: DATA CENTER ACQUISITION STRATEGY
+   DEBUG: 2026-02-18 13:11:10,821:      pdf_renderer.py:  470: printSegment: Speaker: Cuong Nguyen
+   DEBUG: 2026-02-18 13:11:10,823:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:10,824:      pdf_renderer.py:  470: printSegment: Time: ~75 seconds
+   DEBUG: 2026-02-18 13:11:10,827:      pdf_renderer.py:  470: printSegment: Background you should understand:
+   DEBUG: 2026-02-18 13:11:10,828:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,830:      pdf_renderer.py:  470: printSegment: This is the key insight from Talen Energy. After the initial AWS deal, Talen didn
+   DEBUG: 2026-02-18 13:11:10,831:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,835:      pdf_renderer.py:  470: printSegment: t stop. They kept
+   DEBUG: 2026-02-18 13:11:10,838:      pdf_renderer.py:  470: printSegment: acquiring data centers to expand the partnership.
+   DEBUG: 2026-02-18 13:11:10,840:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,842:      pdf_renderer.py:  470: printSegment: Talen
+   DEBUG: 2026-02-18 13:11:10,843:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,844:      pdf_renderer.py:  470: printSegment: s subsidiary 
+   DEBUG: 2026-02-18 13:11:10,845:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,847:      pdf_renderer.py:  470: printSegment: Cumulus Growth
+   DEBUG: 2026-02-18 13:11:10,848:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,863:      pdf_renderer.py:  470: printSegment:  has been buying existing data centers near their power plants —
+   DEBUG: 2026-02-18 13:11:10,867:      pdf_renderer.py:  470: printSegment: at cheap prices, then connecting them to nuclear power, which makes them much more valuable.
+   DEBUG: 2026-02-18 13:11:10,869:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,881:      pdf_renderer.py:  470: printSegment: We propose the same strategy: acquire existing data centers near our gas and nuclear plants for
+   DEBUG: 2026-02-18 13:11:10,883:      pdf_renderer.py:  470: printSegment: $250-530 million over Years 3-7.
+   DEBUG: 2026-02-18 13:11:10,885:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,891:      pdf_renderer.py:  470: printSegment: The return: data centers bought at $30-80 million can be replatformed with nuclear/gas PPAs and
+   DEBUG: 2026-02-18 13:11:10,892:      pdf_renderer.py:  470: printSegment: become worth 3-5x more. That
+   DEBUG: 2026-02-18 13:11:10,893:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,896:      pdf_renderer.py:  470: printSegment: s $750M to $1.6B in value creation.
+   DEBUG: 2026-02-18 13:11:10,898:      pdf_renderer.py:  470: printSegment: What to say:
+   DEBUG: 2026-02-18 13:11:10,899:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:10,900:      pdf_renderer.py:  470: printSegment: Here
+   DEBUG: 2026-02-18 13:11:10,901:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,903:      pdf_renderer.py:  470: printSegment: s what makes Option 3 even more powerful: it
+   DEBUG: 2026-02-18 13:11:10,904:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,905:      pdf_renderer.py:  470: printSegment: s not a one-time deal. It
+   DEBUG: 2026-02-18 13:11:10,906:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,907:      pdf_renderer.py:  470: printSegment: s a 
+   DEBUG: 2026-02-18 13:11:10,909:      pdf_renderer.py:  470: printSegment: compounding
+   DEBUG: 2026-02-18 13:11:10,911:      pdf_renderer.py:  470: printSegment: growth platform
+   DEBUG: 2026-02-18 13:11:10,912:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:10,914:      pdf_renderer.py:  470: printSegment: After Talen sold the Cumulus campus to AWS, they didn
+   DEBUG: 2026-02-18 13:11:10,915:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:10,917:      pdf_renderer.py:  470: printSegment: t stop. Through a subsidiary called 
+   DEBUG: 2026-02-18 13:11:10,918:      pdf_renderer.py:  470: printSegment: Cumulus Growth
+   DEBUG: 2026-02-18 13:11:10,920:      pdf_renderer.py:  470: printSegment: , Talen has been 
+   DEBUG: 2026-02-18 13:11:10,921:      pdf_renderer.py:  470: printSegment: acquiring additional data centers
+   DEBUG: 2026-02-18 13:11:10,936:      pdf_renderer.py:  470: printSegment:  near their power plants. They
+   DEBUG: 2026-02-18 13:11:10,941:      pdf_renderer.py:  470: printSegment: buy existing facilities at relatively low prices, connect them to nuclear or gas power under long-term
+   DEBUG: 2026-02-18 13:11:10,942:      pdf_renderer.py:  470: printSegment: contracts, and 
+   DEBUG: 2026-02-18 13:11:10,944:      pdf_renderer.py:  470: printSegment: multiply their value
+   DEBUG: 2026-02-18 13:11:10,945:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:10,947:      pdf_renderer.py:  470: printSegment: We propose the same Phase 4 strategy:
+   DEBUG: 2026-02-18 13:11:10,948:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,954:      pdf_renderer.py:  470: printSegment: Year 3: Acquire an existing data center within 50 miles of our nuclear plant —
+   DEBUG: 2026-02-18 13:11:10,956:      pdf_renderer.py:  470: printSegment: estimated cost 
+   DEBUG: 2026-02-18 13:11:10,958:      pdf_renderer.py:  470: printSegment: $30-80 million
+   DEBUG: 2026-02-18 13:11:10,959:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,963:      pdf_renderer.py:  470: printSegment: Years 4-5: Acquire or develop a 200-400 MW data center campus near our gas fleet
+   DEBUG: 2026-02-18 13:11:10,964:      pdf_renderer.py:  470: printSegment: — cost 
+   DEBUG: 2026-02-18 13:11:10,966:      pdf_renderer.py:  470: printSegment: $150-300 million
+   DEBUG: 2026-02-18 13:11:10,967:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:10,970:      pdf_renderer.py:  470: printSegment: Years 5-7: Acquire 3-5 smaller edge data centers in secondary PJM markets — cost 
+   DEBUG: 2026-02-18 13:11:10,971:      pdf_renderer.py:  470: printSegment: $50-100 million
+   DEBUG: 2026-02-18 13:11:10,973:      pdf_renderer.py:  470: printSegment: Total investment: 
+   DEBUG: 2026-02-18 13:11:10,974:      pdf_renderer.py:  470: printSegment: $250-530 million
+   DEBUG: 2026-02-18 13:11:10,975:      pdf_renderer.py:  470: printSegment:  over 5 years.
+   DEBUG: 2026-02-18 13:11:10,984:      pdf_renderer.py:  470: printSegment: The financial return? Data centers acquired at $30-80 million can be replatformed with our nuclear
+   DEBUG: 2026-02-18 13:11:10,986:      pdf_renderer.py:  470: printSegment: or carbon-capture gas and become worth 
+   DEBUG: 2026-02-18 13:11:10,988:      pdf_renderer.py:  470: printSegment: 3 to 5 times more
+   DEBUG: 2026-02-18 13:11:10,990:      pdf_renderer.py:  470: printSegment: . Conservative estimate: 
+   DEBUG: 2026-02-18 13:11:10,992:      pdf_renderer.py:  470: printSegment: $750 million in
+   DEBUG: 2026-02-18 13:11:10,993:      pdf_renderer.py:  470: printSegment: value creation
+   DEBUG: 2026-02-18 13:11:10,994:      pdf_renderer.py:  470: printSegment: . Base case: 
+   DEBUG: 2026-02-18 13:11:10,996:      pdf_renderer.py:  470: printSegment: $1.6 billion in value creation
+   DEBUG: 2026-02-18 13:11:10,998:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:11,001:      pdf_renderer.py:  470: printSegment: This is exactly what Talen demonstrated: the initial deal unlocks value, but the 
+   DEBUG: 2026-02-18 13:11:11,003:      pdf_renderer.py:  470: printSegment: follow-on
+   DEBUG: 2026-02-18 13:11:11,005:      pdf_renderer.py:  470: printSegment: acquisitions compound that value
+   DEBUG: 2026-02-18 13:11:11,007:      pdf_renderer.py:  470: printSegment:  over time.
+   DEBUG: 2026-02-18 13:11:11,008:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,011:      pdf_renderer.py:  470: printSegment: Transition:
+   DEBUG: 2026-02-18 13:11:11,012:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,014:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,018:      pdf_renderer.py:  470: printSegment: Now let me show you how all three options compare side by side.
+   DEBUG: 2026-02-18 13:11:11,020:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,023:      pdf_renderer.py:  470: printSegment: SLIDE 10 — COMPARATIVE ANALYSIS: ALL THREE OPTIONS
+   DEBUG: 2026-02-18 13:11:11,025:      pdf_renderer.py:  470: printSegment: Speaker: Minh Nguyen
+   DEBUG: 2026-02-18 13:11:11,026:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,028:      pdf_renderer.py:  470: printSegment: Time: ~90 seconds
+   DEBUG: 2026-02-18 13:11:11,032:      pdf_renderer.py:  470: printSegment: Background you should understand:
+   DEBUG: 2026-02-18 13:11:11,033:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,035:      pdf_renderer.py:  470: printSegment: This is the 
+   DEBUG: 2026-02-18 13:11:11,036:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,038:      pdf_renderer.py:  470: printSegment: money slide
+   DEBUG: 2026-02-18 13:11:11,039:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,041:      pdf_renderer.py:  470: printSegment:  — the direct comparison that proves Option 3 wins.
+   DEBUG: 2026-02-18 13:11:11,042:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,050:      pdf_renderer.py:  470: printSegment: Option 1 (Acquire DC): Market cap stays flat at ~$20B, FCF/share goes DOWN in Year 1-2 due to
+   DEBUG: 2026-02-18 13:11:11,052:      pdf_renderer.py:  470: printSegment: dilution, execution risk is very high.
+   DEBUG: 2026-02-18 13:11:11,054:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,060:      pdf_renderer.py:  470: printSegment: Option 2 (Sell to Oil Major): Shareholders get immediate premium ($24-26B), but company stops
+   DEBUG: 2026-02-18 13:11:11,062:      pdf_renderer.py:  470: printSegment: existing. No future upside.
+   DEBUG: 2026-02-18 13:11:11,064:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,074:      pdf_renderer.py:  470: printSegment: Option 3 (JV/PPA): Market cap grows to $50B+ by Year 5, FCF/share increases 65% in Year 1, low
+   DEBUG: 2026-02-18 13:11:11,076:      pdf_renderer.py:  470: printSegment: execution risk because Talen already proved it works.
+   DEBUG: 2026-02-18 13:11:11,078:      pdf_renderer.py:  470: printSegment: What to say:
+   DEBUG: 2026-02-18 13:11:11,079:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,081:      pdf_renderer.py:  470: printSegment: Let
+   DEBUG: 2026-02-18 13:11:11,082:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,084:      pdf_renderer.py:  470: printSegment: s put all three options side by side.
+   DEBUG: 2026-02-18 13:11:11,085:      pdf_renderer.py:  470: printSegment: Year 1 FCF/Share:
+   DEBUG: 2026-02-18 13:11:11,086:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,087:      pdf_renderer.py:  470: printSegment: Option 1: 
+   DEBUG: 2026-02-18 13:11:11,088:      pdf_renderer.py:  470: printSegment: $8.50-9.20
+   DEBUG: 2026-02-18 13:11:11,090:      pdf_renderer.py:  470: printSegment:  — actually LOWER than today
+   DEBUG: 2026-02-18 13:11:11,091:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,092:      pdf_renderer.py:  470: printSegment: s $10.20 because of dilution
+   DEBUG: 2026-02-18 13:11:11,093:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,095:      pdf_renderer.py:  470: printSegment: Option 2: 
+   DEBUG: 2026-02-18 13:11:11,096:      pdf_renderer.py:  470: printSegment: $0
+   DEBUG: 2026-02-18 13:11:11,098:      pdf_renderer.py:  470: printSegment:  — the company is sold, no more earnings
+   DEBUG: 2026-02-18 13:11:11,099:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,100:      pdf_renderer.py:  470: printSegment: Option 3: 
+   DEBUG: 2026-02-18 13:11:11,101:      pdf_renderer.py:  470: printSegment: $16.87
+   DEBUG: 2026-02-18 13:11:11,103:      pdf_renderer.py:  470: printSegment:  — 65% growth, exceeding the dissident
+   DEBUG: 2026-02-18 13:11:11,104:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,105:      pdf_renderer.py:  470: printSegment: s demands
+   DEBUG: 2026-02-18 13:11:11,106:      pdf_renderer.py:  470: printSegment: Year 5 Market Cap:
+   DEBUG: 2026-02-18 13:11:11,107:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,109:      pdf_renderer.py:  470: printSegment: Option 1: 
+   DEBUG: 2026-02-18 13:11:11,110:      pdf_renderer.py:  470: printSegment: $30 billion
+   DEBUG: 2026-02-18 13:11:11,111:      pdf_renderer.py:  470: printSegment:  — modest growth after heavy investment
+   DEBUG: 2026-02-18 13:11:11,112:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,114:      pdf_renderer.py:  470: printSegment: Option 2: 
+   DEBUG: 2026-02-18 13:11:11,115:      pdf_renderer.py:  470: printSegment: $24-26 billion
+   DEBUG: 2026-02-18 13:11:11,117:      pdf_renderer.py:  470: printSegment:  — paid out to shareholders in Year 1, no growth after that
+   DEBUG: 2026-02-18 13:11:11,118:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,119:      pdf_renderer.py:  470: printSegment: Option 3: 
+   DEBUG: 2026-02-18 13:11:11,121:      pdf_renderer.py:  470: printSegment: $45-55 billion
+   DEBUG: 2026-02-18 13:11:11,122:      pdf_renderer.py:  470: printSegment:  — 2 to 2.5x the current market cap
+   DEBUG: 2026-02-18 13:11:11,123:      pdf_renderer.py:  470: printSegment: Execution Risk:
+   DEBUG: 2026-02-18 13:11:11,124:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,126:      pdf_renderer.py:  470: printSegment: Option 1: 
+   DEBUG: 2026-02-18 13:11:11,127:      pdf_renderer.py:  470: printSegment: HIGH
+   DEBUG: 2026-02-18 13:11:11,128:      pdf_renderer.py:  470: printSegment:  — no IPP has ever acquired a data center company
+   DEBUG: 2026-02-18 13:11:11,130:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,131:      pdf_renderer.py:  470: printSegment: Option 2: 
+   DEBUG: 2026-02-18 13:11:11,132:      pdf_renderer.py:  470: printSegment: MEDIUM
+   DEBUG: 2026-02-18 13:11:11,134:      pdf_renderer.py:  470: printSegment:  — regulatory approval takes 12-18 months, NRC license transfer
+   DEBUG: 2026-02-18 13:11:11,136:      pdf_renderer.py:  470: printSegment: risk
+   DEBUG: 2026-02-18 13:11:11,137:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,138:      pdf_renderer.py:  470: printSegment: Option 3: 
+   DEBUG: 2026-02-18 13:11:11,139:      pdf_renderer.py:  470: printSegment: LOW
+   DEBUG: 2026-02-18 13:11:11,141:      pdf_renderer.py:  470: printSegment:  — Talen already proved this works with the same partner (AWS)
+   DEBUG: 2026-02-18 13:11:11,142:      pdf_renderer.py:  470: printSegment: Preserves Independence:
+   DEBUG: 2026-02-18 13:11:11,144:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,145:      pdf_renderer.py:  470: printSegment: Option 1: Yes
+   DEBUG: 2026-02-18 13:11:11,146:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,147:      pdf_renderer.py:  470: printSegment: Option 2: 
+   DEBUG: 2026-02-18 13:11:11,149:      pdf_renderer.py:  470: printSegment: No
+   DEBUG: 2026-02-18 13:11:11,150:      pdf_renderer.py:  470: printSegment:  — company is sold
+   DEBUG: 2026-02-18 13:11:11,151:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,152:      pdf_renderer.py:  470: printSegment: Option 3: Yes
+   DEBUG: 2026-02-18 13:11:11,154:      pdf_renderer.py:  470: printSegment: The weighted decision score:
+   DEBUG: 2026-02-18 13:11:11,155:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,156:      pdf_renderer.py:  470: printSegment: Option 1: 
+   DEBUG: 2026-02-18 13:11:11,157:      pdf_renderer.py:  470: printSegment: 2.45 out of 5
+   DEBUG: 2026-02-18 13:11:11,159:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,160:      pdf_renderer.py:  470: printSegment: Option 2: 
+   DEBUG: 2026-02-18 13:11:11,161:      pdf_renderer.py:  470: printSegment: 2.15 out of 5
+   DEBUG: 2026-02-18 13:11:11,162:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,164:      pdf_renderer.py:  470: printSegment: Option 3: 
+   DEBUG: 2026-02-18 13:11:11,167:      pdf_renderer.py:  470: printSegment: 4.80 out of 5
+   DEBUG: 2026-02-18 13:11:11,169:      pdf_renderer.py:  470: printSegment: Option 3 wins on virtually every dimension.
+   DEBUG: 2026-02-18 13:11:11,170:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,173:      pdf_renderer.py:  470: printSegment: Transition:
+   DEBUG: 2026-02-18 13:11:11,174:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,175:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,177:      pdf_renderer.py:  470: printSegment: Now let me walk through the key risks and how we mitigate them.
+   DEBUG: 2026-02-18 13:11:11,179:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,181:      pdf_renderer.py:  470: printSegment: SLIDE 11 — RISK ASSESSMENT 
+   DEBUG: 2026-02-18 13:11:11,183:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2026-02-18 13:11:11,184:      pdf_renderer.py:  470: printSegment:  MITIGATION
+   DEBUG: 2026-02-18 13:11:11,188:      pdf_renderer.py:  470: printSegment: Speaker: Cuong Nguyen
+   DEBUG: 2026-02-18 13:11:11,189:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,191:      pdf_renderer.py:  470: printSegment: Time: ~90 seconds
+   DEBUG: 2026-02-18 13:11:11,195:      pdf_renderer.py:  470: printSegment: Background you should understand:
+   DEBUG: 2026-02-18 13:11:11,196:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,198:      pdf_renderer.py:  470: printSegment: Every strategy has risks. Being transparent about risks shows maturity to the judges.
+   DEBUG: 2026-02-18 13:11:11,200:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,201:      pdf_renderer.py:  470: printSegment: Risk 1: What if AWS doesn
+   DEBUG: 2026-02-18 13:11:11,202:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,215:      pdf_renderer.py:  470: printSegment: t want to partner with us? Mitigation: run a competitive bidding process
+   DEBUG: 2026-02-18 13:11:11,217:      pdf_renderer.py:  470: printSegment: with Microsoft, Google, and Meta too. They all need nuclear power.
+   DEBUG: 2026-02-18 13:11:11,219:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,242:      pdf_renderer.py:  470: printSegment: Risk 2: What if FERC blocks the behind-the-meter arrangement? Mitigation: structure as
+   DEBUG: 2026-02-18 13:11:11,247:      pdf_renderer.py:  470: printSegment: front-of-meter PPA as the primary path. Behind-the-meter is a fallback for even more value, not the
+   DEBUG: 2026-02-18 13:11:11,250:      pdf_renderer.py:  470: printSegment: base case. Talen
+   DEBUG: 2026-02-18 13:11:11,251:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,253:      pdf_renderer.py:  470: printSegment: s deal survived FERC review.
+   DEBUG: 2026-02-18 13:11:11,255:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,267:      pdf_renderer.py:  470: printSegment: Risk 3: What if PPA pricing drops? Mitigation: even at $75/MWh (worst case), we still get
+   DEBUG: 2026-02-18 13:11:11,270:      pdf_renderer.py:  470: printSegment: $290M/year in incremental revenue — much better than merchant.
+   DEBUG: 2026-02-18 13:11:11,271:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,273:      pdf_renderer.py:  470: printSegment: Risk 4: What if the dissident doesn
+   DEBUG: 2026-02-18 13:11:11,275:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,287:      pdf_renderer.py:  470: printSegment: t wait? Mitigation: announce the strategy immediately. Offer the
+   DEBUG: 2026-02-18 13:11:11,289:      pdf_renderer.py:  470: printSegment: dissident a board seat. Show clear, measurable progress quarterly.
+   DEBUG: 2026-02-18 13:11:11,291:      pdf_renderer.py:  470: printSegment: What to say:
+   DEBUG: 2026-02-18 13:11:11,293:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,295:      pdf_renderer.py:  470: printSegment: Let me be transparent about the risks in Option 3 — and how we mitigate each one.
+   DEBUG: 2026-02-18 13:11:11,297:      pdf_renderer.py:  470: printSegment: Risk 1: Hyperscaler negotiation fails — what if AWS says no?
+   DEBUG: 2026-02-18 13:11:11,298:      pdf_renderer.py:  470: printSegment: Mitigation: We run a 
+   DEBUG: 2026-02-18 13:11:11,300:      pdf_renderer.py:  470: printSegment: competitive bidding process
+   DEBUG: 2026-02-18 13:11:11,301:      pdf_renderer.py:  470: printSegment: . AWS isn
+   DEBUG: 2026-02-18 13:11:11,302:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,367:      pdf_renderer.py:  470: printSegment: t the only hyperscaler desperate for
+   DEBUG: 2026-02-18 13:11:11,411:      pdf_renderer.py:  470: printSegment: nuclear power. Microsoft already partnered with Constellation to restart Three Mile Island. Google
+   DEBUG: 2026-02-18 13:11:11,428:      pdf_renderer.py:  470: printSegment: is pursuing 24/7 carbon-free energy. Meta is in talks for nuclear PPAs. Multiple bidders drive price
+   DEBUG: 2026-02-18 13:11:11,430:      pdf_renderer.py:  470: printSegment: UP and reduce the chance any single negotiation fails. Probability of total failure: 
+   DEBUG: 2026-02-18 13:11:11,432:      pdf_renderer.py:  470: printSegment: LOW — about 20%
+   DEBUG: 2026-02-18 13:11:11,460:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:11,462:      pdf_renderer.py:  470: printSegment: Risk 2: FERC blocks behind-the-meter arrangement
+   DEBUG: 2026-02-18 13:11:11,464:      pdf_renderer.py:  470: printSegment: Mitigation: We structure our primary path as a 
+   DEBUG: 2026-02-18 13:11:11,465:      pdf_renderer.py:  470: printSegment: front-of-meter PPA
+   DEBUG: 2026-02-18 13:11:11,466:      pdf_renderer.py:  470: printSegment: . That
+   DEBUG: 2026-02-18 13:11:11,467:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,482:      pdf_renderer.py:  470: printSegment: s a standard bilateral
+   DEBUG: 2026-02-18 13:11:11,489:      pdf_renderer.py:  470: printSegment: wholesale contract — no FERC approval needed. Behind-the-meter is a fallback that captures even
+   DEBUG: 2026-02-18 13:11:11,490:      pdf_renderer.py:  470: printSegment: MORE value, but it
+   DEBUG: 2026-02-18 13:11:11,491:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,492:      pdf_renderer.py:  470: printSegment: s not required. And remember: 
+   DEBUG: 2026-02-18 13:11:11,494:      pdf_renderer.py:  470: printSegment: Talen
+   DEBUG: 2026-02-18 13:11:11,495:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,496:      pdf_renderer.py:  470: printSegment: s deal survived FERC review
+   DEBUG: 2026-02-18 13:11:11,499:      pdf_renderer.py:  470: printSegment: . We have
+   DEBUG: 2026-02-18 13:11:11,501:      pdf_renderer.py:  470: printSegment: precedent. Probability of blocking: 
+   DEBUG: 2026-02-18 13:11:11,502:      pdf_renderer.py:  470: printSegment: MEDIUM — about 30%
+   DEBUG: 2026-02-18 13:11:11,504:      pdf_renderer.py:  470: printSegment: , but impact is low because we default to
+   DEBUG: 2026-02-18 13:11:11,505:      pdf_renderer.py:  470: printSegment: front-of-meter.
+   DEBUG: 2026-02-18 13:11:11,507:      pdf_renderer.py:  470: printSegment: Risk 3: PPA pricing comes in below target
+   DEBUG: 2026-02-18 13:11:11,509:      pdf_renderer.py:  470: printSegment: Mitigation: Even at 
+   DEBUG: 2026-02-18 13:11:11,510:      pdf_renderer.py:  470: printSegment: $75/MWh
+   DEBUG: 2026-02-18 13:11:11,512:      pdf_renderer.py:  470: printSegment:  — our worst case — we still capture 
+   DEBUG: 2026-02-18 13:11:11,513:      pdf_renderer.py:  470: printSegment: +$290 million per year
+   DEBUG: 2026-02-18 13:11:11,521:      pdf_renderer.py:  470: printSegment:  in incremental
+   DEBUG: 2026-02-18 13:11:11,524:      pdf_renderer.py:  470: printSegment: revenue versus the $51 wholesale price. We build in a 
+   DEBUG: 2026-02-18 13:11:11,526:      pdf_renderer.py:  470: printSegment: floor price clause at $80/MWh
+   DEBUG: 2026-02-18 13:11:11,537:      pdf_renderer.py:  470: printSegment:  to protect
+   DEBUG: 2026-02-18 13:11:11,542:      pdf_renderer.py:  470: printSegment: downside. The current market is highly favorable because nuclear supply is scarce and hyperscaler
+   DEBUG: 2026-02-18 13:11:11,544:      pdf_renderer.py:  470: printSegment: demand is overwhelming.
+   DEBUG: 2026-02-18 13:11:11,546:      pdf_renderer.py:  470: printSegment: Risk 4: Dissident escalates before deal closes
+   DEBUG: 2026-02-18 13:11:11,547:      pdf_renderer.py:  470: printSegment: Mitigation: We 
+   DEBUG: 2026-02-18 13:11:11,549:      pdf_renderer.py:  470: printSegment: announce the strategy immediately
+   DEBUG: 2026-02-18 13:11:11,551:      pdf_renderer.py:  470: printSegment:  — within 30 days. We offer the dissident a 
+   DEBUG: 2026-02-18 13:11:11,552:      pdf_renderer.py:  470: printSegment: board
+   DEBUG: 2026-02-18 13:11:11,553:      pdf_renderer.py:  470: printSegment: seat
+   DEBUG: 2026-02-18 13:11:11,555:      pdf_renderer.py:  470: printSegment:  to participate in the transformation. We commit to 
+   DEBUG: 2026-02-18 13:11:11,556:      pdf_renderer.py:  470: printSegment: quarterly milestones
+   DEBUG: 2026-02-18 13:11:11,563:      pdf_renderer.py:  470: printSegment:  so progress is visible.
+   DEBUG: 2026-02-18 13:11:11,566:      pdf_renderer.py:  470: printSegment: The dissident wants value creation — this strategy delivers exactly that.
+   DEBUG: 2026-02-18 13:11:11,568:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,570:      pdf_renderer.py:  470: printSegment: Transition:
+   DEBUG: 2026-02-18 13:11:11,571:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,573:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,575:      pdf_renderer.py:  470: printSegment: Let me now summarize our recommendation.
+   DEBUG: 2026-02-18 13:11:11,576:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,578:      pdf_renderer.py:  470: printSegment: SLIDE 12 — RECOMMENDATION: OPTION 3
+   DEBUG: 2026-02-18 13:11:11,581:      pdf_renderer.py:  470: printSegment: Speaker: Anh Bui
+   DEBUG: 2026-02-18 13:11:11,583:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,584:      pdf_renderer.py:  470: printSegment: Time: ~90 seconds
+   DEBUG: 2026-02-18 13:11:11,587:      pdf_renderer.py:  470: printSegment: What to say:
+   DEBUG: 2026-02-18 13:11:11,588:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,592:      pdf_renderer.py:  470: printSegment: Let me bring this all together. Our recommendation is 
+   DEBUG: 2026-02-18 13:11:11,600:      pdf_renderer.py:  470: printSegment: Option 3 — a Joint Venture and Nuclear
+   DEBUG: 2026-02-18 13:11:11,602:      pdf_renderer.py:  470: printSegment: Power Purchase Agreement with Amazon Web Services
+   DEBUG: 2026-02-18 13:11:11,604:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:11,605:      pdf_renderer.py:  470: printSegment: Here
+   DEBUG: 2026-02-18 13:11:11,608:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,611:      pdf_renderer.py:  470: printSegment: s why this is the only right answer:
+   DEBUG: 2026-02-18 13:11:11,616:      pdf_renderer.py:  470: printSegment: First — it delivers immediate, transformative FCF growth:
+   DEBUG: 2026-02-18 13:11:11,619:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,624:      pdf_renderer.py:  470: printSegment: FCF per share goes from $10.20 to
+   DEBUG: 2026-02-18 13:11:11,625:      pdf_renderer.py:  470: printSegment: $16.87 in Year 1 — that
+   DEBUG: 2026-02-18 13:11:11,627:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,628:      pdf_renderer.py:  470: printSegment: s 
+   DEBUG: 2026-02-18 13:11:11,629:      pdf_renderer.py:  470: printSegment: 65% growth
+   DEBUG: 2026-02-18 13:11:11,632:      pdf_renderer.py:  470: printSegment: , far exceeding the dissident
+   DEBUG: 2026-02-18 13:11:11,633:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,635:      pdf_renderer.py:  470: printSegment: s 30% target.
+   DEBUG: 2026-02-18 13:11:11,636:      pdf_renderer.py:  470: printSegment: Second — it preserves company independence:
+   DEBUG: 2026-02-18 13:11:11,638:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,648:      pdf_renderer.py:  470: printSegment: Unlike Option 2, we remain a publicly traded
+   DEBUG: 2026-02-18 13:11:11,651:      pdf_renderer.py:  470: printSegment: company. Our management stays in control. Shareholders continue to participate in upside.
+   DEBUG: 2026-02-18 13:11:11,653:      pdf_renderer.py:  470: printSegment: Third — it requires no equity dilution:
+   DEBUG: 2026-02-18 13:11:11,654:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,656:      pdf_renderer.py:  470: printSegment: Unlike Option 1, we
+   DEBUG: 2026-02-18 13:11:11,657:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,662:      pdf_renderer.py:  470: printSegment: re not issuing billions in new stock.
+   DEBUG: 2026-02-18 13:11:11,666:      pdf_renderer.py:  470: printSegment: Existing shareholders keep 100% of their ownership.
+   DEBUG: 2026-02-18 13:11:11,671:      pdf_renderer.py:  470: printSegment: Fourth — it
+   DEBUG: 2026-02-18 13:11:11,673:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,675:      pdf_renderer.py:  470: printSegment: s proven by real-world precedent:
+   DEBUG: 2026-02-18 13:11:11,676:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,703:      pdf_renderer.py:  470: printSegment: Talen Energy executed this exact strategy with AWS.
+   DEBUG: 2026-02-18 13:11:11,710:      pdf_renderer.py:  470: printSegment: Their stock went from $60 to $389 — a 6.5x increase. One of the judges today, Darren Olagues, was
+   DEBUG: 2026-02-18 13:11:11,712:      pdf_renderer.py:  470: printSegment: directly involved in that deal.
+   DEBUG: 2026-02-18 13:11:11,716:      pdf_renderer.py:  470: printSegment: Fifth — it creates a compounding growth platform:
+   DEBUG: 2026-02-18 13:11:11,718:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,719:      pdf_renderer.py:  470: printSegment: This isn
+   DEBUG: 2026-02-18 13:11:11,721:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,737:      pdf_renderer.py:  470: printSegment: t a one-time transaction. Like Talen, we
+   DEBUG: 2026-02-18 13:11:11,742:      pdf_renderer.py:  470: printSegment: will acquire additional data centers to deepen the AWS partnership over time. Each acquisition
+   DEBUG: 2026-02-18 13:11:11,743:      pdf_renderer.py:  470: printSegment: compounds value.
+   DEBUG: 2026-02-18 13:11:11,746:      pdf_renderer.py:  470: printSegment: Sixth — it satisfies the dissident:
+   DEBUG: 2026-02-18 13:11:11,748:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,753:      pdf_renderer.py:  470: printSegment: The dissident wants bold action and clear value creation. A nuclear
+   DEBUG: 2026-02-18 13:11:11,755:      pdf_renderer.py:  470: printSegment: PPA with the world
+   DEBUG: 2026-02-18 13:11:11,756:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,761:      pdf_renderer.py:  470: printSegment: s largest cloud provider — at nearly double the market price — is exactly the kind of
+   DEBUG: 2026-02-18 13:11:11,763:      pdf_renderer.py:  470: printSegment: strategic repositioning they
+   DEBUG: 2026-02-18 13:11:11,764:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,766:      pdf_renderer.py:  470: printSegment: re demanding.
+   DEBUG: 2026-02-18 13:11:11,768:      pdf_renderer.py:  470: printSegment: Our projected results:
+   DEBUG: 2026-02-18 13:11:11,770:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,772:      pdf_renderer.py:  470: printSegment: Year 1 market cap: 
+   DEBUG: 2026-02-18 13:11:11,773:      pdf_renderer.py:  470: printSegment: $30-35 billion
+   DEBUG: 2026-02-18 13:11:11,775:      pdf_renderer.py:  470: printSegment:  (up from $20B)
+   DEBUG: 2026-02-18 13:11:11,776:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,777:      pdf_renderer.py:  470: printSegment: Year 5 market cap: 
+   DEBUG: 2026-02-18 13:11:11,779:      pdf_renderer.py:  470: printSegment: $45-55 billion
+   DEBUG: 2026-02-18 13:11:11,781:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,782:      pdf_renderer.py:  470: printSegment: Year 5 share price: 
+   DEBUG: 2026-02-18 13:11:11,783:      pdf_renderer.py:  470: printSegment: $1,000-1,200
+   DEBUG: 2026-02-18 13:11:11,784:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,786:      pdf_renderer.py:  470: printSegment: Credit upgrade: 
+   DEBUG: 2026-02-18 13:11:11,787:      pdf_renderer.py:  470: printSegment: BB to BBB-
+   DEBUG: 2026-02-18 13:11:11,788:      pdf_renderer.py:  470: printSegment: This transforms the dissident
+   DEBUG: 2026-02-18 13:11:11,789:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,790:      pdf_renderer.py:  470: printSegment: s threat into a catalyst for the 
+   DEBUG: 2026-02-18 13:11:11,792:      pdf_renderer.py:  470: printSegment: largest value creation opportunity in
+   DEBUG: 2026-02-18 13:11:11,794:      pdf_renderer.py:  470: printSegment: our company
+   DEBUG: 2026-02-18 13:11:11,795:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,796:      pdf_renderer.py:  470: printSegment: s history
+   DEBUG: 2026-02-18 13:11:11,797:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-02-18 13:11:11,798:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,800:      pdf_renderer.py:  470: printSegment: Transition:
+   DEBUG: 2026-02-18 13:11:11,801:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,802:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,804:      pdf_renderer.py:  470: printSegment: Let me leave you with our one-liner for the judges.
+   DEBUG: 2026-02-18 13:11:11,805:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,807:      pdf_renderer.py:  470: printSegment: SLIDE 13 — CLOSING SUMMARY
+   DEBUG: 2026-02-18 13:11:11,809:      pdf_renderer.py:  470: printSegment: Speaker: Anh Bui
+   DEBUG: 2026-02-18 13:11:11,810:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,812:      pdf_renderer.py:  470: printSegment: Time: ~45 seconds
+   DEBUG: 2026-02-18 13:11:11,814:      pdf_renderer.py:  470: printSegment: What to say:
+   DEBUG: 2026-02-18 13:11:11,816:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,817:      pdf_renderer.py:  470: printSegment: Here
+   DEBUG: 2026-02-18 13:11:11,819:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,821:      pdf_renderer.py:  470: printSegment: s our message to the judges and to any skeptical investor:
+   DEBUG: 2026-02-18 13:11:11,822:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,833:      pdf_renderer.py:  470: printSegment: We recommend the Talen Energy playbook — a Joint Venture and nuclear PPA with Amazon Web
+   DEBUG: 2026-02-18 13:11:11,835:      pdf_renderer.py:  470: printSegment: Services — because it is the 
+   DEBUG: 2026-02-18 13:11:11,837:      pdf_renderer.py:  470: printSegment: only option
+   DEBUG: 2026-02-18 13:11:11,838:      pdf_renderer.py:  470: printSegment:  that simultaneously:
+   DEBUG: 2026-02-18 13:11:11,839:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,841:      pdf_renderer.py:  470: printSegment: Delivers 
+   DEBUG: 2026-02-18 13:11:11,842:      pdf_renderer.py:  470: printSegment: +65% FCF/share growth in Year 1
+   DEBUG: 2026-02-18 13:11:11,844:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,845:      pdf_renderer.py:  470: printSegment: Drives our multiple from 
+   DEBUG: 2026-02-18 13:11:11,847:      pdf_renderer.py:  470: printSegment: 30x to 35-40x
+   DEBUG: 2026-02-18 13:11:11,848:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,850:      pdf_renderer.py:  470: printSegment: Preserves company 
+   DEBUG: 2026-02-18 13:11:11,851:      pdf_renderer.py:  470: printSegment: independence
+   DEBUG: 2026-02-18 13:11:11,853:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,854:      pdf_renderer.py:  470: printSegment: Requires 
+   DEBUG: 2026-02-18 13:11:11,855:      pdf_renderer.py:  470: printSegment: zero equity dilution
+   DEBUG: 2026-02-18 13:11:11,856:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-02-18 13:11:11,858:      pdf_renderer.py:  470: printSegment: Creates a 
+   DEBUG: 2026-02-18 13:11:11,860:      pdf_renderer.py:  470: printSegment: repeatable, compounding growth platform
+   DEBUG: 2026-02-18 13:11:11,861:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,871:      pdf_renderer.py:  470: printSegment: Like Talen, we will not stop at the initial deal. We will acquire additional data centers to deepen the
+   DEBUG: 2026-02-18 13:11:11,873:      pdf_renderer.py:  470: printSegment: AWS partnership and compound value over time.
+   DEBUG: 2026-02-18 13:11:11,875:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,877:      pdf_renderer.py:  470: printSegment: This strategy transforms the dissident
+   DEBUG: 2026-02-18 13:11:11,878:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,881:      pdf_renderer.py:  470: printSegment: s threat into the largest value creation opportunity in our
+   DEBUG: 2026-02-18 13:11:11,883:      pdf_renderer.py:  470: printSegment: company
+   DEBUG: 2026-02-18 13:11:11,884:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,886:      pdf_renderer.py:  470: printSegment: s history.
+   DEBUG: 2026-02-18 13:11:11,887:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,890:      pdf_renderer.py:  470: printSegment: Thank you very much for your time. We
+   DEBUG: 2026-02-18 13:11:11,891:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,893:      pdf_renderer.py:  470: printSegment: re happy to take questions.
+   DEBUG: 2026-02-18 13:11:11,894:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-02-18 13:11:11,897:      pdf_renderer.py:  470: printSegment: APPENDIX: Q
+   DEBUG: 2026-02-18 13:11:11,898:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2026-02-18 13:11:11,900:      pdf_renderer.py:  470: printSegment: A CHEAT SHEET
+   DEBUG: 2026-02-18 13:11:11,902:      pdf_renderer.py:  470: printSegment: Use these quick answers to respond to likely judge questions:
+   DEBUG: 2026-02-18 13:11:11,904:      pdf_renderer.py:  470: printSegment: | Question | Quick Answer |
+   DEBUG: 2026-02-18 13:11:11,906:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,908:      pdf_renderer.py:  470: printSegment: |----------|--------------|
+   DEBUG: 2026-02-18 13:11:11,909:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,911:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-02-18 13:11:11,914:      pdf_renderer.py:  470: printSegment: Why AWS specifically?
+   DEBUG: 2026-02-18 13:11:11,934:      pdf_renderer.py:  470: printSegment:  | AWS is the ONLY hyperscaler with a
+   DEBUG: 2026-02-18 13:11:11,938:      pdf_renderer.py:  470: printSegment: proven nuclear PPA track record (Talen deal). They have the largest data center pipeline (35+ GW). They
+   DEBUG: 2026-02-18 13:11:11,940:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:11,945:      pdf_renderer.py:  470: printSegment: re already
+   DEBUG: 2026-02-18 13:11:11,948:      pdf_renderer.py:  470: printSegment: proven to work with IPPs like ours. |
+   DEBUG: 2026-02-18 13:11:11,950:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:11,952:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-02-18 13:11:11,955:      pdf_renderer.py:  470: printSegment: What if AWS says no?
+   DEBUG: 2026-02-18 13:11:11,988:      pdf_renderer.py:  470: printSegment:  | We run a competitive bidding process with
+   DEBUG: 2026-02-18 13:11:11,996:      pdf_renderer.py:  470: printSegment: Microsoft, Google, and Meta. Microsoft already did the TMI restart deal with Constellation. All hyperscalers need
+   DEBUG: 2026-02-18 13:11:11,999:      pdf_renderer.py:  470: printSegment: 24/7 carbon-free power. |
+   DEBUG: 2026-02-18 13:11:12,000:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,002:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-02-18 13:11:12,004:      pdf_renderer.py:  470: printSegment: What about FERC risk?
+   DEBUG: 2026-02-18 13:11:12,012:      pdf_renderer.py:  470: printSegment:  | We structure as front-of-meter PPA (no FERC approval
+   DEBUG: 2026-02-18 13:11:12,015:      pdf_renderer.py:  470: printSegment: needed). Behind-the-meter is a fallback for extra value. Talen
+   DEBUG: 2026-02-18 13:11:12,017:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:12,019:      pdf_renderer.py:  470: printSegment: s deal survived FERC review. |
+   DEBUG: 2026-02-18 13:11:12,020:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,021:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-02-18 13:11:12,025:      pdf_renderer.py:  470: printSegment: Why not just sell to
+   DEBUG: 2026-02-18 13:11:12,027:      pdf_renderer.py:  470: printSegment: Exxon for quick cash?
+   DEBUG: 2026-02-18 13:11:12,046:      pdf_renderer.py:  470: printSegment:  | A 25% premium = $555/share. But Talen shareholders who held got $389 vs the ~$75 they
+   DEBUG: 2026-02-18 13:11:12,049:      pdf_renderer.py:  470: printSegment: would have gotten from an early sale. Option 3 delivers 2x the value with less risk. |
+   DEBUG: 2026-02-18 13:11:12,051:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,052:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-02-18 13:11:12,054:      pdf_renderer.py:  470: printSegment: Is the $95/MWh PPA
+   DEBUG: 2026-02-18 13:11:12,056:      pdf_renderer.py:  470: printSegment: realistic?
+   DEBUG: 2026-02-18 13:11:12,066:      pdf_renderer.py:  470: printSegment:  | Yes. Talen got $85-100/MWh. Constellation-Microsoft TMI is similar. Nuclear is scarce, hyperscaler
+   DEBUG: 2026-02-18 13:11:12,069:      pdf_renderer.py:  470: printSegment: demand is overwhelming. We have pricing power. |
+   DEBUG: 2026-02-18 13:11:12,070:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,072:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-02-18 13:11:12,073:      pdf_renderer.py:  470: printSegment: What
+   DEBUG: 2026-02-18 13:11:12,074:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:12,076:      pdf_renderer.py:  470: printSegment: s the execution timeline?
+   DEBUG: 2026-02-18 13:11:12,094:      pdf_renderer.py:  470: printSegment:  | Month 0: Announce
+   DEBUG: 2026-02-18 13:11:12,104:      pdf_renderer.py:  470: printSegment: negotiations. Months 1-3: Sign PPA. Months 3-12: Develop campus. Month 12-18: Sell/JV campus. Years 2-5:
+   DEBUG: 2026-02-18 13:11:12,107:      pdf_renderer.py:  470: printSegment: Expansion phases. Years 3-7: DC acquisitions. |
+   DEBUG: 2026-02-18 13:11:12,108:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,110:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-02-18 13:11:12,112:      pdf_renderer.py:  470: printSegment: How does this satisfy the dissident?
+   DEBUG: 2026-02-18 13:11:12,129:      pdf_renderer.py:  470: printSegment:  | 65% FCF growth in Year 1
+   DEBUG: 2026-02-18 13:11:12,135:      pdf_renderer.py:  470: printSegment: vs their 30% target. Clear strategic direction. Multiple expansion from 30x to 35-40x. We offer them a board seat to
+   DEBUG: 2026-02-18 13:11:12,137:      pdf_renderer.py:  470: printSegment: participate. |
+   DEBUG: 2026-02-18 13:11:12,139:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,140:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-02-18 13:11:12,142:      pdf_renderer.py:  470: printSegment: Who is Talen Energy and why do they matter?
+   DEBUG: 2026-02-18 13:11:12,160:      pdf_renderer.py:  470: printSegment:  | Talen is a real PJM-focused IPP with 13,000 MW
+   DEBUG: 2026-02-18 13:11:12,163:      pdf_renderer.py:  470: printSegment: including 2,500 MW nuclear — almost identical to our case company. Their AWS deal is the EXACT playbook we
+   DEBUG: 2026-02-18 13:11:12,165:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-02-18 13:11:12,170:      pdf_renderer.py:  470: printSegment: re
+   DEBUG: 2026-02-18 13:11:12,173:      pdf_renderer.py:  470: printSegment: recommending. Judge Darren Olagues is their Chief Development Officer. |
+   DEBUG: 2026-02-18 13:11:12,174:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,175:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-02-18 13:11:12,177:      pdf_renderer.py:  470: printSegment: What if nuclear has a long outage?
+   DEBUG: 2026-02-18 13:11:12,198:      pdf_renderer.py:  470: printSegment:  |
+   DEBUG: 2026-02-18 13:11:12,212:      pdf_renderer.py:  470: printSegment: Nuclear CF is 92%. Our plant is a dual-unit with redundancy. PPA includes force majeure clauses. But even so, our
+   DEBUG: 2026-02-18 13:11:12,215:      pdf_renderer.py:  470: printSegment: gas fleet can provide backup under the same co-location model. |
+   DEBUG: 2026-02-18 13:11:12,216:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,217:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-02-18 13:11:12,218:      pdf_renderer.py:  470: printSegment: How do you finance the campus?
+   DEBUG: 2026-02-18 13:11:12,227:      pdf_renderer.py:  470: printSegment:  | $260M cash
+   DEBUG: 2026-02-18 13:11:12,229:      pdf_renderer.py:  470: printSegment: on hand + $150M project-level debt. AWS funds most of the construction. No equity dilution required. |
+   DEBUG: 2026-02-18 13:11:12,232:      pdf_renderer.py:  470: printSegment: KEY NUMBERS TO MEMORIZE
+   DEBUG: 2026-02-18 13:11:12,234:      pdf_renderer.py:  470: printSegment: | Metric | Current | After Option 3 (Year 1) | After Option 3 (Year 5) |
+   DEBUG: 2026-02-18 13:11:12,235:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,237:      pdf_renderer.py:  470: printSegment: |--------|---------|------------------------|-------------------------|
+   DEBUG: 2026-02-18 13:11:12,238:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,240:      pdf_renderer.py:  470: printSegment: | FCF/Share | $10.20 | $16.87 | $40+ |
+   DEBUG: 2026-02-18 13:11:12,241:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,243:      pdf_renderer.py:  470: printSegment: | Market Cap | $20B
+   DEBUG: 2026-02-18 13:11:12,244:      pdf_renderer.py:  470: printSegment: | $30-35B | $45-55B |
+   DEBUG: 2026-02-18 13:11:12,245:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,247:      pdf_renderer.py:  470: printSegment: | Share Price | $444 | $667-778 | $1,000-1,200 |
+   DEBUG: 2026-02-18 13:11:12,248:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,250:      pdf_renderer.py:  470: printSegment: | Nuclear Revenue | $637M | $1,150M |
+   DEBUG: 2026-02-18 13:11:12,251:      pdf_renderer.py:  470: printSegment: $1,270M |
+   DEBUG: 2026-02-18 13:11:12,252:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,253:      pdf_renderer.py:  470: printSegment: | EV/EBITDA | 30x | 32x | 35x |
+   DEBUG: 2026-02-18 13:11:12,254:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,256:      pdf_renderer.py:  470: printSegment: | Credit Rating | BB | BB | BB+/BBB- |
+   DEBUG: 2026-02-18 13:11:12,258:      pdf_renderer.py:  470: printSegment: TALEN ENERGY COMPARISON (KEY PROOF POINT)
+   DEBUG: 2026-02-18 13:11:12,260:      pdf_renderer.py:  470: printSegment: | Metric | Talen Energy (Real) | Our Company (Case) |
+   DEBUG: 2026-02-18 13:11:12,261:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,264:      pdf_renderer.py:  470: printSegment: |--------|--------------------|--------------------|
+   DEBUG: 2026-02-18 13:11:12,266:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,269:      pdf_renderer.py:  470: printSegment: | Type | Pure-play
+   DEBUG: 2026-02-18 13:11:12,270:      pdf_renderer.py:  470: printSegment: IPP | Pure-play IPP |
+   DEBUG: 2026-02-18 13:11:12,271:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,272:      pdf_renderer.py:  470: printSegment: | Market | PJM | PJM |
+   DEBUG: 2026-02-18 13:11:12,273:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,275:      pdf_renderer.py:  470: printSegment: | Total Capacity | 13,100 MW | 13,000 MW |
+   DEBUG: 2026-02-18 13:11:12,276:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,279:      pdf_renderer.py:  470: printSegment: | Nuclear Capacity | 2,500
+   DEBUG: 2026-02-18 13:11:12,281:      pdf_renderer.py:  470: printSegment: MW (Susquehanna) | 2,200 MW |
+   DEBUG: 2026-02-18 13:11:12,282:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,284:      pdf_renderer.py:  470: printSegment: | Fuel Mix | Nuclear, gas, coal | Nuclear, gas, coal |
+   DEBUG: 2026-02-18 13:11:12,285:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,287:      pdf_renderer.py:  470: printSegment: | Pre-Deal Market Cap | ~$3B |
+   DEBUG: 2026-02-18 13:11:12,288:      pdf_renderer.py:  470: printSegment: $20B |
+   DEBUG: 2026-02-18 13:11:12,289:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,291:      pdf_renderer.py:  470: printSegment: | Post-Deal Market Cap | $17.6B (6x) | $45-55B (2-3x) projected |
+   DEBUG: 2026-02-18 13:11:12,292:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,295:      pdf_renderer.py:  470: printSegment: | Strategy | AWS JV + PPA + DC
+   DEBUG: 2026-02-18 13:11:12,296:      pdf_renderer.py:  470: printSegment: acquisitions | Same |
+   DEBUG: 2026-02-18 13:11:12,300:      pdf_renderer.py:  470: printSegment: Speaker Script prepared for the 2026 SMU/NAPE Energy Innovation Case Competition — Final Round
+   DEBUG: 2026-02-18 13:11:12,301:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-02-18 13:11:12,309:      pdf_renderer.py:  470: printSegment: Speakers: Anh
+   DEBUG: 2026-02-18 13:11:12,312:      pdf_renderer.py:  470: printSegment: Bui (Slides 1-3, 12-13) | Minh Nguyen (Slides 4-6, 10) | Cuong Nguyen (Slides 7-9, 11)
+   DEBUG: 2026-02-18 13:11:12,313:      pdf_renderer.py:   53: 0, [1, 'CASE TWIST — DETAILED SPEAKER SCRIPT', 1, 68.0]
+   DEBUG: 2026-02-18 13:11:12,313:      pdf_renderer.py:   53: 1, [2, 'Strategic Response to Dissident Investor Threat', 1, 106.0]
+   DEBUG: 2026-02-18 13:11:12,313:      pdf_renderer.py:   53: 2, [3, 'SMU/NAPE Energy Innovation Case Competition — Final Round', 1, 139.20000000000002]
+   DEBUG: 2026-02-18 13:11:12,313:      pdf_renderer.py:   53: 3, [3, 'Team: Anh Bui, Minh Nguyen, Cuong Nguyen', 1, 168.00000000000003]
+   DEBUG: 2026-02-18 13:11:12,314:      pdf_renderer.py:   53: 4, [2, 'SLIDE 1 — TITLE SLIDE', 1, 305.20000000000005]
+   DEBUG: 2026-02-18 13:11:12,314:      pdf_renderer.py:   53: 5, [2, 'SLIDE 2 — THE TWIST: DISSIDENT INVESTOR THREAT', 1, 548.8]
+   DEBUG: 2026-02-18 13:11:12,314:      pdf_renderer.py:   53: 6, [2, 'SLIDE 3 — THE THREE STRATEGIC OPTIONS', 2, 332.8]
+   DEBUG: 2026-02-18 13:11:12,314:      pdf_renderer.py:   53: 7, [2, 'SLIDE 4 — REAL-WORLD PRECEDENT: TALEN ENERGY', 2, 612.4]
+   DEBUG: 2026-02-18 13:11:12,314:      pdf_renderer.py:   53: 8, [2, 'SLIDE 5 — OPTION 1: ACQUIRE A DATA CENTER COMPANY', 3, 440.8]
+   DEBUG: 2026-02-18 13:11:12,314:      pdf_renderer.py:   53: 9, [2, 'SLIDE 6 — OPTION 2: SELL TO SHELL OR EXXONMOBIL', 4, 314.8]
+   DEBUG: 2026-02-18 13:11:12,314:      pdf_renderer.py:   53: 10, [2, 'SLIDE 7 — OPTION 3: JV WITH AMAZON WEB SERVICES', 5, 158.8]
+   DEBUG: 2026-02-18 13:11:12,314:      pdf_renderer.py:   53: 11, [2, 'SLIDE 8 — OPTION 3 FINANCIAL IMPACT', 6, 134.8]
+   DEBUG: 2026-02-18 13:11:12,314:      pdf_renderer.py:   53: 12, [2, 'SLIDE 9 — PHASE 4: DATA CENTER ACQUISITION STRATEGY', 7, 70.0]
+   DEBUG: 2026-02-18 13:11:12,314:      pdf_renderer.py:   53: 13, [2, 'SLIDE 10 — COMPARATIVE ANALYSIS: ALL THREE OPTIONS', 7, 571.5999999999999]
+   DEBUG: 2026-02-18 13:11:12,314:      pdf_renderer.py:   53: 14, [2, 'SLIDE 11 — RISK ASSESSMENT ', 8, 512.8]
+   DEBUG: 2026-02-18 13:11:12,315:      pdf_renderer.py:   53: 15, [2, 'SLIDE 12 — RECOMMENDATION: OPTION 3', 9, 410.8]
+   DEBUG: 2026-02-18 13:11:12,315:      pdf_renderer.py:   53: 16, [2, 'SLIDE 13 — CLOSING SUMMARY', 10, 218.8]
+   DEBUG: 2026-02-18 13:11:12,315:      pdf_renderer.py:   53: 17, [2, 'APPENDIX: Q', 10, 492.40000000000003]
+   DEBUG: 2026-02-18 13:11:12,315:      pdf_renderer.py:   53: 18, [2, 'KEY NUMBERS TO MEMORIZE', 11, 146.8]
+   DEBUG: 2026-02-18 13:11:12,315:      pdf_renderer.py:   53: 19, [2, 'TALEN ENERGY COMPARISON (KEY PROOF POINT)', 11, 246.40000000000003]
