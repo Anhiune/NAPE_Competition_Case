@@ -369,11 +369,150 @@
 > *Option 3 wins on virtually every dimension."*
 
 ---
-**Transition:** *"Now let me walk through the key risks and how we mitigate them."*
+**Transition:** *"Now let me show you why Option 3 dominates from an ESG perspective."*
 
 ---
 
-## SLIDE 11 — RISK ASSESSMENT & MITIGATION
+## SLIDE 11 — ESG & SUSTAINABILITY
+**Speaker: Minh Nguyen**
+**Time: ~90 seconds**
+
+---
+
+**Background you should understand:**
+- ESG (Environmental, Social, Governance) matters because it affects which investors can buy our stock and what multiple we trade at.
+- ESG funds manage over $40 trillion globally. If we score poorly on ESG, these funds cannot invest in us.
+- Hyperscalers like AWS, Microsoft, and Google have aggressive sustainability targets. They will ONLY buy power from companies with strong ESG profiles.
+- Option 2 (sell to oil major) would DESTROY our ESG value — oil majors are divested by ESG funds.
+- Option 3 makes us the #1 ESG-aligned IPP in PJM. Nuclear = zero carbon. Gas with CCUS = near-zero carbon.
+- The ESG scorecard compares all 3 options across 6 dimensions: Carbon Intensity, Regulatory Risk, Hyperscaler Alignment, SEC Climate Readiness, Community Impact, Long-Term Sustainability.
+- Option 3 scores 5 out of 5 on virtually every dimension. Option 2 scores 1 out of 5 on most dimensions.
+- ESG Value: This positioning is worth $2-4 billion over 5 years in higher multiples and premium PPA pricing.
+
+**What to say:**
+
+> *"Let me show you why Option 3 is the clear ESG winner.*
+>
+> *This ESG scorecard compares all three options across six key dimensions:*
+>
+> **Carbon Intensity:**
+> - *Option 1: **3 out of 5** — adding a data center increases our energy consumption without reducing carbon*
+> - *Option 2: **1 out of 5** — an oil major owner makes our carbon story worse, not better*
+> - *Option 3: **5 out of 5** — nuclear is zero carbon, and CCUS on gas gives us near-zero blended emissions*
+>
+> **Regulatory ESG Risk:**
+> - *Option 1: **2 out of 5** — higher execution risk, unclear ESG path*
+> - *Option 2: **1 out of 5** — FERC and DOJ will scrutinize an oil major buying nuclear assets*
+> - *Option 3: **4 out of 5** — front-of-meter PPA is low regulatory risk with Talen precedent*
+>
+> **Hyperscaler Alignment:**
+> - *Option 1: **4 out of 5** — we'd have a DC, but no power advantage*
+> - *Option 2: **1 out of 5** — AWS, Microsoft, and Google may REFUSE to buy from an oil-major owned plant*
+> - *Option 3: **5 out of 5** — perfect alignment with hyperscaler 24/7 carbon-free energy goals*
+>
+> **SEC Climate Disclosure Readiness, Community Impact, Long-Term Sustainability:**
+> - *Option 3 scores **5 out of 5** on all three. Options 1 and 2 score 2-3.*
+>
+> *The bottom line: **Option 2 would DESTROY our ESG value.** If Shell or Exxon buys us, ESG funds holding \$40+ trillion will divest. Our multiple collapses.*
+>
+> *Option 3 does the opposite. We become the **#1 ESG-aligned IPP** in PJM. This positioning alone is worth **\$2-4 billion in incremental value** over 5 years through higher multiples and premium PPA pricing."*
+
+---
+**Transition:** *"Let me show you how we extend that ESG advantage with CCUS on our gas fleet."*
+
+---
+
+## SLIDE 12 — RISK ASSESSMENT & SOLUTION: CCUS VALUE STACK
+**Speaker: Cuong Nguyen**
+**Time: ~90 seconds**
+
+---
+
+**Background you should understand:**
+- CCUS = Carbon Capture, Utilization, and Storage. It captures CO2 from power plant exhaust before it enters the atmosphere.
+- Our gas fleet is 6,500 MW — 50% of our total capacity — and produces the majority of our carbon emissions.
+- Adding CCUS to gas plants creates a second value driver beyond the nuclear PPA.
+- The CCUS Value Stack has three components:
+  - 45Q Tax Credit: $12.5/MWh (federal tax credit for capturing CO2)
+  - Carbon Cost Avoidance: $8.0/MWh (avoiding future carbon taxes)
+  - Premium PPA Pricing: $7.5/MWh (hyperscalers pay more for low-carbon power)
+  - TOTAL: $28/MWh additional value
+- Combined Fleet Offering: Nuclear (2,200 MW, 0 CO2, 92% capacity factor) + Gas with CCUS (6,500 MW, ~72 lb CO2/MWh after 90% capture) = Blended ~15 lb CO2/MWh with 99.9% reliability
+- NO OTHER IPP in PJM can offer this combination. This is our competitive moat.
+
+**What to say:**
+
+> *"Option 3 isn't just about nuclear. We also strengthen our gas fleet with **Carbon Capture, Utilization, and Storage — CCUS.***
+>
+> *Our gas fleet is 6,500 MW — half our capacity — and generates most of our carbon emissions. CCUS captures 90% of that CO2 before it reaches the atmosphere.*
+>
+> *Here's the CCUS Value Stack — the additional revenue we capture per megawatt-hour:*
+>
+> **Component 1: 45Q Tax Credit — $12.50 per MWh**
+> *The federal government pays us \$85 per ton of CO2 we capture and store. At 90% capture on gas, that's \$12.50 per MWh of free money.*
+>
+> **Component 2: Carbon Cost Avoidance — $8.00 per MWh**
+> *Carbon taxes are coming. At \$25 per ton, avoiding emissions saves us \$8 per MWh versus competitors who don't have CCUS.*
+>
+> **Component 3: Premium PPA Pricing — $7.50 per MWh**
+> *Hyperscalers pay MORE for low-carbon power. They have sustainability mandates. We capture that premium.*
+>
+> **TOTAL: $28 per MWh in additional value from CCUS.**
+>
+> *Now look at our combined fleet offering:*
+>
+> | Fleet Component | Capacity | Carbon Intensity | Availability |
+> |-----------------|----------|------------------|--------------|
+> | Nuclear | 2,200 MW | 0 lb CO2/MWh | 92% capacity factor |
+> | Gas with CCUS | 6,500 MW | ~72 lb CO2/MWh (90% capture) | Dispatchable |
+> | **Combined** | **8,700 MW** | **~15 lb CO2/MWh blended** | **99.9% reliability** |
+>
+> *No other IPP in PJM can offer this:* **24/7 near-zero carbon power at massive scale with 99.9% reliability.** This is our competitive moat."*
+
+---
+**Transition:** *"Let me walk you through the regulatory landscape and how we navigate it."*
+
+---
+
+## SLIDE 13 — NUCLEAR REGULATORY & RISK MANAGEMENT
+**Speaker: Cuong Nguyen**
+**Time: ~90 seconds**
+
+---
+
+**Background you should understand:**
+- There are 4 regulatory bodies that matter: NRC, FERC, State PUC, and PJM RTO.
+- NRC (Nuclear Regulatory Commission): Governs nuclear plant safety and licensing. For front-of-meter PPA, NO license change needed. For behind-the-meter, we need a license amendment, but Talen already got this approved.
+- FERC (Federal Energy Regulatory Commission): Governs wholesale electricity markets. FERC is concerned about behind-the-meter reducing grid capacity. Our solution: front-of-meter PPA as primary path (no FERC approval needed), behind-the-meter as fallback. Talen's deal survived FERC review.
+- State PUC: Governs siting permits. Nuclear sites already have industrial zoning. Pennsylvania PUC already approved Talen's campus. Low risk.
+- PJM RTO: Regional grid operator. Concerned about capacity obligations if load moves behind the meter. Our solution: maintain front-of-meter to preserve capacity market revenue.
+- The KEY insight: Front-of-meter PPA is our PRIMARY path. It requires NO regulatory approval because it's a standard bilateral wholesale contract. Behind-the-meter is a FALLBACK for extra value, not the base case.
+
+**What to say:**
+
+> *"Let me walk through the regulatory landscape for Option 3. There are four bodies that matter.*
+>
+> *Here's our Nuclear Regulatory Risk Matrix:*
+>
+> | Regulatory Body | Key Concern | Risk Level | Our Solution |
+> |-----------------|-------------|------------|--------------|
+> | **NRC** | License amendment for data center co-location | **Low-Medium** | Front-of-meter PPA needs NO license change. Behind-the-meter has Talen precedent: approved. |
+> | **FERC** | Behind-the-meter reduces grid capacity | **Medium** | Front-of-meter PPA is primary — no FERC approval needed. Behind-the-meter is fallback. Talen survived FERC review. |
+> | **State PUC** | DC siting permits | **Low** | Nuclear sites already have industrial zoning. PA PUC approved Talen campus. |
+> | **PJM RTO** | Capacity obligation reduction | **Medium** | Maintain front-of-meter to preserve capacity market revenue. Offer replacement capacity from gas fleet. |
+>
+> *The KEY takeaway: our **primary path is front-of-meter PPA**. This is a standard bilateral wholesale contract — **no FERC approval, no NRC amendment, no regulatory delay.***
+>
+> *Behind-the-meter is a **fallback that captures even MORE value** — but we don't need it for our base case. And remember: **Talen's behind-the-meter deal with AWS survived FERC review.** We have precedent.*
+>
+> *Bottom line: regulatory risk is **MEDIUM overall, but highly manageable** because we build our base case on front-of-meter, which requires no approvals."*
+
+---
+**Transition:** *"Now let me cover the remaining strategic risks and mitigations."*
+
+---
+
+## SLIDE 14 — RISK ASSESSMENT & MITIGATION
 **Speaker: Cuong Nguyen**
 **Time: ~90 seconds**
 
@@ -411,7 +550,7 @@
 
 ---
 
-## SLIDE 12 — RECOMMENDATION: OPTION 3
+## SLIDE 15 — RECOMMENDATION: OPTION 3
 **Speaker: Anh Bui**
 **Time: ~90 seconds**
 
@@ -454,7 +593,7 @@
 
 ---
 
-## SLIDE 13 — CLOSING SUMMARY
+## SLIDE 16 — CLOSING SUMMARY
 **Speaker: Anh Bui**
 **Time: ~45 seconds**
 
@@ -528,4 +667,4 @@ Use these quick answers to respond to likely judge questions:
 ---
 
 *Speaker Script prepared for the 2026 SMU/NAPE Energy Innovation Case Competition — Final Round*
-*Speakers: Anh Bui (Slides 1-3, 12-13) | Minh Nguyen (Slides 4-6, 10) | Cuong Nguyen (Slides 7-9, 11)*
+*Speakers: Anh Bui (Slides 1-3, 15-16) | Minh Nguyen (Slides 4-6, 10-11) | Cuong Nguyen (Slides 7-9, 12-14)*
