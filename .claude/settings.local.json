@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "WebSearch",
+      "WebFetch(domain:api.eia.gov)",
+      "WebFetch(domain:www.eia.gov)",
+      "WebFetch(domain:catalystcoop-pudl.readthedocs.io)"
+    ]
+  }
+}

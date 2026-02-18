@@ -1,80 +1,104 @@
-# talen_extractor.py - Extract ALL "Talen" data from EIA-860 ZIP files
-# Save as talen_extractor.py, then: python talen_extractor.py
+"""
+target.py — Zip Scanner & Report Generator
 
-import zipfile
-import pandas as pd
+Scans the current directory for .zip files, identifies .xlsx contents
+inside each zip, prints a summary, and writes a structured Similarname.md report.
+"""
+
+import glob
 import os
-from pathlib import Path
+import zipfile
 
-# YOUR FILE PATH
-ZIP_PATH = r"C:\Users\LENOVO\OneDrive\Máy tính\NAPE\eia8602024.zip"
-OUTPUT_FILE = "talen_energy_data.xlsx"
 
-def extract_talen_from_zip(zip_path):
-    """Extract all Talen data from EIA-860 Excel files in ZIP"""
-    
-    print("🔍 Searching for Talen Energy in EIA-860 files...")
-    all_talen_data = []
-    
-    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-        excel_files = [f for f in zip_ref.namelist() if f.endswith('.xlsx')]
-        
-        print(f"📁 Found {len(excel_files)} Excel files")
-        
-        for excel_file in excel_files:
-            print(f"📖 Processing: {excel_file}")
-            
-            try:
-                # Read Excel from ZIP directly
-                with zip_ref.open(excel_file) as file:
-                    xl = pd.ExcelFile(file)
-                    
-                    for sheet_name in xl.sheet_names:
-                        try:
-                            df = pd.read_excel(file, sheet_name=sheet_name)
-                            
-                            # Search ALL columns for "Talen" (case-insensitive)
-                            mask = df.astype(str).apply(
-                                lambda col: col.str.contains('Talen', case=False, na=False)
-                            ).any(axis=1)
-                            
-                            talen_rows = df[mask]
-                            if not talen_rows.empty:
-                                talen_rows['File'] = excel_file
-                                talen_rows['Sheet'] = sheet_name
-                                all_talen_data.append(talen_rows)
-                                print(f"   ✅ Found {len(talen_rows)} Talen rows in '{sheet_name}'")
-                                
-                        except Exception as e:
-                            print(f"   ⚠️  Skipped sheet '{sheet_name}': {e}")
-                            
-            except Exception as e:
-                print(f"   ❌ Error processing {excel_file}: {e}")
-    
-    return all_talen_data
+def scan_zip_files(base_dir):
+    """Find all .zip files in the given directory."""
+    pattern = os.path.join(base_dir, "*.zip")
+    return sorted(glob.glob(pattern))
 
-def save_results(all_data, output_file):
-    """Save all Talen findings to Excel with separate sheets"""
-    
-    with pd.ExcelWriter(output_file, engine='openpyxl') as writer:
-        for i, df in enumerate(all_data):
-            sheet_name = f"Talen_Data_{i+1}"
-            df.to_excel(writer, sheet_name=sheet_name, index=False)
-    
-    print(f"\n🎉 SAVED {len(all_data)} sheets to {output_file}")
-    print("\n📊 Columns found with Talen: Operator_Name, Owner_Name, Operator_ID expected")
 
-# MAIN EXECUTION
-if __name__ == "__main__":
-    if not os.path.exists(ZIP_PATH):
-        print(f"❌ ZIP file not found: {ZIP_PATH}")
-        exit()
-    
-    talen_data = extract_talen_from_zip(ZIP_PATH)
-    
-    if talen_data:
-        save_results(talen_data, OUTPUT_FILE)
-        print(f"\n✅ SUCCESS! Check '{OUTPUT_FILE}' for all Talen Energy data")
-        print("\nKey files to check first: 2___Plant2024, 3_1_Generator2024, 4___Owner2024")
+def list_xlsx_in_zips(zip_paths):
+    """For each zip file, list the .xlsx entries with their compressed sizes.
+
+    Returns: dict mapping zip_path -> list of (xlsx_name, size_bytes)
+    """
+    results = {}
+    for zpath in zip_paths:
+        xlsx_entries = []
+        try:
+            with zipfile.ZipFile(zpath, "r") as zf:
+                for info in zf.infolist():
+                    if info.filename.lower().endswith(".xlsx") and not info.is_dir():
+                        xlsx_entries.append((info.filename, info.file_size))
+        except (zipfile.BadZipFile, Exception) as e:
+            print(f"  Warning: Could not read {zpath}: {e}")
+        results[zpath] = xlsx_entries
+    return results
+
+
+def format_size(size_bytes):
+    """Format byte size into a human-readable string."""
+    if size_bytes < 1024:
+        return f"{size_bytes} B"
+    elif size_bytes < 1024 * 1024:
+        return f"{size_bytes / 1024:.1f} KB"
     else:
-        print("❌ No Talen data found - check ZIP path or spelling")
+        return f"{size_bytes / (1024 * 1024):.1f} MB"
+
+
+def write_report(base_dir, results):
+    """Write Similarname.md with a structured report of zip contents."""
+    report_path = os.path.join(base_dir, "Similarname.md")
+    total_zips = len(results)
+
+    lines = []
+    lines.append("# ZIP File Contents Report\n")
+    lines.append(f"**Total ZIP files found:** {total_zips}\n")
+
+    for zpath, xlsx_entries in results.items():
+        zip_name = os.path.basename(zpath)
+        lines.append(f"## {zip_name}\n")
+
+        if not xlsx_entries:
+            lines.append("_No XLSX files found in this archive._\n")
+            continue
+
+        lines.append(f"**XLSX files:** {len(xlsx_entries)}\n")
+        lines.append("| # | XLSX File | Size |")
+        lines.append("|---|-----------|------|")
+        for i, (fname, size) in enumerate(xlsx_entries, 1):
+            lines.append(f"| {i} | {fname} | {format_size(size)} |")
+        lines.append("")
+
+    with open(report_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+
+    return report_path
+
+
+def main():
+    base_dir = os.path.dirname(os.path.abspath(__file__)) or "."
+
+    print("Scanning for ZIP files...")
+    zip_paths = scan_zip_files(base_dir)
+    print(f"Found {len(zip_paths)} ZIP file(s).\n")
+
+    if not zip_paths:
+        print("No ZIP files found. Nothing to report.")
+        return
+
+    results = list_xlsx_in_zips(zip_paths)
+
+    # Print console summary
+    for zpath, xlsx_entries in results.items():
+        zip_name = os.path.basename(zpath)
+        print(f"  {zip_name}: {len(xlsx_entries)} XLSX file(s)")
+
+    print()
+
+    # Write report
+    report_path = write_report(base_dir, results)
+    print(f"Report written to: {report_path}")
+
+
+if __name__ == "__main__":
+    main()
