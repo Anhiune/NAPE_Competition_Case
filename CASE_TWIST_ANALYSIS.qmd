@@ -32,13 +32,13 @@ format:
       \usepackage{pdflscape}
       \usepackage{float}
       \usepackage{makecell}
-      \definecolor{nuclearcol}{RGB}{230,126,34}
-      \definecolor{buildcol}{RGB}{41,128,185}
-      \definecolor{buycol}{RGB}{39,174,96}
-      \definecolor{lightgray}{RGB}{245,245,245}
-      \definecolor{darkred}{RGB}{192,0,0}
-      \definecolor{darkgreen}{RGB}{0,128,0}
-      \definecolor{jvcol}{RGB}{142,68,173}
+      \definecolor{nuclearcol}{RGB}{58,78,66}
+      \definecolor{buildcol}{RGB}{94,154,102}
+      \definecolor{buycol}{RGB}{106,199,88}
+      \definecolor{lightgray}{RGB}{233,227,222}
+      \definecolor{darkred}{RGB}{192,57,43}
+      \definecolor{darkgreen}{RGB}{58,78,66}
+      \definecolor{jvcol}{RGB}{58,78,66}
 execute:
   echo: false
   warning: false
@@ -61,17 +61,29 @@ plt.rcParams.update({
     "grid.alpha": 0.30,
     "grid.linestyle": "--",
     "figure.dpi": 150,
+    "axes.facecolor": "#FDFAF3",       # warm cream background for plot area
+    "figure.facecolor": "#FFFFFF",
 })
 
-C_NUCLEAR = "#E67E22"
-C_BUILD   = "#2980B9"
-C_BUY     = "#27AE60"
-C_JV      = "#8E44AD"
-C_NEUTRAL = "#7F8C8D"
-C_UP      = "#2ECC71"
-C_DOWN    = "#E74C3C"
-C_SELL    = "#C0392B"
-C_DC      = "#3498DB"
+# === Green Business Pitch Deck Palette ===
+# Primary:   #3A4E42 (dark forest green)
+# Secondary: #5E9A66 (medium green)
+# Accent:    #AFD480 (light green)
+# Highlight: #6AC758 (bright green)
+# Cream:     #FFF4DA (warm cream)
+# Gray:      #E9E3DE (warm gray)
+# Charcoal:  #323232 (dark text)
+# Tan:       #B0A599 (subtle)
+
+C_NUCLEAR = "#3A4E42"   # dark forest green (primary)
+C_BUILD   = "#5E9A66"   # medium green
+C_BUY     = "#6AC758"   # bright green
+C_JV      = "#3A4E42"   # dark forest green (primary, for recommended option)
+C_NEUTRAL = "#B0A599"   # warm tan
+C_UP      = "#6AC758"   # bright green (positive)
+C_DOWN    = "#C0392B"   # red (negative — kept for contrast)
+C_SELL    = "#323232"   # charcoal (sell / negative option)
+C_DC      = "#AFD480"   # light green (data center / secondary)
 ```
 
 \newpage
