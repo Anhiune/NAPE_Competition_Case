@@ -1,0 +1,149 @@
+Strategic Evaluation of Generation
+Options for SMU/NAPETeam Members
+Anh Bui, Minh Nguyen, Cuong Nguyen
+Assessing Build, Buy, and Co-Location Models for Long-Term Reliability & Growth
+---PAGE BREAK---
+Intro to BusinessBusiness: Power generation developer/operator.
+Clients: Hyperscalers (AI, cloud), data centers.
+Demand outpacing grid growth
+Policy & decarbonization pressure
+Capital & execution constraints
+Currrent Situation And Challenges
+---PAGE BREAK---
+Build
+In consideration of 
+Market Competition &
+Financial Situation
+550 MW CCGT using case Excel assumptions
+CF ~60% →  ~2.89 TWh/yr (capacity × CF × 8,760)
+Gas = 40–45% of U.S. generation; backbone dispatchable fuel
+Economic profile
+Capex = $1,150/kW →  ~$633M
+Merchant PJM pricing volatile; capacity auctions uncertain
+Returns depend on securing long-term contracts
+Capex & returns
+Meets dispatchable needs, but weaker ESG vs
+nuclear/renewables
+AI firms increasingly pursuing low-carbon power partnerships
+Competitive positioning
+---PAGE BREAK---
+Buy
+Acquire existing 550 MW CCGT (~$450M modeled)
+CF ~70% → ~3.37 TWh/yr, no construction delay
+Immediate capacity & cash flow
+In consideration of 
+Market Competition &
+Financial Situation
+Older units → efficiency decay; higher O&M
+Gas = ~875 lb/MWh CO ₂  →  policy exposure
+LNG export growth →  greater gas price volatility
+Asset & carbon risk
+Fastest capacity addition but non-scalable
+Nuclear (18–20% of U.S. supply) grows mainly through life
+extensions, limiting acquisition supply
+Strategic fit
+---PAGE BREAK---
+Partner
+In consideration of 
+Market Competition &
+Financial Situation
+Long-term offtake →  stable cash flow
+Shared capex improves IRR vs pure Build
+Avoids full merchant PJM exposure
+Economic strength
+Data centers: 415 TWh/yr globally; U.S. = 45% share
+Nearly half of U.S. capacity in 5 clusters; PJM/NoVA = epicenter
+AI firms already partnering to reopen nuclear & expand generation
+Market alignment
+Co-located supply aligns reliability + sustainability
+Most repeatable model across DC hubs
+Competitive advantage
+---PAGE BREAK---
+Build
+Industry-based build time: 24–30 months for CCGT construction
+Execution burden
+High upfront capex; interest carry throughout construction
+Full merchant risk until COD
+Cost exposure
+Mid-merit plant (~60% CF in Excel)
+Higher long-term carbon cost risk vs zero-carbon tech
+Operational profile
+In consideration of 
+Operational & Execution
+(Resources & Supply
+Chain)
+---PAGE BREAK---
+Buy
+Existing fleet in case shows mixed-age coal/gas/nuclear assets
+Older assets →  higher forced outages + R&M capex 
+Asset quality uncertainty
+Nuclear = 18–20% of U.S. generation; growth mainly via life
+extensions, not new builds →  limited availability
+Efficient CCGTs near load hubs competitively priced
+Market scarcity
+Operational downside
+In consideration of 
+Operational & Execution
+(Resources & Supply
+Chain)
+No design/siting control
+Full carbon exposure retained
+---PAGE BREAK---
+Partner (Co-location)
+In consideration of 
+Operational & Execution
+(Resources & Supply
+Chain)
+100–200 MW blocks sized to DC load (model-driven design)
+Behind-the-meter reduces interconnection delays (case allows
+behind/in-front of meter)
+Co-located asset profile
+Long-term contracts →  predictable dispatch
+Smaller modular builds lower EPC exposure
+AI firms already structuring JVs with power producers
+Execution & operations advantages
+JV structure, shared capex, regulatory load
+Higher upfront coordination, lower long-term risk
+Complexity
+---PAGE BREAK---
+How Partner can look like?
+Goal
+100–200 MW blocks sized to DC load (model-driven design)
+Behind-the-meter reduces interconnection delays (case allows behind/in-front of meter)
+W hat SM U/NAPE Brings
+Expertise operating gas, solar, and nuclear assets 
+Deliver firm dispatchable capacity, zero-carbon baseload, and clean energy
+Illustrative Co-lo cation Structure
+150 MW CCGT + 50 MW Solar serving a single AI/hyperscale campus
+15–20 year PPA with fixed or indexed pricing
+Cost-plus or regulated-like return structure
+Hyperscaler co-funds capex; SMU/NAPE owns & operates
+Vertical Suggestion 
+---PAGE BREAK---
+1.Annual Energy GenerationOur Forcast and Estim ation
+3. Total Capital Investm ent
+---PAGE BREAK---
+4. Net Present Valu eOur Forcast and Estim ation
+4. LCOE Com ponent Breakdown  
+---PAGE BREAK---
+Our Forcast and Estim ation
+6. Free Cash Flo w ForeCast
+---PAGE BREAK---
+Our Forcast and Estim ation
+8. Net Profit after tax and Depreciation
+---PAGE BREAK---
+Risk 1 - Dependence on a single data center partner
+Risk Assesment & Solution
+Risk 2 - Complex revenue sharing
+Solutions:
+Diversify partners and global locations
+Use strong SLAs with clear performance & exit terms
+Solutions:
+Standardize contracts into simple, transparent pricing tiers
+Implement automated revenue-management tools to apply formulas consistently
+---PAGE BREAK---
+Risk Assesment & SolutionRisk 3 -  Operational misalignment
+Solutions:
+Align teams through shared OKRs
+Run recurring cross-functional leadership meetings to remove blockers early
+---PAGE BREAK---
