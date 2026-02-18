@@ -1,0 +1,161 @@
+https://stthomas.zoom.us/j/96029543536
+SLIDE 1 – Title
+Speaker 1 (Anh)
+“hello everyone,
+Today we’re presenting our strategic evaluation of three generation options for the NAPE business in this case: Build, Buy, or Partner through co-location with data centers.
+Our analysis uses the information from the case and the Excel model. The goal is to compare reliability, financial performance, and long-term strategic fit.
+Our team is Anh Bui, Minh Nguyen, and Cuong Nguyen. I’ll begin by outlining the business context and challenges. After that, Minh will walk through the Build, Buy, and Partner in consideration of financial situation, and then Cuong will cover operational execution and risks.”
+
+SLIDE 2 – Intro to Business
+Speaker 1 (Anh)
+“Let’s begin with the business itself.
+According to the case, the business is a power-generation developer and operator, serving hyperscalers and large data centers who require two things above all: 24/7 reliability and a credible path toward low-carbon energy.
+Using the case Excel model and the standard formula, we calculated annual output for the portfolio assets:
+  The existing 550-MW gas plant makes about 3.4 terawatt-hours a year.
+  The new 550-MW gas plant makes about 2.9 terawatt-hours.
+  The 800-MW nuclear unit produces about 6.5 terawatt-hours, which is the most.
+  And the 250-MW solar project generates around 1.5 terawatt-hours.
+So the business already knows how to operate gas, nuclear, and solar assets—each with very different performance, carbon footprints, and roles in the portfolio.”
+Transition: “Now that we understand what the business operates today, let’s look at the challenges shaping its next step.”
+
+SLIDE 2 (Continue) – Current Situation & Challenges
+Speaker 1 (Anh)
+“The business faces three major pressures right now.
+First, demand is growing faster than the grid.
+The model includes multiple 550-MW gas plants and an 800-MW nuclear scenario, suggesting that customers need extremely large increments of new capacity.
+Second, decarbonization pressure is rising quickly.
+The Excel model uses gas emissions of 875 lb of CO₂ per MWh, which means carbon pricing instantly affects margins for existing gas assets.
+Third, financing and execution constraints are significant.
+The case sets 8% cost of debt, 12% cost of equity, and a 60/40 capital structure, which makes large builds expensive and sensitive to delays.
+With that backdrop in mind, I’ll now hand it to Minh to walk through the Build, Buy, and Partner options.”
+
+SLIDE 3 – Build
+Speaker 2 (Minh)
+“Thank you. Let’s start with Build the build model in consideration of financial status
+Under the case assumptions, a 550-MW CCGT at a 60% capacity factor generates about 2.89 TWh per year. Gas still supplies 40–45% of U.S. electricity, so it remains a dispatchable backbone fuel.
+The capex is about $633 million, based directly on the case’s $1,150 per kW estimate.
+However, returns depend heavily on merchant PJM pricing, which is volatile in both the energy and capacity markets. Without a long-term contract, the business is exposed to fuel prices and carbon-cost scenarios built into the Excel model.
+Competitively, new gas meets reliability needs, but it is weak on ESG. AI and cloud buyers are aggressively leaning toward long-term low-carbon power, not merchant gas exposure.
+And from an industry standpoint, tariffs and supply-chain issues make renewables pricier, while higher interest rates increase the cost of capital. At the same time, about 12.3 GW of U.S. capacity will retire in 2025, mostly coal and some gas, tightening the policy environment.
+So the Build option works, but it is capital-intensive, policy-sensitive, and financially uncertain.”
+Transition: “Next, let’s compare that with the Buy option.”
+
+SLIDE 4 – Buy
+Speaker 2 (Minh)
+“The Buy option acquires an existing 550-MW CCGT for roughly $450 million, according to the case.
+The main advantage is speed: the business gets immediate capacity and revenue. At a 70% capacity factor, this plant produces 3.37 TWh per year.
+But the downside is that older assets come with higher O&M, declining efficiency, and exposure to the case’s carbon metric of 875 lb CO₂ per MWh. Gas-price volatility is increasing due to LNG exports, which also feeds into margin pressure.
+Strategically, Buy is not scalable. High-quality CCGTs near major load centers are rare. The case also notes that nuclear growth mainly comes from life-extensions, not new acquisitions, which limits long-term supply.
+And regulatory risk is high: future EPA rules will require older thermal units to retire or install 90% carbon capture.
+So Buy gives fast megawatts but locks the business into carbon-exposed, aging assets that don’t scale well.”
+Transition: “Now let’s turn to the Partner model, which works very differently.”
+
+SLIDE 5 – Partner
+Speaker 2 (Minh)
+“The Partner / co-location model pairs generation directly with a data-center load.
+Economically, this means the business signs a long-term PPA, giving stable, predictable cash flow. Hyperscalers often co-fund capital, which lowers the business’s equity requirement and boosts IRR compared with a pure merchant build.
+On market alignment, the case cites global data-center usage at 415 TWh per year, growing 12% annually. The U.S. holds 45% of that load, and PJM/Northern Virginia is the center of gravity. The case also highlights AI firms partnering with operators to restart nuclear plants and build clean energy.
+Co-location improves reliability, reduces congestion, and is highly repeatable because campuses grow in phases.
+Because it matches customer demand, stabilizes revenue, and reduces exposure to PJM volatility, Partner is the strongest option from a competitive standpoint.”
+Transition: “Now that we’ve looked at the economics, Cuong will walk through the operational side.”
+
+SLIDE 6 – Build (Execution)
+Speaker 3 (Cuong)
+“Operationally, Build has the highest execution risk.
+Industry data shows that CCGT construction takes 24–30 months, and with permitting or supply-chain delays, it can extend to 22–36 months. Every month of delay reduces IRR due to interest-during-construction.
+The business must spend all major capex before generating a dollar of revenue, and until COD it is fully exposed to future PJM pricing and carbon rules.
+With a 60% capacity factor in the case, this plant remains vulnerable to long-term fuel and carbon costs. Build delivers a modern unit, but only for a business with a strong balance sheet and high risk tolerance.”
+Transition: “That brings us to the Buy option.”
+Slide 7 – Buy (Execution)
+“Operationally, Buy avoids construction risk, but you inherit meaningful uncertainty.
+The case shows a mixed-age fleet of coal, gas, and nuclear assets. Older units typically face higher forced-outage rates and higher R&M capex, so asset reliability is not guaranteed.
+Market scarcity also limits choice: nuclear availability is extremely tight, and efficient CCGTs near load hubs rarely come up for sale. So even if you want high-quality assets, the market may not offer them.
+Finally, you give up design and siting control and retain full carbon exposure based on whatever technology you acquire.
+Buy is simple to execute upfront, but the long-term operational profile is largely locked in on day one.”
+Transition: “Partner changes that dynamic by letting you shape the asset to the load rather than inherit someone else’s constraints.”
+SLIDE 8 – Partner (Execution)
+Speaker 3 (Cuong)
+“In the Partner model, generation is sized to a specific data-center load.
+The case supports 100–200 MegaWatts modular blocks. It also explicitly allows behind-the-meter or in-front-of-meter designs. Behind-the-meter avoids long PJM interconnection queues and reduces congestion exposure.
+Long-term contracts stabilize dispatch, and modular builds reduce EPC risk compared with one large 550-MegaWatts project. The case references AI firms already entering JVs with power producers, confirming that the model is realistic.
+While upfront coordination is more complex, long-term operational risk is lower because revenue and offtake are contracted.”
+Transition: “Now let’s see what a Partner deal actually looks like.”
+
+SLIDE 9 – How Partner Can Look & Verticals
+Speaker 1 (Anh)
+Here’s what a Partner model looks like using the numbers from the case. We match generation directly to a hyperscale campus with 150 MW of gas + 50 MW of solar.
+The case says the business operates 13,000 MW across gas, solar, and nuclear, and it already works inside PJM, which includes Northern Virginia — the biggest data-center hub in the country.
+We assume a 15–20 year PPA, with pricing and economics based on the case inputs: the capex numbers in the Excel file, 3% O&M escalation, the heat-rate and carbon assumptions, and the 60/40 debt–equity mix.
+The hyperscaler helps fund the project, while the business owns and operates it. That boosts IRR. And by going behind-the-meter, we avoid the interconnection delays the case highlights.
+This model fits three customer groups best:
+AI & hyperscale campuses – very large loads, growing ~12% per year.
+Enterprise & government HPC – smaller but extremely reliability-sensitive.
+Renewable-mandated hubs – states requiring low-carbon supply; solar alone can’t run 24/7, but a blended setup can.
+Across all three, the Partner model scales well, repeats easily, and matches what the business already knows how to do.
+
+SLIDE 10 – Forecasting (1)
+Speaker 2 (Minh)
+“Come to our estimation and forecasting, For annual energy, using the case’s capacity and CF values:
+Co-located nuclear and acquired nuclear produce 6,447 GWh/year.
+Build New CCGT produces 3,373 GWh/year.
+So nuclear delivers almost twice the energy and still has lower O&M.”
+
+“For capital investment:
+Partner requires about $100M of capital from the business.
+Build New CCGT requires $688M.
+Acquire nuclear is $3B.
+==> So we can see , even with less money invest among others , co-located still generate the high amount of energy , which more benefit
+
+
+
+
+SLIDE 11 – Forecasting (2)
+
+“For LCOE components:
+Partner has very low capital and fuel cost per MWh because of shared capex and nuclear’s low fuel cost.
+Build CCGT’s LCOE is dominated by fuel (~$25/MWh) and capital recovery (~$30/MWh).
+Acquire nuclear has extremely high capital cost per MWh because of the $3B acquisition.
+Net Present Value (NPV) Analysis
+For Net Present Value at 8% WACC:
+Co-Located Nuclear dominates at $1,164M, delivering 3x higher returns than alternatives.
+Build New CCGT shows modest positive NPV of $37M, barely clearing hurdle rate.
+Acquire Nuclear destroys value at -$448M due to excessive purchase price relative to remaining asset life and debt burden.
+Winner: Co-Located Nuclear by a massive margin - it's the only option creating substantial shareholder value.
+
+SLIDE 12 – Forecasting in Cash flow and return of investment
+“For 10-year free cash flow:
+Partner stays strong at $170–185M/year.
+Build CCGT declines from $60M to ~$40M over time.
+Acquire nuclear collapses from $165M to ~$20M due to heavy debt service.
+Across all financial metrics, Partner is the dominant option.”
+
+
+
+SLIDE 13 – Net Profit after tax and Depreciation (5)
+Annual Net Income Trajectory
+For steady-state annual net income (Years 7-20):
+Co-Located Nuclear demonstrates at $225M/year, providing stable baseload economics with 92% capacity factor.
+Acquire Existing CCGT stabilizes at $70M/year, limited by merchant gas exposure and 65% capacity factor.
+Build New CCGT reaches only $70M/year after Year 6, facing the same market constraints as acquired CCGT.
+Key insight: The nuclear co-location partner option delivers 3.2x higher annual earnings than gas alternatives, driven by contracted revenues with data center partner eliminating merchant exposure.
+
+
+SLIDE 14 – Risk Assessment & Solutions
+Speaker 3 (Cuong)
+“Finally, we address the key risks that come with the Partner strategy.
+Risk 1: Dependence on one data-center partner
+The risk is that relying too much on a single hyperscaler gives them too much control over pricing and revenue stability.
+And our solution is: diversify partners and locations, use strong Service Level Agreements with clear performance and exit rules, and expand into fast-growing, cost-efficient regions like Vietnam, India, and the Philippines.
+Risk 2: Complex revenue sharing
+The risk is that unclear or complicated revenue-splits can lead to disputes and hurt margins.
+And our solution is: standardize deal structures into a few simple pricing tiers and use automated revenue-management tools so all allocations follow the contract formulas in real time.
+Risk 3: Operational misalignment
+The risk is that engineering, finance, and commercial teams move at different speeds, which can slow down execution with the data-center partner.
+And our solution is: align everyone using shared Objectives and Key Results and run regular cross-functional leadership meetings to clear blockers early and keep projects on track.
+To close: this is the quick summary of what our analysis clearly shows.
+Build is capital-heavy, slow to execute, and exposed to fuel, carbon, and market price swings.
+Buy gives fast capacity, but it’s not scalable and comes with aging-asset and carbon risks baked in.
+Partner aligns directly with hyperscaler demand, reduces revenue volatility through long-term contracts, and scales cleanly as data-center campuses grow.
+Based on the case assumptions and the Excel model, Partner is the strongest overall strategy, supported by selective Build and very targeted Buy opportunities.
+Thank you for your attention
+

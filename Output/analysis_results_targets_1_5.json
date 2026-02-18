@@ -1,0 +1,202 @@
+{
+  "A": {
+    "scenario": {
+      "name": "Co-located Nuclear (Talen-AWS Model)",
+      "capacity_mw": 800,
+      "capacity_factor": 0.92,
+      "fuel_cost_mmbtu": 0.7,
+      "heat_rate_btu_kwh": 10400,
+      "fixed_om_kw_yr": 50,
+      "variable_om_mwh": 2,
+      "om_escalation": 0.03,
+      "capital_structure_debt": 0.6,
+      "cost_of_debt": 0.08,
+      "capital_structure_equity": 0.4,
+      "cost_of_equity": 0.12,
+      "tax_rate": 0.4,
+      "economic_life_years": 17,
+      "macrs_schedule": 5,
+      "carbon_emissions_lb_mwh": 0,
+      "carbon_price_ton": 20,
+      "purchase_price_million": 3000,
+      "construction_months": 0,
+      "ppa_price_estimate_mwh": 60,
+      "capacity_payment_mw_year": 150000,
+      "deal_type": "Acquisition + PPA",
+      "strategic_value": "Direct data center partnership, front-of-meter, grid-connected"
+    },
+    "generation_utilization": {
+      "capacity_mw": 800,
+      "capacity_factor": 0.92,
+      "annual_mwh": 6447360.0,
+      "hourly_avg_mw": 736.0,
+      "plant_type": "Baseload"
+    },
+    "operating_costs": {
+      "fuel_cost_mwh": 7.279999999999999,
+      "variable_om_mwh": 2,
+      "carbon_cost_mwh": 0.0,
+      "total_variable_cost_mwh": 9.28,
+      "annual_fixed_om": 40000000,
+      "fixed_om_per_mwh": 6.204089735953941,
+      "total_operating_cost_mwh": 15.48408973595394
+    },
+    "capital_costs": {
+      "total_capex": 3000000000,
+      "capex_per_kw": 3750.0,
+      "debt_amount": 1800000000.0,
+      "equity_amount": 1200000000.0,
+      "annual_interest": 144000000.0,
+      "wacc": 0.07680000000000001,
+      "construction_months": 0
+    },
+    "carbon_exposure": {
+      "carbon_emissions_lb_mwh": 0,
+      "annual_emissions_tons": 0.0,
+      "annual_carbon_cost": 0.0,
+      "carbon_cost_mwh": 0.0
+    },
+    "lcoe": {
+      "capital_lcoe": 49.927598684664076,
+      "fuel_lcoe": 7.279999999999999,
+      "variable_om_lcoe": 2,
+      "fixed_om_lcoe": 6.204089735953941,
+      "carbon_lcoe": 0.0,
+      "total_lcoe": 65.41168842061802
+    }
+  },
+  "B": {
+    "scenario": {
+      "name": "Build New CCGT Natural Gas",
+      "capacity_mw": 550,
+      "capacity_factor": 0.7,
+      "fuel_cost_mmbtu": 3.75,
+      "heat_rate_btu_kwh": 6150,
+      "fixed_om_kw_yr": 14.5,
+      "variable_om_mwh": 2.75,
+      "om_escalation": 0.03,
+      "capital_structure_debt": 0.6,
+      "cost_of_debt": 0.08,
+      "capital_structure_equity": 0.4,
+      "cost_of_equity": 0.12,
+      "tax_rate": 0.4,
+      "economic_life_years": 20,
+      "macrs_schedule": 5,
+      "carbon_emissions_lb_mwh": 720,
+      "carbon_price_ton": 20,
+      "epc_cost_kw": 1150,
+      "additional_owners_cost_kw": 100,
+      "total_capital_cost_kw": 1250,
+      "construction_months": 24,
+      "ppa_price_estimate_mwh": 55,
+      "capacity_payment_mw_year": 100000,
+      "deal_type": "New Build",
+      "strategic_value": "Fast deployment, flexible generation for data center adjacency"
+    },
+    "generation_utilization": {
+      "capacity_mw": 550,
+      "capacity_factor": 0.7,
+      "annual_mwh": 3372600.0,
+      "hourly_avg_mw": 385.0,
+      "plant_type": "Mid-merit/Flexible Baseload"
+    },
+    "operating_costs": {
+      "fuel_cost_mwh": 23.0625,
+      "variable_om_mwh": 2.75,
+      "carbon_cost_mwh": 7.199999999999999,
+      "total_variable_cost_mwh": 33.0125,
+      "annual_fixed_om": 7975000.0,
+      "fixed_om_per_mwh": 2.3646444879321593,
+      "total_operating_cost_mwh": 35.37714448793216
+    },
+    "capital_costs": {
+      "total_capex": 687500000,
+      "capex_per_kw": 1250,
+      "debt_amount": 412500000.0,
+      "equity_amount": 275000000.0,
+      "annual_interest": 33000000.0,
+      "wacc": 0.07680000000000001,
+      "construction_months": 24
+    },
+    "carbon_exposure": {
+      "carbon_emissions_lb_mwh": 720,
+      "annual_emissions_tons": 1214136.0,
+      "annual_carbon_cost": 24282720.0,
+      "carbon_cost_mwh": 7.2
+    },
+    "lcoe": {
+      "capital_lcoe": 20.27048751627861,
+      "fuel_lcoe": 23.0625,
+      "variable_om_lcoe": 2.75,
+      "fixed_om_lcoe": 2.3646444879321593,
+      "carbon_lcoe": 7.199999999999999,
+      "total_lcoe": 55.64763200421076
+    }
+  },
+  "C": {
+    "scenario": {
+      "name": "Acquire Existing CCGT Natural Gas",
+      "capacity_mw": 550,
+      "capacity_factor": 0.6,
+      "fuel_cost_mmbtu": 3.75,
+      "heat_rate_btu_kwh": 6500,
+      "fixed_om_kw_yr": 10,
+      "variable_om_mwh": 1,
+      "om_escalation": 0.03,
+      "capital_structure_debt": 0.6,
+      "cost_of_debt": 0.08,
+      "capital_structure_equity": 0.4,
+      "cost_of_equity": 0.12,
+      "tax_rate": 0.4,
+      "economic_life_years": 15,
+      "macrs_schedule": 5,
+      "carbon_emissions_lb_mwh": 875,
+      "carbon_price_ton": 20,
+      "purchase_price_million": 450,
+      "construction_months": 0,
+      "ppa_price_estimate_mwh": 55,
+      "capacity_payment_mw_year": 100000,
+      "deal_type": "Acquisition",
+      "strategic_value": "Immediate cash flow, lower upfront capital"
+    },
+    "generation_utilization": {
+      "capacity_mw": 550,
+      "capacity_factor": 0.6,
+      "annual_mwh": 2890800.0,
+      "hourly_avg_mw": 330.0,
+      "plant_type": "Mid-merit/Flexible Baseload"
+    },
+    "operating_costs": {
+      "fuel_cost_mwh": 24.374999999999996,
+      "variable_om_mwh": 1,
+      "carbon_cost_mwh": 8.75,
+      "total_variable_cost_mwh": 34.125,
+      "annual_fixed_om": 5500000,
+      "fixed_om_per_mwh": 1.9025875190258752,
+      "total_operating_cost_mwh": 36.02758751902587
+    },
+    "capital_costs": {
+      "total_capex": 450000000,
+      "capex_per_kw": 818.1818181818181,
+      "debt_amount": 270000000.0,
+      "equity_amount": 180000000.0,
+      "annual_interest": 21600000.0,
+      "wacc": 0.07680000000000001,
+      "construction_months": 0
+    },
+    "carbon_exposure": {
+      "carbon_emissions_lb_mwh": 875,
+      "annual_emissions_tons": 1264725.0,
+      "annual_carbon_cost": 25294500.0,
+      "carbon_cost_mwh": 8.75
+    },
+    "lcoe": {
+      "capital_lcoe": 17.832627464963643,
+      "fuel_lcoe": 24.374999999999996,
+      "variable_om_lcoe": 1,
+      "fixed_om_lcoe": 1.9025875190258752,
+      "carbon_lcoe": 8.75,
+      "total_lcoe": 53.86021498398951
+    }
+  }
+}
